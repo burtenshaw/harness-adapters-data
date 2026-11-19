@@ -32,3 +32,22 @@ The screen uses the archived 105 quarantined repositories, 253 benchmark task ID
 ```sh
 python3 -B -m unittest benchmarks.test_prepare
 ```
+
+## SWE-bench Verified
+
+The second profile pins the official benchmark code and the single `test` Parquet shard from `princeton-nlp/SWE-bench_Verified`. Its SHA-256 is `a45b1fe4e2f0c8390b2b2938ac83e92ed5979000856808f3679c07812e9e6dcd`. Projecting only `repo` and `instance_id` yielded 500 distinct instances across 12 repositories. The official collector constructs each ID from the repository name and the pull-request number. All 500 corresponding URLs were independently resolved as merged pull requests through GitHub. The profile carries these task IDs, repositories and PRs as exclusions. [Profile](swe-bench-verified.json) · [Benchmark collector at the pinned commit](https://github.com/SWE-bench/SWE-bench/blob/02e7a74ffd0b707aab73d203fe87bdc7c76afc8e/swebench/collect/build_dataset.py#L35-L40) · [Pinned dataset](https://huggingface.co/datasets/princeton-nlp/SWE-bench_Verified/tree/c104f840cc67f8b6eec6f759ebc8b2693d585d4a)
+
+The worked run preserves the 500 GitHub GraphQL results in `runs/swe-verified-sql-gap/pull-request-readback.json`, SHA-256 `900cfff169a57c2e4bf9c9275af289d28f26387a486c8811ae0108120a74cd28`. Each record contains the instance ID, GitHub node ID, PR number, canonical URL and merged flag. To corroborate a refreshed profile, query `repository(owner:OWNER,name:REPO){pullRequest(number:N){id number url merged}}` for each instance, using the suffix for `N`. Verify the returned number, canonical URL and `merged == true`. The receipt sorts by instance ID and uses compact key-sorted JSON followed by one newline.
+
+The worked plan uses the independent SQL panel as a Python maintenance example. It selected `andialbrecht/sqlparse#867` and excluded the previously seen `#868`. Only `#867` and its native source record enter task authoring. The profile makes no measurement of benchmark performance. Reuse the frozen SQL intake from the first example, or set `INTAKE` to the panel directory produced by the `freeze` command above. [Original upstream PR](https://github.com/andialbrecht/sqlparse/pull/867)
+
+```sh
+PY="$PWD/runs/tasksmith-runtime/Repo2RLEnv/.venv/bin/python"
+INTAKE="$PWD/runs/sql-parser-gap/intake"
+RUN="$PWD/runs/swe-verified-sql-replay"
+python3 benchmarks/prepare.py benchmarks/swe-bench-verified.json "$INTAKE/panel.json" "$RUN"
+"$PY" -IB generation/campaign.py prepare "$RUN/generation-spec.json" "$RUN/prepared" \
+  --frozen-records "$INTAKE/frozen-records.json"
+```
+
+The worked output is `runs/swe-verified-sql-gap/prepared/launch-plan.json`, SHA-256 `d58d12d28fbf2d520855a43b8c6a9f03e29ce2db138104674cb52fb46c4fa101`.
