@@ -1,0 +1,36 @@
+[
+  {
+    "url": "https://github.com/andialbrecht/sqlparse/pull/867",
+    "capability_tags": [
+      "sql-parsing"
+    ],
+    "expected": {
+      "id": "993821ec4080",
+      "head": "aab69f5c0f90f1f652e257a6600e5630048da249",
+      "base": "4b7de7ac9f9b0960cc109ed79b9a0334862225dd",
+      "full_diff_sha256": "5f5ea267765b4804b0139a2517183d26f3d5d1dd1aa37876847dff7bbca2eadf"
+    },
+    "license": {
+      "path": "LICENSE",
+      "sha256": "c1938235b80d39e93138eae89edc3af67e18ecbc40d266529fa57b2dce426310",
+      "spdx": "BSD-3-Clause"
+    }
+  },
+  {
+    "url": "https://github.com/andialbrecht/sqlparse/pull/868",
+    "capability_tags": [
+      "sql-parsing"
+    ],
+    "expected": {
+      "id": "067b1596dfa9",
+      "head": "267f5712e78be36ea36cd154806c76551e7b3931",
+      "base": "cd4c1b66cb0a148b40f742d435c527f27cf0a9fb",
+      "full_diff_sha256": "89ca6dab13b4edf8b7973b0a5bd6b12bdad1e40e9b1b733a04fc7eb50f21ce9a"
+    },
+    "license": {
+      "path": "LICENSE",
+      "sha256": "c1938235b80d39e93138eae89edc3af67e18ecbc40d266529fa57b2dce426310",
+      "spdx": "BSD-3-Clause"
+    }
+  }
+]

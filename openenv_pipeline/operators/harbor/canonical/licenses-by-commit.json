@@ -1,0 +1,431 @@
+[
+  {
+    "task_id": "swegym-0627",
+    "repo": "conan-io/conan",
+    "commit": "0c1624d2dd3b0278c1cf6f66f8dcc7bd1aa9ec48",
+    "status": "captured_primary",
+    "probes": [
+      {
+        "name": "LICENSE",
+        "status": 404
+      },
+      {
+        "name": "LICENSE.md",
+        "status": 200
+      }
+    ],
+    "spdx_from_text": "MIT",
+    "url": "https://raw.githubusercontent.com/conan-io/conan/0c1624d2dd3b0278c1cf6f66f8dcc7bd1aa9ec48/LICENSE.md",
+    "sha256": "cb0cfe10fad4eeb3ec0c1482474ddae67dcf2b2715cfd58655f6d18e5ce92aac",
+    "bytes": 1084,
+    "local_path": "/Users/ben/.t3/worktrees/OpenEnv/ben-hub-validation-pipeline/outputs/full-hub-run-20261110/scale800-pilot-v1/harbor/canonical/licenses-by-commit/swegym-0627.LICENSE"
+  },
+  {
+    "task_id": "swegym-0691",
+    "repo": "iterative/dvc",
+    "commit": "9a298fc835e0266d919fde046d6c567e52d4f045",
+    "status": "captured_primary",
+    "probes": [
+      {
+        "name": "LICENSE",
+        "status": 200
+      }
+    ],
+    "spdx_from_text": "Apache-2.0",
+    "url": "https://raw.githubusercontent.com/iterative/dvc/9a298fc835e0266d919fde046d6c567e52d4f045/LICENSE",
+    "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+    "bytes": 11357,
+    "local_path": "/Users/ben/.t3/worktrees/OpenEnv/ben-hub-validation-pipeline/outputs/full-hub-run-20261110/scale800-pilot-v1/harbor/canonical/licenses-by-commit/swegym-0691.LICENSE"
+  },
+  {
+    "task_id": "swegym-0831",
+    "repo": "iterative/dvc",
+    "commit": "0bf1802d4bc045d5dc2a2c3258c3d6b0d9425761",
+    "status": "captured_primary",
+    "probes": [
+      {
+        "name": "LICENSE",
+        "status": 200
+      }
+    ],
+    "spdx_from_text": "Apache-2.0",
+    "url": "https://raw.githubusercontent.com/iterative/dvc/0bf1802d4bc045d5dc2a2c3258c3d6b0d9425761/LICENSE",
+    "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+    "bytes": 11357,
+    "local_path": "/Users/ben/.t3/worktrees/OpenEnv/ben-hub-validation-pipeline/outputs/full-hub-run-20261110/scale800-pilot-v1/harbor/canonical/licenses-by-commit/swegym-0831.LICENSE"
+  },
+  {
+    "task_id": "swegym-0567",
+    "repo": "python/mypy",
+    "commit": "378119fb0ce7cb6133eeccd4de236a330cc8e10e",
+    "status": "captured_primary",
+    "probes": [
+      {
+        "name": "LICENSE",
+        "status": 200
+      }
+    ],
+    "spdx_from_text": "MIT",
+    "url": "https://raw.githubusercontent.com/python/mypy/378119fb0ce7cb6133eeccd4de236a330cc8e10e/LICENSE",
+    "sha256": "46afff0c9b6de61e4b3d8e229fd3e0c22d79ee1171b0ce6c13c828a6ab14ee3f",
+    "bytes": 11290,
+    "local_path": "/Users/ben/.t3/worktrees/OpenEnv/ben-hub-validation-pipeline/outputs/full-hub-run-20261110/scale800-pilot-v1/harbor/canonical/licenses-by-commit/swegym-0567.LICENSE"
+  },
+  {
+    "task_id": "swegym-0838",
+    "repo": "iterative/dvc",
+    "commit": "e99a4799f2d73e82cf2d98ad154a1605d7d25c09",
+    "status": "captured_primary",
+    "probes": [
+      {
+        "name": "LICENSE",
+        "status": 200
+      }
+    ],
+    "spdx_from_text": "Apache-2.0",
+    "url": "https://raw.githubusercontent.com/iterative/dvc/e99a4799f2d73e82cf2d98ad154a1605d7d25c09/LICENSE",
+    "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+    "bytes": 11357,
+    "local_path": "/Users/ben/.t3/worktrees/OpenEnv/ben-hub-validation-pipeline/outputs/full-hub-run-20261110/scale800-pilot-v1/harbor/canonical/licenses-by-commit/swegym-0838.LICENSE"
+  },
+  {
+    "task_id": "swegym-1979",
+    "repo": "Project-MONAI/MONAI",
+    "commit": "d36b835b226ab95ffae5780629a5304d8df5883e",
+    "status": "captured_primary",
+    "probes": [
+      {
+        "name": "LICENSE",
+        "status": 200
+      }
+    ],
+    "spdx_from_text": "Apache-2.0",
+    "url": "https://raw.githubusercontent.com/Project-MONAI/MONAI/d36b835b226ab95ffae5780629a5304d8df5883e/LICENSE",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "bytes": 11357,
+    "local_path": "/Users/ben/.t3/worktrees/OpenEnv/ben-hub-validation-pipeline/outputs/full-hub-run-20261110/scale800-pilot-v1/harbor/canonical/licenses-by-commit/swegym-1979.LICENSE"
+  },
+  {
+    "task_id": "swegym-0386",
+    "repo": "python/mypy",
+    "commit": "2ebdbca3b5afbfa1113f01b583522f4afcc4b3e3",
+    "status": "captured_primary",
+    "probes": [
+      {
+        "name": "LICENSE",
+        "status": 200
+      }
+    ],
+    "spdx_from_text": "MIT",
+    "url": "https://raw.githubusercontent.com/python/mypy/2ebdbca3b5afbfa1113f01b583522f4afcc4b3e3/LICENSE",
+    "sha256": "ec7946bb19036e223dba8a1921bdb259eb4d3a5dca0765d995aac6a756f112f0",
+    "bytes": 11333,
+    "local_path": "/Users/ben/.t3/worktrees/OpenEnv/ben-hub-validation-pipeline/outputs/full-hub-run-20261110/scale800-pilot-v1/harbor/canonical/licenses-by-commit/swegym-0386.LICENSE"
+  },
+  {
+    "task_id": "swegym-2190",
+    "repo": "Project-MONAI/MONAI",
+    "commit": "f407fcce1c32c050f327b26a16b7f7bc8a01f593",
+    "status": "captured_primary",
+    "probes": [
+      {
+        "name": "LICENSE",
+        "status": 200
+      }
+    ],
+    "spdx_from_text": "Apache-2.0",
+    "url": "https://raw.githubusercontent.com/Project-MONAI/MONAI/f407fcce1c32c050f327b26a16b7f7bc8a01f593/LICENSE",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "bytes": 11357,
+    "local_path": "/Users/ben/.t3/worktrees/OpenEnv/ben-hub-validation-pipeline/outputs/full-hub-run-20261110/scale800-pilot-v1/harbor/canonical/licenses-by-commit/swegym-2190.LICENSE"
+  },
+  {
+    "task_id": "swegym-1982",
+    "repo": "Project-MONAI/MONAI",
+    "commit": "13bf996409eb04b2fddf753f6aedb2a4b71ccec3",
+    "status": "captured_primary",
+    "probes": [
+      {
+        "name": "LICENSE",
+        "status": 200
+      }
+    ],
+    "spdx_from_text": "Apache-2.0",
+    "url": "https://raw.githubusercontent.com/Project-MONAI/MONAI/13bf996409eb04b2fddf753f6aedb2a4b71ccec3/LICENSE",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "bytes": 11357,
+    "local_path": "/Users/ben/.t3/worktrees/OpenEnv/ben-hub-validation-pipeline/outputs/full-hub-run-20261110/scale800-pilot-v1/harbor/canonical/licenses-by-commit/swegym-1982.LICENSE"
+  },
+  {
+    "task_id": "swegym-0488",
+    "repo": "python/mypy",
+    "commit": "4518b55663bc689646280a0ab2247c4a724bf3c0",
+    "status": "captured_primary",
+    "probes": [
+      {
+        "name": "LICENSE",
+        "status": 200
+      }
+    ],
+    "spdx_from_text": "MIT",
+    "url": "https://raw.githubusercontent.com/python/mypy/4518b55663bc689646280a0ab2247c4a724bf3c0/LICENSE",
+    "sha256": "feff63c71db0af5236001ec6ccdd4bdb1ab7438f02dcc160f50aa877c5d3b161",
+    "bytes": 11333,
+    "local_path": "/Users/ben/.t3/worktrees/OpenEnv/ben-hub-validation-pipeline/outputs/full-hub-run-20261110/scale800-pilot-v1/harbor/canonical/licenses-by-commit/swegym-0488.LICENSE"
+  },
+  {
+    "task_id": "swegym-0124",
+    "repo": "getmoto/moto",
+    "commit": "b4f59b771cc8a89976cbea8c889758c132d405d0",
+    "status": "captured_primary",
+    "probes": [
+      {
+        "name": "LICENSE",
+        "status": 200
+      }
+    ],
+    "spdx_from_text": "Apache-2.0",
+    "url": "https://raw.githubusercontent.com/getmoto/moto/b4f59b771cc8a89976cbea8c889758c132d405d0/LICENSE",
+    "sha256": "f12ef9fd396a13e90878630b1b4fab471c6ed9cb7a48cf2abb2516281632218e",
+    "bytes": 10834,
+    "local_path": "/Users/ben/.t3/worktrees/OpenEnv/ben-hub-validation-pipeline/outputs/full-hub-run-20261110/scale800-pilot-v1/harbor/canonical/licenses-by-commit/swegym-0124.LICENSE"
+  },
+  {
+    "task_id": "swegym-0351",
+    "repo": "python/mypy",
+    "commit": "28d57b13ab5ea765728bde534eda2877f8d92b4b",
+    "status": "captured_primary",
+    "probes": [
+      {
+        "name": "LICENSE",
+        "status": 200
+      }
+    ],
+    "spdx_from_text": "MIT",
+    "url": "https://raw.githubusercontent.com/python/mypy/28d57b13ab5ea765728bde534eda2877f8d92b4b/LICENSE",
+    "sha256": "ec7946bb19036e223dba8a1921bdb259eb4d3a5dca0765d995aac6a756f112f0",
+    "bytes": 11333,
+    "local_path": "/Users/ben/.t3/worktrees/OpenEnv/ben-hub-validation-pipeline/outputs/full-hub-run-20261110/scale800-pilot-v1/harbor/canonical/licenses-by-commit/swegym-0351.LICENSE"
+  },
+  {
+    "task_id": "swegym-0594",
+    "repo": "python/mypy",
+    "commit": "16b936c15b074db858729ed218248ef623070e03",
+    "status": "captured_primary",
+    "probes": [
+      {
+        "name": "LICENSE",
+        "status": 200
+      }
+    ],
+    "spdx_from_text": "MIT",
+    "url": "https://raw.githubusercontent.com/python/mypy/16b936c15b074db858729ed218248ef623070e03/LICENSE",
+    "sha256": "f98edd816906e986c70992221e3711c73cc68dad09e00b8747e1366f6db33f9b",
+    "bytes": 11328,
+    "local_path": "/Users/ben/.t3/worktrees/OpenEnv/ben-hub-validation-pipeline/outputs/full-hub-run-20261110/scale800-pilot-v1/harbor/canonical/licenses-by-commit/swegym-0594.LICENSE"
+  },
+  {
+    "task_id": "swegym-2294",
+    "repo": "Project-MONAI/MONAI",
+    "commit": "ca8481f6d43c571abc63c6f08e85e8fe95d541f6",
+    "status": "captured_primary",
+    "probes": [
+      {
+        "name": "LICENSE",
+        "status": 200
+      }
+    ],
+    "spdx_from_text": "Apache-2.0",
+    "url": "https://raw.githubusercontent.com/Project-MONAI/MONAI/ca8481f6d43c571abc63c6f08e85e8fe95d541f6/LICENSE",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "bytes": 11357,
+    "local_path": "/Users/ben/.t3/worktrees/OpenEnv/ben-hub-validation-pipeline/outputs/full-hub-run-20261110/scale800-pilot-v1/harbor/canonical/licenses-by-commit/swegym-2294.LICENSE"
+  },
+  {
+    "task_id": "swegym-2169",
+    "repo": "Project-MONAI/MONAI",
+    "commit": "29bc93be64d1186671fff3a6917787d7d4fd4546",
+    "status": "captured_primary",
+    "probes": [
+      {
+        "name": "LICENSE",
+        "status": 200
+      }
+    ],
+    "spdx_from_text": "Apache-2.0",
+    "url": "https://raw.githubusercontent.com/Project-MONAI/MONAI/29bc93be64d1186671fff3a6917787d7d4fd4546/LICENSE",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "bytes": 11357,
+    "local_path": "/Users/ben/.t3/worktrees/OpenEnv/ben-hub-validation-pipeline/outputs/full-hub-run-20261110/scale800-pilot-v1/harbor/canonical/licenses-by-commit/swegym-2169.LICENSE"
+  },
+  {
+    "task_id": "swegym-0812",
+    "repo": "iterative/dvc",
+    "commit": "0897e8e9ba008ad27e2107b53a553406e60d018b",
+    "status": "captured_primary",
+    "probes": [
+      {
+        "name": "LICENSE",
+        "status": 200
+      }
+    ],
+    "spdx_from_text": "Apache-2.0",
+    "url": "https://raw.githubusercontent.com/iterative/dvc/0897e8e9ba008ad27e2107b53a553406e60d018b/LICENSE",
+    "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+    "bytes": 11357,
+    "local_path": "/Users/ben/.t3/worktrees/OpenEnv/ben-hub-validation-pipeline/outputs/full-hub-run-20261110/scale800-pilot-v1/harbor/canonical/licenses-by-commit/swegym-0812.LICENSE"
+  },
+  {
+    "task_id": "swegym-0525",
+    "repo": "python/mypy",
+    "commit": "352b0a9954fc845b71042ec59b0e763d6c73a7f4",
+    "status": "captured_primary",
+    "probes": [
+      {
+        "name": "LICENSE",
+        "status": 200
+      }
+    ],
+    "spdx_from_text": "MIT",
+    "url": "https://raw.githubusercontent.com/python/mypy/352b0a9954fc845b71042ec59b0e763d6c73a7f4/LICENSE",
+    "sha256": "feff63c71db0af5236001ec6ccdd4bdb1ab7438f02dcc160f50aa877c5d3b161",
+    "bytes": 11333,
+    "local_path": "/Users/ben/.t3/worktrees/OpenEnv/ben-hub-validation-pipeline/outputs/full-hub-run-20261110/scale800-pilot-v1/harbor/canonical/licenses-by-commit/swegym-0525.LICENSE"
+  },
+  {
+    "task_id": "swegym-0421",
+    "repo": "python/mypy",
+    "commit": "ac6dc18545c9eafbf576e1151f7f698ec1f1b256",
+    "status": "captured_primary",
+    "probes": [
+      {
+        "name": "LICENSE",
+        "status": 200
+      }
+    ],
+    "spdx_from_text": "MIT",
+    "url": "https://raw.githubusercontent.com/python/mypy/ac6dc18545c9eafbf576e1151f7f698ec1f1b256/LICENSE",
+    "sha256": "f98edd816906e986c70992221e3711c73cc68dad09e00b8747e1366f6db33f9b",
+    "bytes": 11328,
+    "local_path": "/Users/ben/.t3/worktrees/OpenEnv/ben-hub-validation-pipeline/outputs/full-hub-run-20261110/scale800-pilot-v1/harbor/canonical/licenses-by-commit/swegym-0421.LICENSE"
+  },
+  {
+    "task_id": "swegym-0282",
+    "repo": "getmoto/moto",
+    "commit": "e7156a76422de82342b4673d217004f384f427ed",
+    "status": "captured_primary",
+    "probes": [
+      {
+        "name": "LICENSE",
+        "status": 200
+      }
+    ],
+    "spdx_from_text": "Apache-2.0",
+    "url": "https://raw.githubusercontent.com/getmoto/moto/e7156a76422de82342b4673d217004f384f427ed/LICENSE",
+    "sha256": "f12ef9fd396a13e90878630b1b4fab471c6ed9cb7a48cf2abb2516281632218e",
+    "bytes": 10834,
+    "local_path": "/Users/ben/.t3/worktrees/OpenEnv/ben-hub-validation-pipeline/outputs/full-hub-run-20261110/scale800-pilot-v1/harbor/canonical/licenses-by-commit/swegym-0282.LICENSE"
+  },
+  {
+    "task_id": "swegym-0779",
+    "repo": "iterative/dvc",
+    "commit": "074ea612f612608c5fc66d9c558a2bce2cbee3f9",
+    "status": "captured_primary",
+    "probes": [
+      {
+        "name": "LICENSE",
+        "status": 200
+      }
+    ],
+    "spdx_from_text": "Apache-2.0",
+    "url": "https://raw.githubusercontent.com/iterative/dvc/074ea612f612608c5fc66d9c558a2bce2cbee3f9/LICENSE",
+    "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+    "bytes": 11357,
+    "local_path": "/Users/ben/.t3/worktrees/OpenEnv/ben-hub-validation-pipeline/outputs/full-hub-run-20261110/scale800-pilot-v1/harbor/canonical/licenses-by-commit/swegym-0779.LICENSE"
+  },
+  {
+    "task_id": "swegym-0790",
+    "repo": "iterative/dvc",
+    "commit": "8b16af965c563dfa60596c4d198db9c1cfc48c9f",
+    "status": "captured_primary",
+    "probes": [
+      {
+        "name": "LICENSE",
+        "status": 200
+      }
+    ],
+    "spdx_from_text": "Apache-2.0",
+    "url": "https://raw.githubusercontent.com/iterative/dvc/8b16af965c563dfa60596c4d198db9c1cfc48c9f/LICENSE",
+    "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+    "bytes": 11357,
+    "local_path": "/Users/ben/.t3/worktrees/OpenEnv/ben-hub-validation-pipeline/outputs/full-hub-run-20261110/scale800-pilot-v1/harbor/canonical/licenses-by-commit/swegym-0790.LICENSE"
+  },
+  {
+    "task_id": "swegym-0440",
+    "repo": "python/mypy",
+    "commit": "b17e33fd14bb2fe3453810adf1848984e209aa59",
+    "status": "captured_primary",
+    "probes": [
+      {
+        "name": "LICENSE",
+        "status": 200
+      }
+    ],
+    "spdx_from_text": "MIT",
+    "url": "https://raw.githubusercontent.com/python/mypy/b17e33fd14bb2fe3453810adf1848984e209aa59/LICENSE",
+    "sha256": "feff63c71db0af5236001ec6ccdd4bdb1ab7438f02dcc160f50aa877c5d3b161",
+    "bytes": 11333,
+    "local_path": "/Users/ben/.t3/worktrees/OpenEnv/ben-hub-validation-pipeline/outputs/full-hub-run-20261110/scale800-pilot-v1/harbor/canonical/licenses-by-commit/swegym-0440.LICENSE"
+  },
+  {
+    "task_id": "swegym-0369",
+    "repo": "python/mypy",
+    "commit": "2d8ad8ef240df262be80d9359e9f5892ea1f9ad3",
+    "status": "captured_primary",
+    "probes": [
+      {
+        "name": "LICENSE",
+        "status": 200
+      }
+    ],
+    "spdx_from_text": "MIT",
+    "url": "https://raw.githubusercontent.com/python/mypy/2d8ad8ef240df262be80d9359e9f5892ea1f9ad3/LICENSE",
+    "sha256": "f98edd816906e986c70992221e3711c73cc68dad09e00b8747e1366f6db33f9b",
+    "bytes": 11328,
+    "local_path": "/Users/ben/.t3/worktrees/OpenEnv/ben-hub-validation-pipeline/outputs/full-hub-run-20261110/scale800-pilot-v1/harbor/canonical/licenses-by-commit/swegym-0369.LICENSE"
+  },
+  {
+    "task_id": "swegym-0092",
+    "repo": "getmoto/moto",
+    "commit": "3ca46c3c24781df4d390c142a12106c8cfc034cf",
+    "status": "captured_primary",
+    "probes": [
+      {
+        "name": "LICENSE",
+        "status": 200
+      }
+    ],
+    "spdx_from_text": "Apache-2.0",
+    "url": "https://raw.githubusercontent.com/getmoto/moto/3ca46c3c24781df4d390c142a12106c8cfc034cf/LICENSE",
+    "sha256": "f12ef9fd396a13e90878630b1b4fab471c6ed9cb7a48cf2abb2516281632218e",
+    "bytes": 10834,
+    "local_path": "/Users/ben/.t3/worktrees/OpenEnv/ben-hub-validation-pipeline/outputs/full-hub-run-20261110/scale800-pilot-v1/harbor/canonical/licenses-by-commit/swegym-0092.LICENSE"
+  },
+  {
+    "task_id": "swegym-0504",
+    "repo": "python/mypy",
+    "commit": "53836bd0407293031f93ad065bc373af2fe1bde2",
+    "status": "captured_primary",
+    "probes": [
+      {
+        "name": "LICENSE",
+        "status": 200
+      }
+    ],
+    "spdx_from_text": "MIT",
+    "url": "https://raw.githubusercontent.com/python/mypy/53836bd0407293031f93ad065bc373af2fe1bde2/LICENSE",
+    "sha256": "ec7946bb19036e223dba8a1921bdb259eb4d3a5dca0765d995aac6a756f112f0",
+    "bytes": 11333,
+    "local_path": "/Users/ben/.t3/worktrees/OpenEnv/ben-hub-validation-pipeline/outputs/full-hub-run-20261110/scale800-pilot-v1/harbor/canonical/licenses-by-commit/swegym-0504.LICENSE"
+  }
+]

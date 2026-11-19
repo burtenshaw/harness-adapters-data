@@ -1,0 +1,200 @@
+{
+  "openenv_historical": "bb027fa3f7b50718df4b8d8a2312d8bee1760c41",
+  "openenv_public_parent": "af0a03e572fbdfbe3d43a71f091a8ff7f4b5b751",
+  "openenv_url": "https://github.com/huggingface/OpenEnv.git",
+  "harbor": "9c7a39b991d7e2205019f6be0598cbd22d84bfc3",
+  "hub": "1.33.0",
+  "uv_lock_sha256": "dc92a90125a28ca69867c3bb84e1ba35bb4318c465276cd7e9ad98a1708da68b",
+  "operator_files_sha256": {
+    "eligibility/eligibility.py": "ed3b044361e5e5fdee2595f1d72372c3f877d4f278a21f8d7ff798e338f47f30",
+    "eligibility/policy.json": "4d9da53bf49d807086bf98c10c4761e33a295e0cc1fb4e5a53bd29ad30c71645",
+    "eligibility/existing-identities.json": "4cf47bfcf624ef7e02250049f3ac71a946a6e9492590b07d2ebbc73c621f91ce",
+    "eligibility/candidate.template.json": "60c7b0aac452e2169fa7c6c7fb6ed441e68c957cb5ca36efb79311e310410098",
+    "production/python-smith-wave-v3/prepare.py": "3bb02f5d4399c794b643120cec53ba8c0e414ea7caf5426d198faac57eee95c5",
+    "production/python-smith-wave-v3/grade.py": "96de34c90678a8438ee8606a21356a664262b869dc088594eb986f0cc0614250",
+    "production/python-smith-wave-v3/check_pytest.py": "f0a641064b725415e23a0221bb53c90446d7efcb7f9ece5ede93a220d18dd9e7",
+    "production/go-batch-v1/factory.py": "f192b96179d5ff98b0dc356fca2c6c699e32f2d6c055816c4fed1d3dace3b114",
+    "production/go-batch-v1/grader.py": "7203729df26cb672597badbbc17d6ff0c8b837fcb325a1fbb56700b966c900a3",
+    "production/python-jobs-wave-v1/adapter.py": "f1d00402201618e916ef6e7d81941013c53f7f0c8db5e560c09078f988461bb8",
+    "production/python-jobs-wave-v1/backend.py": "49e2d28eb490a9307d4f0077829532de2f1639e88fcdc2b723a34feda1046be7",
+    "production/python-jobs-wave-v1/collect.py": "352e555112f2de8a1393f939903e4971c9ace0e944843762b707a725c5c72481",
+    "production/python-jobs-wave-v1/pytest_result.py": "ce5f5ada4c63ab61c57177833687df68fcfe04df971699cb3e6ceada5722d2ed",
+    "production/python-jobs-wave-v1/bulk_adapter.py": "73e1a5901c0a4612e9c94e6591b35de783248c29b07d330d9d1f027b334fcd4f",
+    "production/hf-check-gate-v1/gate.py": "aff5529192d01dad7b987726cb932300e904bfa93e74aecedec7b6f34eee6cc3",
+    "production/hf-check-gate-v1/backend.py": "8e8d25dc56809ee016c2fb2952c057ca2bb7bb04a02173a67d31ceefb1257864",
+    "production/hf-check-gate-v1/run.py": "783cd5695d5070c7dedfe1217664359a54fd5ff79be8f469dea6d2215e4e86cf",
+    "production/hf-check-gate-python-v3/gate.py": "67f6c9b2e2e202a43361d4e6fe1046a2380a3b1759f36579ad325a8e281ff01f",
+    "production/hf-check-gate-python-v3/backend.py": "df93accd41c9fa1d60feb433384ccbdf9377dc21fc5e7fdadf7976a08224fd69",
+    "production/hf-check-gate-python-v3/run.py": "c4cf837c929f68a9d81b246735523587768d9303c83cb7c11a3e4c9a47fb599f",
+    "production/hf-check-gate-python-v3/restore.py": "12c641c223a39541b0112a3a3a86e7043c500b1697ba87931bbaea2a0b3a528d",
+    "production/hf-check-gate-python-v3/adapter.py": "bd76e833a2ed5bd8bbded90d6d4fadde51ac82328b996e6b583298abe5cd2d9a",
+    "production/hf-check-gate-python-v3/collect.py": "2a75d35790f6496f754850af247239363d8226867be0988241601d82a0eefc59",
+    "production/hf-check-gate-python-v3/pytest_result.py": "ce5f5ada4c63ab61c57177833687df68fcfe04df971699cb3e6ceada5722d2ed",
+    "production/derived-dataset-views-corrections-v1/build.py": "0df32ae2b6a074224d0f0dad2f0ea87999f756cfb4edfc082a1689cb89aaab2a",
+    "production/go-jobs-wave-all-packages-v3/factory.py": "bd077ebc9a47104a2c547a40a1abd2f9ec86431dcbf2425cdb366746b6e4fc21",
+    "production/derived-dataset-views-corrections-v1/refresh.py": "279046f85509b0ef634bf69c0ec8b9eb9ad0943a9c6cc371afe999fea54070b7",
+    "production/hf-check-gate-v1/RUNNER.md": "a1075824b498bb2aa76bff4f258c75bd50dfb9094e2bc3003501197a2f78382f",
+    "production/hf-check-gate-python-v1/backend.py": "f175a55750d12268aea1002c2b6a3cbe04a62b493e997a71552d26ccd2eb26b5",
+    "production/hf-check-gate-python-v1/gate.py": "67f6c9b2e2e202a43361d4e6fe1046a2380a3b1759f36579ad325a8e281ff01f",
+    "production/hf-check-gate-python-v1/run.py": "e664a0afd84eb0c545a3db0494192a244032bf850c405725522ebdcf59376823",
+    "production/hf-check-gate-python-v2/backend.py": "d681a8611880f352266143713ecac154f21f1a02d3a88885cb0ae2200ca29725",
+    "production/hf-check-gate-python-v2/gate.py": "67f6c9b2e2e202a43361d4e6fe1046a2380a3b1759f36579ad325a8e281ff01f",
+    "production/hf-check-gate-python-v2/run.py": "fbbf6d3bfb4820acf18623c65619ccac08dbd816dac3d10176695426eb4af9ba",
+    "production/hf-check-gate-python-v2/restore.py": "aef78fd5a03ce3a74a292c6748d4d1564644bba37579544d53bffce44d3ef78a",
+    "production/gate-publication-supervision-v1/fast_publish.py": "b918640a47db6f21a205e8bbbd81efa7404551cad09e593694253c521a44c338",
+    "production/python-gate-publication-v5/parent-helper.py": "bc9248dd39b3615462ebd30191575263fa59f8c3a38ae9e0fb6be087ac3082df",
+    "production/python-gate-publication-v5/publish.py": "ea20f6173e13955a924812abfc51756af2dd82c05749ca98154890d33a987bf8",
+    "swesmith/intake.py": "08ede547efb20673c6a3c68d117ae9c90c5bf2632f5eca84e3b20da14a1e4c13",
+    "swesmith/profiles.json": "eaf1a01a6970a10f4a1412612cae6441cc37a7d2349962cfe37f158d7de30242",
+    "pilot50/go/materialize.py": "eecbcbafdd30472b8a3c576f2a30d7cf0bfbbe9f34a958067d18759cabb5c4f7",
+    "pilot50/go/inputs/upstream/swesmith/profiles/golang.py": "8fc0e907d25b0e7b0b68c36df767726dc0d992f17667268e3045517331abd874",
+    "pilot50/go/bundle-license-evidence.json": "d3f453a352a9a09ed4438ea0f5c298a30310e1b356ae4d6b734c4a87a9ca0513",
+    "swesmith/metadata/go-info.json": "2e917153213a0f11a6d0f314e87d8092eb8289ae4dc767cdc020d024c7d5339f",
+    "additional-repositories-v2/materialize.py": "68e10d6c7de882b0607c71e0bcf7258545341c3df5a94d1fc81d1add9e638e60",
+    "additional-repositories-v2/intake.py": "7a85782c857944215141974a81588b6604098d53e22b8b13f59c533312973669",
+    "additional-repositories-v2/python-profiles.py": "eadf29551ca2e706950d3f2311b47a3d08c2ccee3c8dd217fa299014a08e4286",
+    "additional-repositories-v2/bundle-license-evidence.json": "050d87c095fc576efa32e0b888917ee409c901c2a5b38b2a2dc6900cbf885f44",
+    "additional-repositories-v2/README.source.md": "18afda407941c9d3c65ff530bedd3bc93f3a13d9504ee5728e959fb43ffce808",
+    "harbor/materialize_canonical.py": "76d1052db63460e3513d55f45584b84a8a1e20b12807bf9c02e6b577e3c9f3ba",
+    "pilot50/harbor/screen.py": "50fef07f979f66953555143546ef9f4c98bdcffb2f51546f16e19f25f315a02a",
+    "expanded-python-intake/expand.py": "a81e036d4eb588a6a0d0b6f14980be736d8a76554ed70233b2a88821ee9498b8",
+    "expanded-python-intake/metadata-index.jsonl": "09abef60360e5cf61bdbc8366f79834936e8fae49fc9cc0d044d6b923e0689d4",
+    "harbor/TaskTrove.README.md": "a906abccd50817f3dd2ea2485b43f5411aec676441025422c15c8a031ac55828",
+    "harbor/intake-manifest.json": "a8445d66949383c75807c2ce26d06f917db1941a7889a0fca212307531af0e5b",
+    "harbor/canonical/licenses-by-commit.json": "3c9644993bf9d98da2af38ffe417c6f3ab80e514f678db427aef33778b6a768a",
+    "harbor/canonical/licenses-by-commit/swegym-0092.LICENSE": "f12ef9fd396a13e90878630b1b4fab471c6ed9cb7a48cf2abb2516281632218e",
+    "harbor/canonical/licenses-by-commit/swegym-0124.LICENSE": "f12ef9fd396a13e90878630b1b4fab471c6ed9cb7a48cf2abb2516281632218e",
+    "harbor/canonical/licenses-by-commit/swegym-0282.LICENSE": "f12ef9fd396a13e90878630b1b4fab471c6ed9cb7a48cf2abb2516281632218e",
+    "harbor/canonical/licenses-by-commit/swegym-0351.LICENSE": "ec7946bb19036e223dba8a1921bdb259eb4d3a5dca0765d995aac6a756f112f0",
+    "harbor/canonical/licenses-by-commit/swegym-0369.LICENSE": "f98edd816906e986c70992221e3711c73cc68dad09e00b8747e1366f6db33f9b",
+    "harbor/canonical/licenses-by-commit/swegym-0386.LICENSE": "ec7946bb19036e223dba8a1921bdb259eb4d3a5dca0765d995aac6a756f112f0",
+    "harbor/canonical/licenses-by-commit/swegym-0421.LICENSE": "f98edd816906e986c70992221e3711c73cc68dad09e00b8747e1366f6db33f9b",
+    "harbor/canonical/licenses-by-commit/swegym-0440.LICENSE": "feff63c71db0af5236001ec6ccdd4bdb1ab7438f02dcc160f50aa877c5d3b161",
+    "harbor/canonical/licenses-by-commit/swegym-0488.LICENSE": "feff63c71db0af5236001ec6ccdd4bdb1ab7438f02dcc160f50aa877c5d3b161",
+    "harbor/canonical/licenses-by-commit/swegym-0504.LICENSE": "ec7946bb19036e223dba8a1921bdb259eb4d3a5dca0765d995aac6a756f112f0",
+    "harbor/canonical/licenses-by-commit/swegym-0525.LICENSE": "feff63c71db0af5236001ec6ccdd4bdb1ab7438f02dcc160f50aa877c5d3b161",
+    "harbor/canonical/licenses-by-commit/swegym-0567.LICENSE": "46afff0c9b6de61e4b3d8e229fd3e0c22d79ee1171b0ce6c13c828a6ab14ee3f",
+    "harbor/canonical/licenses-by-commit/swegym-0594.LICENSE": "f98edd816906e986c70992221e3711c73cc68dad09e00b8747e1366f6db33f9b",
+    "harbor/canonical/licenses-by-commit/swegym-0627.LICENSE": "cb0cfe10fad4eeb3ec0c1482474ddae67dcf2b2715cfd58655f6d18e5ce92aac",
+    "harbor/canonical/licenses-by-commit/swegym-0691.LICENSE": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+    "harbor/canonical/licenses-by-commit/swegym-0779.LICENSE": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+    "harbor/canonical/licenses-by-commit/swegym-0790.LICENSE": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+    "harbor/canonical/licenses-by-commit/swegym-0812.LICENSE": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+    "harbor/canonical/licenses-by-commit/swegym-0831.LICENSE": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+    "harbor/canonical/licenses-by-commit/swegym-0838.LICENSE": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+    "harbor/canonical/licenses-by-commit/swegym-1979.LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "harbor/canonical/licenses-by-commit/swegym-1982.LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "harbor/canonical/licenses-by-commit/swegym-2169.LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "harbor/canonical/licenses-by-commit/swegym-2190.LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "harbor/canonical/licenses-by-commit/swegym-2294.LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  "source_datasets": {
+    "SWE-bench/SWE-smith-go": "d2f6ecc2cf8ae1af00fc790801bbacfa2913e015",
+    "SWE-bench/SWE-smith-py": "77cab9055d42ab4a5c25c89a8f937096db13558e",
+    "open-thoughts/TaskTrove": "946884702046be1a7dcea2638186ad6b0d2ea103"
+  },
+  "go_materialize_sha256": "eecbcbafdd30472b8a3c576f2a30d7cf0bfbbe9f34a958067d18759cabb5c4f7",
+  "openenv_tree": "d04dac1367d02dc42cc57955b2ea585443658466",
+  "tip_pack_sha256": "6d47d37d79814f4f71080ff54549943aa1502a968e1ac59282bf67975385ec3d",
+  "go_profile_sha256": "8fc0e907d25b0e7b0b68c36df767726dc0d992f17667268e3045517331abd874",
+  "parquet": {
+    "swesmith-go": {
+      "repo": "SWE-bench/SWE-smith-go",
+      "revision": "d2f6ecc2cf8ae1af00fc790801bbacfa2913e015",
+      "files": [
+        {
+          "path": "data/train-00000-of-00001.parquet",
+          "local": "go.parquet",
+          "sha256": "6e5f18fc1e7c31af8f52923da81017dc6d63c96c1247dcf7129962aa93edd2e3"
+        }
+      ]
+    },
+    "swesmith-py": {
+      "repo": "SWE-bench/SWE-smith-py",
+      "revision": "77cab9055d42ab4a5c25c89a8f937096db13558e",
+      "files": [
+        {
+          "path": "data/train-00000-of-00011.parquet",
+          "size": 16852671,
+          "sha256": "302a383bb9229c42063ff2364b2ea637e9e7a20d82e0d566614d3aba9234833d",
+          "local": "train-00000-of-00011.parquet"
+        },
+        {
+          "path": "data/train-00001-of-00011.parquet",
+          "size": 5574116,
+          "sha256": "f15e5b8ab49866e93245a736056fab680d6dde8fb5c2ba89c06241cf12a32afe",
+          "local": "train-00001-of-00011.parquet"
+        },
+        {
+          "path": "data/train-00002-of-00011.parquet",
+          "size": 6006895,
+          "sha256": "67512898124c03132ae5bbf78866610571a565724dcb6a2064009db8a6825613",
+          "local": "train-00002-of-00011.parquet"
+        },
+        {
+          "path": "data/train-00003-of-00011.parquet",
+          "size": 117625772,
+          "sha256": "cc4c9812480faac2bc2de49e78a271d17cc8dcd89a8af2268246c3c8632fd27d",
+          "local": "train-00003-of-00011.parquet"
+        },
+        {
+          "path": "data/train-00004-of-00011.parquet",
+          "size": 9822409,
+          "sha256": "6110c76e568c0ee03eb1c86d208887154c6406237f532436cf72ed2c265073ca",
+          "local": "train-00004-of-00011.parquet"
+        },
+        {
+          "path": "data/train-00005-of-00011.parquet",
+          "size": 7434902,
+          "sha256": "517420b48132eda3c073e6b9bc5fecbaf34c3dea7f3fec49a46f8615584f8200",
+          "local": "train-00005-of-00011.parquet"
+        },
+        {
+          "path": "data/train-00006-of-00011.parquet",
+          "size": 12282590,
+          "sha256": "8e55de0daa541c031779f17d6ef04ebc3a4e2caad708d3137edb4587d89e60f3",
+          "local": "train-00006-of-00011.parquet"
+        },
+        {
+          "path": "data/train-00007-of-00011.parquet",
+          "size": 6665621,
+          "sha256": "c558fc3b6507f36ae520a8b23ac0cd71be7d7c8bb15c0b09060fe18d83d21045",
+          "local": "train-00007-of-00011.parquet"
+        },
+        {
+          "path": "data/train-00008-of-00011.parquet",
+          "size": 21661282,
+          "sha256": "b861958c450293ee717c00659958d2f334a697edf804f33c10c75bd05b8787e7",
+          "local": "train-00008-of-00011.parquet"
+        },
+        {
+          "path": "data/train-00009-of-00011.parquet",
+          "size": 7641038,
+          "sha256": "20923272dab2706c1e07e9e11a19373c5c642efbb594a3b1c104440cf8cfc132",
+          "local": "train-00009-of-00011.parquet"
+        },
+        {
+          "path": "data/train-00010-of-00011.parquet",
+          "size": 9078471,
+          "sha256": "3b7c09dfa07209f550f210344caac267c2ac5ea9c6eefa84c67845ecdff0b6df",
+          "local": "train-00010-of-00011.parquet"
+        }
+      ]
+    },
+    "swegym": {
+      "repo": "open-thoughts/TaskTrove",
+      "revision": "946884702046be1a7dcea2638186ad6b0d2ea103",
+      "files": [
+        {
+          "path": "laion__swegym-tasks-patched-validated-v5/tasks.parquet",
+          "local": "swegym-v5.tasks.parquet",
+          "sha256": "b0905406ee4d0a97154949a991a00bf91cb7e6a0a1224eb304c04689ff8f6aa0"
+        }
+      ]
+    }
+  },
+  "runtime_overlay_sha256": {
+    "runtime-overlay.requirements.txt": "3b3ce928d62e949f18ef8e807d5fe542c1e025e27e8ce9c5319232f0f39afedb",
+    "runtime-constraints.txt": "7f15609313130347455fc11293f59e5799045dd8c03cf41651b7197991ab2aff"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "source_revision": "3e8cb13c7e734d0d4dc2b6e7b13f01f32f9cb5d6",
+  "sample_locators": {
+    "sample_locator": {
+      "path": "results/qwen-difficulty-auto-v1/stratified-samples/srs6-3afa-v1/d00ee4f9f721077b46e3657074b30ecc60fe9af743e30f46f908beae31b3124a/sample.json",
+      "repo_id": "harness-hub/agentic-coding-envs",
+      "revision": "edaa524aa77900bd6048896dff3f49d42dde4104",
+      "sha256": "dfc0b212570e239277a43189c2ee3e809787996c9d1c529d7f8b818ab84cee5d"
+    },
+    "seed_locator": {
+      "path": "results/qwen-difficulty-auto-v1/stratified-samples/srs6-3afa-v1/d00ee4f9f721077b46e3657074b30ecc60fe9af743e30f46f908beae31b3124a/seed.json",
+      "repo_id": "harness-hub/agentic-coding-envs",
+      "revision": "edaa524aa77900bd6048896dff3f49d42dde4104",
+      "sha256": "4d02842e0279a8446854639af36ff90720893c54da9ef8a66bccca61042c8f09"
+    },
+    "selected_task_ids_locator": {
+      "path": "results/qwen-difficulty-auto-v1/stratified-samples/srs6-3afa-v1/d00ee4f9f721077b46e3657074b30ecc60fe9af743e30f46f908beae31b3124a/selected-task-ids.json",
+      "repo_id": "harness-hub/agentic-coding-envs",
+      "revision": "edaa524aa77900bd6048896dff3f49d42dde4104",
+      "sha256": "272ecee123c0ecda53b90044bc7736b73f13c3690290b623b53c0961f9321d26"
+    }
+  },
+  "phase_catalog_locator": {
+    "path": "results/qwen-difficulty-auto-v1/phase-catalog-v1/fa762c40a5d9398457790b40a093634379d6c7c74bd826e0e75e7663bdb32dbb/catalog.json",
+    "repo_id": "harness-hub/agentic-coding-envs",
+    "revision": "f543fde4806ea366392d89b9f9169a78eecbd251",
+    "sha256": "fa762c40a5d9398457790b40a093634379d6c7c74bd826e0e75e7663bdb32dbb"
+  },
+  "expected_view_sha256": {
+    "views/scale800_best_v1/train.jsonl": "3bfffa4e873c5a36db215c359a717909d277da2db3fd715ce8f7f33dcf84fdbe",
+    "views/scale800_v1/train.jsonl": "437ca0e12801fcb27eee266e84be52242efb1dd378e0c9f737630340e35b6e6e"
+  },
+  "corrections_index_locator": {
+    "path": "results/qwen-difficulty-auto-v1/collection-corrections-v1/b1529e8bdfd44eabf4178ccce610368b9de43d5ec522a0894958618ea1cd2966/index.json",
+    "repo_id": "harness-hub/agentic-coding-envs",
+    "revision": "66890001e87c8c1b64ed180c6affbf16332714e0",
+    "sha256": "b1529e8bdfd44eabf4178ccce610368b9de43d5ec522a0894958618ea1cd2966"
+  }
+}

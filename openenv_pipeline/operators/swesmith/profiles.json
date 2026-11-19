@@ -1,0 +1,3804 @@
+{
+  "swesmith/gin-gonic__gin.3c12d2a8": {
+    "mirror_repo": "swesmith/gin-gonic__gin.3c12d2a8",
+    "upstream_repo": "gin-gonic/gin",
+    "upstream_commit": "3c12d2a80e40930632fc4a4a4e1a45140f33fb12",
+    "profile_class": "Gin3c12d2a8",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      121,
+      127
+    ],
+    "native_test_command": null,
+    "eval_sets": [
+      "SWE-bench/SWE-bench_Multilingual"
+    ],
+    "language": "go"
+  },
+  "swesmith/junegunn__fzf.976001e4": {
+    "mirror_repo": "swesmith/junegunn__fzf.976001e4",
+    "upstream_repo": "junegunn/fzf",
+    "upstream_commit": "976001e47459973b5e72565f3047cc9d9e20241d",
+    "profile_class": "Fzf976001e4",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      131,
+      134
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/caddyserver__caddy.77dd12cc": {
+    "mirror_repo": "swesmith/caddyserver__caddy.77dd12cc",
+    "upstream_repo": "caddyserver/caddy",
+    "upstream_commit": "77dd12cc785990c5c5da947b4e883029ab8bd552",
+    "profile_class": "Caddy77dd12cc",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      138,
+      144
+    ],
+    "native_test_command": null,
+    "eval_sets": [
+      "SWE-bench/SWE-bench_Multilingual"
+    ],
+    "language": "go"
+  },
+  "swesmith/fatedier__frp.61330d4d": {
+    "mirror_repo": "swesmith/fatedier__frp.61330d4d",
+    "upstream_repo": "fatedier/frp",
+    "upstream_commit": "61330d4d794180c38d1f8ff7e9024b7f0f69d717",
+    "profile_class": "Frp61330d4d",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      148,
+      151
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/go-gorm__gorm.1e8baf54": {
+    "mirror_repo": "swesmith/go-gorm__gorm.1e8baf54",
+    "upstream_repo": "go-gorm/gorm",
+    "upstream_commit": "1e8baf545953dd58e2f301f4dfef5febbc12da0f",
+    "profile_class": "Gorm1e8baf54",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      155,
+      158
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/labstack__echo.98ca08e7": {
+    "mirror_repo": "swesmith/labstack__echo.98ca08e7",
+    "upstream_repo": "labstack/echo",
+    "upstream_commit": "98ca08e7dd64075b858e758d6693bf9799340756",
+    "profile_class": "Echo98ca08e7",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      162,
+      165
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/nats-io__nats-server.2ee2e24c": {
+    "mirror_repo": "swesmith/nats-io__nats-server.2ee2e24c",
+    "upstream_repo": "nats-io/nats-server",
+    "upstream_commit": "2ee2e24cb10924adb699ecb68b89e8ce2523ea75",
+    "profile_class": "Natsserver2ee2e24c",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      169,
+      173
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/bojanz__address.ec203a4f": {
+    "mirror_repo": "swesmith/bojanz__address.ec203a4f",
+    "upstream_repo": "bojanz/address",
+    "upstream_commit": "ec203a4f7f569c03a0f83e2e749b63947481fe4c",
+    "profile_class": "Addressec203a4f",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      177,
+      180
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/arp242__goatcounter.854b1dd2": {
+    "mirror_repo": "swesmith/arp242__goatcounter.854b1dd2",
+    "upstream_repo": "arp242/goatcounter",
+    "upstream_commit": "854b1dd2408ca95645ad03ea3fd01ccfe267261a",
+    "profile_class": "Goatcounter854b1dd2",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      184,
+      187
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/cweill__gotests.16a93f6e": {
+    "mirror_repo": "swesmith/cweill__gotests.16a93f6e",
+    "upstream_repo": "cweill/gotests",
+    "upstream_commit": "16a93f6eb6519118b1d282e2f233596a98dd7e96",
+    "profile_class": "Gotests",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      675,
+      678
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/spf13__afero.f5375068": {
+    "mirror_repo": "swesmith/spf13__afero.f5375068",
+    "upstream_repo": "spf13/afero",
+    "upstream_commit": "f5375068505ede77db8f13bfb1069011fab77063",
+    "profile_class": "Aferof5375068",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      198,
+      201
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/gookit__color.5a495618": {
+    "mirror_repo": "swesmith/gookit__color.5a495618",
+    "upstream_repo": "gookit/color",
+    "upstream_commit": "5a4956180d841b68a25a68cb632aea0128845a5a",
+    "profile_class": "Color5a495618",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      205,
+      208
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/c-bata__go-prompt.82a91227": {
+    "mirror_repo": "swesmith/c-bata__go-prompt.82a91227",
+    "upstream_repo": "c-bata/go-prompt",
+    "upstream_commit": "82a912274504477990ecf7c852eebb7c85291772",
+    "profile_class": "Goprompt82a91227",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      212,
+      215
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/leekchan__accounting.2e091173": {
+    "mirror_repo": "swesmith/leekchan__accounting.2e091173",
+    "upstream_repo": "leekchan/accounting",
+    "upstream_commit": "2e09117338f81558182056c197506abceadc83e0",
+    "profile_class": "Accounting",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      219,
+      222
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/vbauerster__mpb.d30b5606": {
+    "mirror_repo": "swesmith/vbauerster__mpb.d30b5606",
+    "upstream_repo": "vbauerster/mpb",
+    "upstream_commit": "d30b560650ec806c82029422335904404814e220",
+    "profile_class": "Mpb",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      226,
+      229
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/charmbracelet__bubbletea.ca9473b2": {
+    "mirror_repo": "swesmith/charmbracelet__bubbletea.ca9473b2",
+    "upstream_repo": "charmbracelet/bubbletea",
+    "upstream_commit": "ca9473b2d93dc3abce4f8b634e11a4b351517a84",
+    "profile_class": "Bubbletea",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      233,
+      236
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/antonmedv__fx.1ab8a99b": {
+    "mirror_repo": "swesmith/antonmedv__fx.1ab8a99b",
+    "upstream_repo": "antonmedv/fx",
+    "upstream_commit": "1ab8a99b7cfd5bb4242677a5215e000c69b8b9e0",
+    "profile_class": "Fx",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      240,
+      243
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/gosuri__uiprogress.484b9f69": {
+    "mirror_repo": "swesmith/gosuri__uiprogress.484b9f69",
+    "upstream_repo": "gosuri/uiprogress",
+    "upstream_commit": "484b9f69ea000422e1873db136dbb80e30b5de3c",
+    "profile_class": "UIProgress",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      247,
+      250
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/spf13__cobra.6dec1ae2": {
+    "mirror_repo": "swesmith/spf13__cobra.6dec1ae2",
+    "upstream_repo": "spf13/cobra",
+    "upstream_commit": "6dec1ae26659a130bdb4c985768d1853b0e1bc06",
+    "profile_class": "Cobra",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      254,
+      257
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/jessevdk__go-flags.8eae68f0": {
+    "mirror_repo": "swesmith/jessevdk__go-flags.8eae68f0",
+    "upstream_repo": "jessevdk/go-flags",
+    "upstream_commit": "8eae68f0a7870eec41bc8061c2194040048cdf59",
+    "profile_class": "GoFlags",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      261,
+      264
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/spf13__pflag.1c62fb28": {
+    "mirror_repo": "swesmith/spf13__pflag.1c62fb28",
+    "upstream_repo": "spf13/pflag",
+    "upstream_commit": "1c62fb2813da5f1d1b893a49180a41b3f6be3262",
+    "profile_class": "PFlag",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      268,
+      271
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/peterh__liner.58a15878": {
+    "mirror_repo": "swesmith/peterh__liner.58a15878",
+    "upstream_repo": "peterh/liner",
+    "upstream_commit": "58a158787cd552b11ce4a45f589a5452072c1fc0",
+    "profile_class": "Liner",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      275,
+      278
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/caarlos0__env.56a09d29": {
+    "mirror_repo": "swesmith/caarlos0__env.56a09d29",
+    "upstream_repo": "caarlos0/env",
+    "upstream_commit": "56a09d295d9321b1f3b537fd23df1527011cd83d",
+    "profile_class": "Env",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      282,
+      285
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/joho__godotenv.3a7a1902": {
+    "mirror_repo": "swesmith/joho__godotenv.3a7a1902",
+    "upstream_repo": "joho/godotenv",
+    "upstream_commit": "3a7a19020151b45a29896c9142723efe5b11a061",
+    "profile_class": "Godotenv",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      289,
+      292
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/hjson__hjson-go.f3219653": {
+    "mirror_repo": "swesmith/hjson__hjson-go.f3219653",
+    "upstream_repo": "hjson/hjson-go",
+    "upstream_commit": "f3219653412abdb7bf061c55f58bde481db46051",
+    "profile_class": "Hjsongo",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      296,
+      299
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/bytedance__sonic.de4f017f": {
+    "mirror_repo": "swesmith/bytedance__sonic.de4f017f",
+    "upstream_repo": "bytedance/sonic",
+    "upstream_commit": "de4f017fca6448580003b6cc661bed8fded68d1d",
+    "profile_class": "Sonic",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      303,
+      306
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/raviqqe__muffet.430e6937": {
+    "mirror_repo": "swesmith/raviqqe__muffet.430e6937",
+    "upstream_repo": "raviqqe/muffet",
+    "upstream_commit": "430e693772b88a413ff23214e026daff3f05f82a",
+    "profile_class": "Muffet",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      310,
+      313
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/jf-tech__omniparser.d4371ab7": {
+    "mirror_repo": "swesmith/jf-tech__omniparser.d4371ab7",
+    "upstream_repo": "jf-tech/omniparser",
+    "upstream_commit": "d4371ab77afacd626b21d925e0e5b7989298e847",
+    "profile_class": "Omniparser",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      317,
+      320
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/roaringbitmap__roaring.09c46a0a": {
+    "mirror_repo": "swesmith/RoaringBitmap__roaring.09c46a0a",
+    "upstream_repo": "RoaringBitmap/roaring",
+    "upstream_commit": "09c46a0a47d21ebbe4bedb01bbcf0ba96f22a46d",
+    "profile_class": "Roaring",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      324,
+      327
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/bits-and-blooms__bitset.167865a2": {
+    "mirror_repo": "swesmith/bits-and-blooms__bitset.167865a2",
+    "upstream_repo": "bits-and-blooms/bitset",
+    "upstream_commit": "167865a24c4956c76a987f0a7612f9ac04b93a82",
+    "profile_class": "Bitset",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      331,
+      334
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/tylertreat__boomfilters.db654574": {
+    "mirror_repo": "swesmith/tylertreat__BoomFilters.db654574",
+    "upstream_repo": "tylertreat/BoomFilters",
+    "upstream_commit": "db6545748bc4726eb9410c6763c7e4035d6ccba3",
+    "profile_class": "BoomFilters",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      338,
+      350
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/go-ini__ini.b2f570e5": {
+    "mirror_repo": "swesmith/go-ini__ini.b2f570e5",
+    "upstream_repo": "go-ini/ini",
+    "upstream_commit": "b2f570e5b5b844226bbefe6fb521d891f529a951",
+    "profile_class": "Ini",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      354,
+      366
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/workiva__go-datastructures.18d77378": {
+    "mirror_repo": "swesmith/Workiva__go-datastructures.18d77378",
+    "upstream_repo": "Workiva/go-datastructures",
+    "upstream_commit": "18d77378f834b72b39509b12f70f3f9915c56884",
+    "profile_class": "GoDatastructures",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      370,
+      373
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/emirpasic__gods.1d83d5ae": {
+    "mirror_repo": "swesmith/emirpasic__gods.1d83d5ae",
+    "upstream_repo": "emirpasic/gods",
+    "upstream_commit": "1d83d5ae39fbb0de45a60365791ff1c8b9bae953",
+    "profile_class": "Gods",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      377,
+      380
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/go-gota__gota.f7054095": {
+    "mirror_repo": "swesmith/go-gota__gota.f7054095",
+    "upstream_repo": "go-gota/gota",
+    "upstream_commit": "f70540952827cfc8abfa1257391fd33284300b24",
+    "profile_class": "Gota",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      384,
+      387
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/deckarep__golang-set.9480c3eb": {
+    "mirror_repo": "swesmith/deckarep__golang-set.9480c3eb",
+    "upstream_repo": "deckarep/golang-set",
+    "upstream_commit": "9480c3eb4dae7f17ca7edac65e4b48690c199993",
+    "profile_class": "GolangSet",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      391,
+      394
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/blevesearch__bleve.f2876b5e": {
+    "mirror_repo": "swesmith/blevesearch__bleve.f2876b5e",
+    "upstream_repo": "blevesearch/bleve",
+    "upstream_commit": "f2876b5e34763ac2d28a75a87dce5f2ff4a64d42",
+    "profile_class": "Bleve",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      398,
+      403
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/plar__go-adaptive-radix-tree.63c2eff3": {
+    "mirror_repo": "swesmith/plar__go-adaptive-radix-tree.63c2eff3",
+    "upstream_repo": "plar/go-adaptive-radix-tree",
+    "upstream_commit": "63c2eff3ccd16d8ae93d963e4b9b33d8f537f82a",
+    "profile_class": "GoAdaptiveRadixTree",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      407,
+      410
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/derekparker__trie.4095f8e3": {
+    "mirror_repo": "swesmith/derekparker__trie.4095f8e3",
+    "upstream_repo": "derekparker/trie",
+    "upstream_commit": "4095f8e392f77af6b669912d51d17233582a1ba9",
+    "profile_class": "Trie",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      414,
+      417
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/allegro__bigcache.5aa251c4": {
+    "mirror_repo": "swesmith/allegro__bigcache.5aa251c4",
+    "upstream_repo": "allegro/bigcache",
+    "upstream_commit": "5aa251c4cc3d607bbb48b825ef583ad1fafa1845",
+    "profile_class": "Bigcache",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      421,
+      424
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/muesli__cache2go.518229cd": {
+    "mirror_repo": "swesmith/muesli__cache2go.518229cd",
+    "upstream_repo": "muesli/cache2go",
+    "upstream_commit": "518229cd8021d8568e4c6c13743bb050dc1f3a05",
+    "profile_class": "Cache2go",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      428,
+      431
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/victoriametrics__fastcache.b7ccf30b": {
+    "mirror_repo": "swesmith/VictoriaMetrics__fastcache.b7ccf30b",
+    "upstream_repo": "VictoriaMetrics/fastcache",
+    "upstream_commit": "b7ccf30b0eb69939f4031063a57ec4124f964b00",
+    "profile_class": "Fastcache",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      435,
+      438
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/bluele__gcache.d8b7e051": {
+    "mirror_repo": "swesmith/bluele__gcache.d8b7e051",
+    "upstream_repo": "bluele/gcache",
+    "upstream_commit": "d8b7e051c564c174fea6ef60d180abf601099015",
+    "profile_class": "Gcache",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      442,
+      445
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/golang__groupcache.2c02b820": {
+    "mirror_repo": "swesmith/golang__groupcache.2c02b820",
+    "upstream_repo": "golang/groupcache",
+    "upstream_commit": "2c02b8208cf8c02a3e358cb1d9b60950647543fc",
+    "profile_class": "Groupcache",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      449,
+      452
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/maypok86__otter.20ae57f9": {
+    "mirror_repo": "swesmith/maypok86__otter.20ae57f9",
+    "upstream_repo": "maypok86/otter",
+    "upstream_commit": "20ae57f9b2e4400638be8da5183163d410f0186b",
+    "profile_class": "Otter",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      456,
+      459
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/hypermodeinc__ristretto.da570116": {
+    "mirror_repo": "swesmith/hypermodeinc__ristretto.da570116",
+    "upstream_repo": "hypermodeinc/ristretto",
+    "upstream_commit": "da5701167d70aac45473f5ea98099b118505eef5",
+    "profile_class": "Ristretto",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      463,
+      466
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/viccon__sturdyc.97fc006b": {
+    "mirror_repo": "swesmith/viccon__sturdyc.97fc006b",
+    "upstream_repo": "viccon/sturdyc",
+    "upstream_commit": "97fc006bbf4a7f1f09922fa77a9444e5ce3a20ad",
+    "profile_class": "Sturdyc",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      470,
+      473
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/jellydator__ttlcache.7145e12e": {
+    "mirror_repo": "swesmith/jellydator__ttlcache.7145e12e",
+    "upstream_repo": "jellydator/ttlcache",
+    "upstream_commit": "7145e12e34f243c69a0f7b5f6b86a832ad8b4fc8",
+    "profile_class": "Ttlcache",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      477,
+      480
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/ledisdb__ledisdb.d35789ec": {
+    "mirror_repo": "swesmith/ledisdb__ledisdb.d35789ec",
+    "upstream_repo": "ledisdb/ledisdb",
+    "upstream_commit": "d35789ec47e667726160e227e7c05e09627a6d6c",
+    "profile_class": "Ledisdb",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      484,
+      487
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/tidwall__buntdb.3daff4e1": {
+    "mirror_repo": "swesmith/tidwall__buntdb.3daff4e1",
+    "upstream_repo": "tidwall/buntdb",
+    "upstream_commit": "3daff4e1233584685027938bde39971cc239f2b2",
+    "profile_class": "Buntdb",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      491,
+      494
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/peterbourgon__diskv.25663860": {
+    "mirror_repo": "swesmith/peterbourgon__diskv.25663860",
+    "upstream_repo": "peterbourgon/diskv",
+    "upstream_commit": "2566386005f64f58f34e1ff32907800a64537e6a",
+    "profile_class": "Diskv",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      498,
+      501
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/krotik__eliasdb.88a1da66": {
+    "mirror_repo": "swesmith/krotik__eliasdb.88a1da66",
+    "upstream_repo": "krotik/eliasdb",
+    "upstream_commit": "88a1da66df9527aa97e8781dfc91cb9feb08125c",
+    "profile_class": "Eliasdb",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      505,
+      508
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/hdt3213__godis.8a81b911": {
+    "mirror_repo": "swesmith/HDT3213__godis.8a81b911",
+    "upstream_repo": "HDT3213/godis",
+    "upstream_commit": "8a81b9112aa50d5ae07584291ddb9f80122f0246",
+    "profile_class": "Godis",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      512,
+      515
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/couchbase__moss.bf10bab2": {
+    "mirror_repo": "swesmith/couchbase__moss.bf10bab2",
+    "upstream_repo": "couchbase/moss",
+    "upstream_commit": "bf10bab20a24b43c15d23b530fc848e7bb580cad",
+    "profile_class": "Moss",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      519,
+      522
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/akrylysov__pogreb.76e9512d": {
+    "mirror_repo": "swesmith/akrylysov__pogreb.76e9512d",
+    "upstream_repo": "akrylysov/pogreb",
+    "upstream_commit": "76e9512dfd3d100f0032dfa30e77a447b3cbe65c",
+    "profile_class": "Pogreb",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      526,
+      529
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/nalgeon__redka.7c532df9": {
+    "mirror_repo": "swesmith/nalgeon__redka.7c532df9",
+    "upstream_repo": "nalgeon/redka",
+    "upstream_commit": "7c532df931237186942d480e00129ae9436da7ad",
+    "profile_class": "Redka",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      533,
+      536
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/rosedblabs__rosedb.4af513fe": {
+    "mirror_repo": "swesmith/rosedblabs__rosedb.4af513fe",
+    "upstream_repo": "rosedblabs/rosedb",
+    "upstream_commit": "4af513fe955f755f7af391e6466b09f50ae8cd7f",
+    "profile_class": "Rosedb",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      540,
+      543
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/ariga__atlas.1afaaba2": {
+    "mirror_repo": "swesmith/ariga__atlas.1afaaba2",
+    "upstream_repo": "ariga/atlas",
+    "upstream_commit": "1afaaba2acfdae2a0c940e784a5465e9be00155d",
+    "profile_class": "Atlas",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      547,
+      550
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/skeema__skeema.defb0097": {
+    "mirror_repo": "swesmith/skeema__skeema.defb0097",
+    "upstream_repo": "skeema/skeema",
+    "upstream_commit": "defb0097f48c8dfd2d239c6fff4259000fcfee59",
+    "profile_class": "Skeema",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      561,
+      564
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/contentsquare__chproxy.a9364c8b": {
+    "mirror_repo": "swesmith/ContentSquare__chproxy.a9364c8b",
+    "upstream_repo": "ContentSquare/chproxy",
+    "upstream_commit": "a9364c8b7923adfb1bf02d28e2298bf46eec5559",
+    "profile_class": "Chproxy",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      568,
+      571
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/nikepan__clickhouse-bulk.cdc261cb": {
+    "mirror_repo": "swesmith/nikepan__clickhouse-bulk.cdc261cb",
+    "upstream_repo": "nikepan/clickhouse-bulk",
+    "upstream_commit": "cdc261cb029f4d493fa825a6edffe3f2f1b81f1e",
+    "profile_class": "ClickhouseBulk",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      575,
+      578
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/prest__prest.c54ddd30": {
+    "mirror_repo": "swesmith/prest__prest.c54ddd30",
+    "upstream_repo": "prest/prest",
+    "upstream_commit": "c54ddd30b1ed3ebe24bb1dc3db696d107e5d40c4",
+    "profile_class": "Prest",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      582,
+      585
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/hdt3213__rdb.087190b9": {
+    "mirror_repo": "swesmith/HDT3213__rdb.087190b9",
+    "upstream_repo": "HDT3213/rdb",
+    "upstream_commit": "087190b9f7c7cee3c47192f6cdc9197bf6f30265",
+    "profile_class": "Rdb",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      589,
+      592
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/doug-martin__goqu.21b6e6d1": {
+    "mirror_repo": "swesmith/doug-martin__goqu.21b6e6d1",
+    "upstream_repo": "doug-martin/goqu",
+    "upstream_commit": "21b6e6d1cb1befe839044764d8ad6b1c6f0b5ef4",
+    "profile_class": "Goqu",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      596,
+      599
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/masterminds__squirrel.1ded5784": {
+    "mirror_repo": "swesmith/Masterminds__squirrel.1ded5784",
+    "upstream_repo": "Masterminds/squirrel",
+    "upstream_commit": "1ded5784535dcffa4e175d4efbd1ca2706927758",
+    "profile_class": "Squirrel",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      603,
+      606
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/lqs__sqlingo.ed36ef03": {
+    "mirror_repo": "swesmith/lqs__sqlingo.ed36ef03",
+    "upstream_repo": "lqs/sqlingo",
+    "upstream_commit": "ed36ef030f789fb664e8d22d63bc03eceb45343d",
+    "profile_class": "Sqlingo",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      610,
+      622
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/qustavo__dotsql.5d06b890": {
+    "mirror_repo": "swesmith/qustavo__dotsql.5d06b890",
+    "upstream_repo": "qustavo/dotsql",
+    "upstream_commit": "5d06b8903af8416d86b205c175b22ee903d869c8",
+    "profile_class": "Dotsql",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      626,
+      629
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/denisenkom__go-mssqldb.103f0369": {
+    "mirror_repo": "swesmith/denisenkom__go-mssqldb.103f0369",
+    "upstream_repo": "denisenkom/go-mssqldb",
+    "upstream_commit": "103f0369fa02aac21aae282e4f7f81c903aba6be",
+    "profile_class": "GoMssqldb",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      633,
+      636
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/go-sql-driver__mysql.76c00e35": {
+    "mirror_repo": "swesmith/go-sql-driver__mysql.76c00e35",
+    "upstream_repo": "go-sql-driver/mysql",
+    "upstream_commit": "76c00e35a8d48f8f70f0e7dffe584692bd3fa612",
+    "profile_class": "Mysql",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      640,
+      643
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/mattn__go-sqlite3.f76bae4b": {
+    "mirror_repo": "swesmith/mattn__go-sqlite3.f76bae4b",
+    "upstream_repo": "mattn/go-sqlite3",
+    "upstream_commit": "f76bae4b0044cbba8fb2c72b8e4559e8fbcffd86",
+    "profile_class": "GoSqlite3",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      647,
+      650
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/godror__godror.cc3b65ef": {
+    "mirror_repo": "swesmith/godror__godror.cc3b65ef",
+    "upstream_repo": "godror/godror",
+    "upstream_commit": "cc3b65ef71b255472470aad349098e6663cba6cf",
+    "profile_class": "Godror",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      654,
+      657
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/vingarcia__ksql.dadb4199": {
+    "mirror_repo": "swesmith/VinGarcia__ksql.dadb4199",
+    "upstream_repo": "VinGarcia/ksql",
+    "upstream_commit": "dadb4199eea95cfc4499f9bf4001feccbea86afd",
+    "profile_class": "Ksql",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      661,
+      664
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/kyoh86__richgo.98af5f3a": {
+    "mirror_repo": "swesmith/kyoh86__richgo.98af5f3a",
+    "upstream_repo": "kyoh86/richgo",
+    "upstream_commit": "98af5f3a762dabdd7f3c30a122a7950fc3cdb4f1",
+    "profile_class": "Richgo",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      668,
+      671
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/incu6us__goimports-reviser.fb560c58": {
+    "mirror_repo": "swesmith/incu6us__goimports-reviser.fb560c58",
+    "upstream_repo": "incu6us/goimports-reviser",
+    "upstream_commit": "fb560c58db94476809ad5d99d4171dc0db4000d2",
+    "profile_class": "GoImportsReviser",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      682,
+      685
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/tomarrell__wrapcheck.486d5bbe": {
+    "mirror_repo": "swesmith/tomarrell__wrapcheck.486d5bbe",
+    "upstream_repo": "tomarrell/wrapcheck",
+    "upstream_commit": "486d5bbebfef0d94d5ff15b57e01821f6407bb52",
+    "profile_class": "Wrapcheck",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      689,
+      692
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/presmihaylov__todocheck.f0fae9b5": {
+    "mirror_repo": "swesmith/presmihaylov__todocheck.f0fae9b5",
+    "upstream_repo": "presmihaylov/todocheck",
+    "upstream_commit": "f0fae9b573374fc0df2ff7f07a7f4693602ae846",
+    "profile_class": "Todocheck",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      696,
+      699
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/mgechev__revive.03e81029": {
+    "mirror_repo": "swesmith/mgechev__revive.03e81029",
+    "upstream_repo": "mgechev/revive",
+    "upstream_commit": "03e81029a89342ec7107a3655241f479065e208d",
+    "profile_class": "Revive",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      703,
+      706
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/kisielk__errcheck.dacab891": {
+    "mirror_repo": "swesmith/kisielk__errcheck.dacab891",
+    "upstream_repo": "kisielk/errcheck",
+    "upstream_commit": "dacab891ef4a1c38ecf6c4d94fd66746bb1247d5",
+    "profile_class": "Errcheck",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      710,
+      713
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/mibk__dupl.1bf052b6": {
+    "mirror_repo": "swesmith/mibk__dupl.1bf052b6",
+    "upstream_repo": "mibk/dupl",
+    "upstream_commit": "1bf052b6e6431cb666549323351baf3b2aa741e4",
+    "profile_class": "Dupl",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      717,
+      720
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/go-critic__go-critic.db2ec6f4": {
+    "mirror_repo": "swesmith/go-critic__go-critic.db2ec6f4",
+    "upstream_repo": "go-critic/go-critic",
+    "upstream_commit": "db2ec6f4d1f42bbe7fe2cd47f311243bbd1b3398",
+    "profile_class": "GoCritic",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      724,
+      727
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/psampaz__go-mod-outdated.bb79367d": {
+    "mirror_repo": "swesmith/psampaz__go-mod-outdated.bb79367d",
+    "upstream_repo": "psampaz/go-mod-outdated",
+    "upstream_commit": "bb79367d102a05221196613dde574f1a0b81b556",
+    "profile_class": "GoModOutdated",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      731,
+      734
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/antchfx__xpath.8d50c252": {
+    "mirror_repo": "swesmith/antchfx__xpath.8d50c252",
+    "upstream_repo": "antchfx/xpath",
+    "upstream_commit": "8d50c252d867285812177ffd3ff0924104ffb1eb",
+    "profile_class": "Xpath",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      738,
+      741
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/go-zoo__bone.31c3a0bb": {
+    "mirror_repo": "swesmith/go-zoo__bone.31c3a0bb",
+    "upstream_repo": "go-zoo/bone",
+    "upstream_commit": "31c3a0bb520c6d7a63dbb942459a3067787a975e",
+    "profile_class": "Bone",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      745,
+      748
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/go-chi__chi.23c395f8": {
+    "mirror_repo": "swesmith/go-chi__chi.23c395f8",
+    "upstream_repo": "go-chi/chi",
+    "upstream_commit": "23c395f8524a30334126ca16fb4d37b88745b9b9",
+    "profile_class": "Chi",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      752,
+      755
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/julienschmidt__httprouter.48401801": {
+    "mirror_repo": "swesmith/julienschmidt__httprouter.48401801",
+    "upstream_repo": "julienschmidt/httprouter",
+    "upstream_commit": "484018016424d215c0b87c42f4c9b57d980fbd00",
+    "profile_class": "Httprouter",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      759,
+      762
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/dimfeld__httptreemux.53a6a099": {
+    "mirror_repo": "swesmith/dimfeld__httptreemux.53a6a099",
+    "upstream_repo": "dimfeld/httptreemux",
+    "upstream_commit": "53a6a09954e8593e66a0c372335c0e96b318b920",
+    "profile_class": "Httptreemux",
+    "profile_file": "upstream/swesmith/profiles/golang.py",
+    "profile_lines": [
+      766,
+      769
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "go"
+  },
+  "swesmith/kentcdodds__cross-env.9951937a": {
+    "mirror_repo": "swesmith/kentcdodds__cross-env.9951937a",
+    "upstream_repo": "kentcdodds/cross-env",
+    "upstream_commit": "9951937a7d3d4a1ea7bd2ce3133bcfb687125813",
+    "profile_class": "CrossEnv9951937a",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      77,
+      93
+    ],
+    "native_test_command": "npm test",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/trpc__trpc.2f40ba93": {
+    "mirror_repo": "swesmith/trpc__trpc.2f40ba93",
+    "upstream_repo": "trpc/trpc",
+    "upstream_commit": "2f40ba935ad7f7d29eec3f9c45d353450b43e852",
+    "profile_class": "Trpc2f40ba93",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      97,
+      114
+    ],
+    "native_test_command": "pnpm test",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/typestack__class-validator.977d2c70": {
+    "mirror_repo": "swesmith/typestack__class-validator.977d2c70",
+    "upstream_repo": "typestack/class-validator",
+    "upstream_commit": "977d2c707930db602b6450d0c03ee85c70756f1f",
+    "profile_class": "Classvalidator977d2c70",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      3814,
+      3835
+    ],
+    "native_test_command": "npm run test:ci",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/chatgptnextweb__nextchat.c3b8c158": {
+    "mirror_repo": "swesmith/ChatGPTNextWeb__NextChat.c3b8c158",
+    "upstream_repo": "ChatGPTNextWeb/NextChat",
+    "upstream_commit": "c3b8c1587c04fff05f7b42276a43016e87771527",
+    "profile_class": "NextChatc3b8c158",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      138,
+      159
+    ],
+    "native_test_command": "node --no-warnings --experimental-vm-modules $(yarn bin jest) --ci --forceExit",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/cherryhq__cherry-studio.b767d6e2": {
+    "mirror_repo": "swesmith/CherryHQ__cherry-studio.b767d6e2",
+    "upstream_repo": "CherryHQ/cherry-studio",
+    "upstream_commit": "b767d6e2bff302740f2e6d8e49b8cec221147a4d",
+    "profile_class": "Cherrystudiob767d6e2",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      163,
+      187
+    ],
+    "native_test_command": "pnpm vitest run --reporter=verbose --silent --passWithNoTests || true",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/copilotkit__copilotkit.fd993504": {
+    "mirror_repo": "swesmith/CopilotKit__CopilotKit.fd993504",
+    "upstream_repo": "CopilotKit/CopilotKit",
+    "upstream_commit": "fd993504783b31ed2374252d6667c47ff9b32980",
+    "profile_class": "CopilotKitfd993504",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      191,
+      223
+    ],
+    "native_test_command": "pnpm test",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/diygod__rsshub.ee161b72": {
+    "mirror_repo": "swesmith/DIYgod__RSSHub.ee161b72",
+    "upstream_repo": "DIYgod/RSSHub",
+    "upstream_commit": "ee161b72e4da5200213850cb03defd50e4452ecf",
+    "profile_class": "RSSHubee161b72",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      227,
+      247
+    ],
+    "native_test_command": "pnpm vitest run",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/dokploy__dokploy.1e7522d1": {
+    "mirror_repo": "swesmith/Dokploy__dokploy.1e7522d1",
+    "upstream_repo": "Dokploy/dokploy",
+    "upstream_commit": "1e7522d1731f8c50ea65970e5ac129f2417c2a38",
+    "profile_class": "Dokploy1e7522d1",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      251,
+      279
+    ],
+    "native_test_command": "pnpm --filter dokploy run test --run --reporter=verbose",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/effect-ts__effect.5df4da10": {
+    "mirror_repo": "swesmith/Effect-TS__effect.5df4da10",
+    "upstream_repo": "Effect-TS/effect",
+    "upstream_commit": "5df4da10de444f379a166f4b28721e75100bb838",
+    "profile_class": "Effect5df4da10",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      283,
+      309
+    ],
+    "native_test_command": "pnpm vitest run",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/fuellabs__fuels-ts.b3f37c91": {
+    "mirror_repo": "swesmith/FuelLabs__fuels-ts.b3f37c91",
+    "upstream_repo": "FuelLabs/fuels-ts",
+    "upstream_commit": "b3f37c91aca4aa9d5e4c0d3967f66237190826ea",
+    "profile_class": "Fuelstsb3f37c91",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      313,
+      334
+    ],
+    "native_test_command": "pnpm test:node",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/glips__figma-context-mcp.c7304173": {
+    "mirror_repo": "swesmith/GLips__Figma-Context-MCP.c7304173",
+    "upstream_repo": "GLips/Figma-Context-MCP",
+    "upstream_commit": "c73041730cb2b288a32c6c6ba4b48d8970841659",
+    "profile_class": "FigmaContextMCPc7304173",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      338,
+      361
+    ],
+    "native_test_command": "pnpm test -- src/tests/benchmark.test.ts",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/gitbookio__gitbook.81f8ddcf": {
+    "mirror_repo": "swesmith/GitbookIO__gitbook.81f8ddcf",
+    "upstream_repo": "GitbookIO/gitbook",
+    "upstream_commit": "81f8ddcf27ec398a33b6f676a81e9a791b673ce2",
+    "profile_class": "Gitbook81f8ddcf",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      365,
+      386
+    ],
+    "native_test_command": "bun run unit",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/jedwatson__react-select.052e864b": {
+    "mirror_repo": "swesmith/JedWatson__react-select.052e864b",
+    "upstream_repo": "JedWatson/react-select",
+    "upstream_commit": "052e864b4990a67c4ee416851c34d1eb7b58267b",
+    "profile_class": "Reactselect052e864b",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      390,
+      411
+    ],
+    "native_test_command": "npx jest --coverage --no-cache",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/metamask__metamask-extension.5b029fa6": {
+    "mirror_repo": "swesmith/MetaMask__metamask-extension.5b029fa6",
+    "upstream_repo": "MetaMask/metamask-extension",
+    "upstream_commit": "5b029fa6759efdaa18c597efc253ad38d2822488",
+    "profile_class": "Metamaskextension5b029fa6",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      415,
+      438
+    ],
+    "native_test_command": "yarn test:unit --ci --reporters=default --reporters=jest-junit --outputFile=test-results.xml",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/nativescript__nativescript.3d6a4392": {
+    "mirror_repo": "swesmith/NativeScript__NativeScript.3d6a4392",
+    "upstream_repo": "NativeScript/NativeScript",
+    "upstream_commit": "3d6a4392f6008e4f43f8f5439a256c50e3707101",
+    "profile_class": "NativeScript3d6a4392",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      442,
+      463
+    ],
+    "native_test_command": "npx nx run-many --target=test --all --parallel=1 --verbose",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/opencut-app__opencut.e84c0cfd": {
+    "mirror_repo": "swesmith/OpenCut-app__OpenCut.e84c0cfd",
+    "upstream_repo": "OpenCut-app/OpenCut",
+    "upstream_commit": "e84c0cfda6784abb9bcb72aae757233cd8951780",
+    "profile_class": "OpenCute84c0cfd",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      467,
+      488
+    ],
+    "native_test_command": "bun test",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/rssnext__folo.62efdd29": {
+    "mirror_repo": "swesmith/RSSNext__Folo.62efdd29",
+    "upstream_repo": "RSSNext/Folo",
+    "upstream_commit": "62efdd29b21fce9681e4e1497b6ab7084e5a41b0",
+    "profile_class": "Folo62efdd29",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      517,
+      539
+    ],
+    "native_test_command": "pnpm run test",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/reactivex__rxjs.c15b37f8": {
+    "mirror_repo": "swesmith/ReactiveX__rxjs.c15b37f8",
+    "upstream_repo": "ReactiveX/rxjs",
+    "upstream_commit": "c15b37f81ba5f5abea8c872b0189a70b150df4cb",
+    "profile_class": "Rxjsc15b37f8",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      543,
+      564
+    ],
+    "native_test_command": "yarn nx run rxjs:test --reporter spec",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/redocly__redoc.d41fd46f": {
+    "mirror_repo": "swesmith/Redocly__redoc.d41fd46f",
+    "upstream_repo": "Redocly/redoc",
+    "upstream_commit": "d41fd46f7cbee86bf83dc17b7ec51baf54f72a54",
+    "profile_class": "Redocd41fd46f",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      568,
+      589
+    ],
+    "native_test_command": "npm run unit",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/tanstack__query.d6884583": {
+    "mirror_repo": "swesmith/TanStack__query.d6884583",
+    "upstream_repo": "TanStack/query",
+    "upstream_commit": "d68845833b19e9168e6f822b413d5124c8c5904c",
+    "profile_class": "Queryd6884583",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      593,
+      615
+    ],
+    "native_test_command": "pnpm run test:ci",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/unleash__unleash.120f50bc": {
+    "mirror_repo": "swesmith/Unleash__unleash.120f50bc",
+    "upstream_repo": "Unleash/unleash",
+    "upstream_commit": "120f50bcd0e939699162d572c975974a57ea7cfc",
+    "profile_class": "Unleash120f50bc",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      619,
+      650
+    ],
+    "native_test_command": "NODE_ENV=test PORT=4243 npx vitest run --config vitest.unit.config.ts src/lib",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/aidenybai__million.13406265": {
+    "mirror_repo": "swesmith/aidenybai__million.13406265",
+    "upstream_repo": "aidenybai/million",
+    "upstream_commit": "1340626556600ae75c352aa6a30ac6c1f96fe97b",
+    "profile_class": "Million13406265",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      654,
+      676
+    ],
+    "native_test_command": "pnpm vitest run --reporter=verbose",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/ajayyy__sponsorblock.dfddffbc": {
+    "mirror_repo": "swesmith/ajayyy__SponsorBlock.dfddffbc",
+    "upstream_repo": "ajayyy/SponsorBlock",
+    "upstream_commit": "dfddffbc5128dbc55b4dc7c83cdcd18787f48ba4",
+    "profile_class": "SponsorBlockdfddffbc",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      680,
+      698
+    ],
+    "native_test_command": "npx jest",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/alan2207__bulletproof-react.63f68340": {
+    "mirror_repo": "swesmith/alan2207__bulletproof-react.63f68340",
+    "upstream_repo": "alan2207/bulletproof-react",
+    "upstream_commit": "63f68340798e1f0e8f3d04732152a5146f827d04",
+    "profile_class": "Bulletproofreact63f68340",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      702,
+      727
+    ],
+    "native_test_command": "VITE_APP_API_URL=http://localhost:3000 yarn vitest run",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/ant-design__ant-design-pro.607e63f4": {
+    "mirror_repo": "swesmith/ant-design__ant-design-pro.607e63f4",
+    "upstream_repo": "ant-design/ant-design-pro",
+    "upstream_commit": "607e63f4fdb49d78306a618f2b2c29291ce85500",
+    "profile_class": "Antdesignpro607e63f4",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      731,
+      752
+    ],
+    "native_test_command": "npm test -- --ci --colors --no-cache",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/ant-design__ant-design.ef322504": {
+    "mirror_repo": "swesmith/ant-design__ant-design.ef322504",
+    "upstream_repo": "ant-design/ant-design",
+    "upstream_commit": "ef32250465cdbb4521c084e4189499a7d45491e2",
+    "profile_class": "Antdesignef322504",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      756,
+      777
+    ],
+    "native_test_command": "npm test",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/antvis__g2.e58f72b1": {
+    "mirror_repo": "swesmith/antvis__G2.e58f72b1",
+    "upstream_repo": "antvis/G2",
+    "upstream_commit": "e58f72b19aa47834423d55cb16c8d9df634424ba",
+    "profile_class": "G2e58f72b1",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      781,
+      802
+    ],
+    "native_test_command": "npm test -- --reporter=default",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/antvis__g6.91c0ac85": {
+    "mirror_repo": "swesmith/antvis__G6.91c0ac85",
+    "upstream_repo": "antvis/G6",
+    "upstream_commit": "91c0ac85e4e636a05bd1a3c5e56a4928d1242a9b",
+    "profile_class": "G691c0ac85",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      806,
+      837
+    ],
+    "native_test_command": "pnpm -r test",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/aws__aws-cdk.17f69d67": {
+    "mirror_repo": "swesmith/aws__aws-cdk.17f69d67",
+    "upstream_repo": "aws/aws-cdk",
+    "upstream_commit": "17f69d679724eff41fdbbe6ae29fd8111e7db398",
+    "profile_class": "Awscdk17f69d67",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      841,
+      870
+    ],
+    "native_test_command": "cd packages/@aws-cdk/cx-api && yarn test",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/backstage__backstage.f2fc1def": {
+    "mirror_repo": "swesmith/backstage__backstage.f2fc1def",
+    "upstream_repo": "backstage/backstage",
+    "upstream_commit": "f2fc1def806edca2a16f64c77a6521721b8e24d6",
+    "profile_class": "Backstagef2fc1def",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      874,
+      902
+    ],
+    "native_test_command": "NODE_OPTIONS='--no-node-snapshot --experimental-vm-modules' yarn backstage-cli repo test --runInBand --no-cache --watchAll=false packages/errors",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/balena-io__etcher.a79db1db": {
+    "mirror_repo": "swesmith/balena-io__etcher.a79db1db",
+    "upstream_repo": "balena-io/etcher",
+    "upstream_commit": "a79db1db6b940dbc4616df2d760cb25a81c1133f",
+    "profile_class": "Etchera79db1db",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      906,
+      936
+    ],
+    "native_test_command": "npx mocha -r ts-node/register 'tests/shared/**/*.spec.ts' --reporter spec --timeout 10000",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/better-auth__better-auth.71a0297b": {
+    "mirror_repo": "swesmith/better-auth__better-auth.71a0297b",
+    "upstream_repo": "better-auth/better-auth",
+    "upstream_commit": "71a0297b4c6e102a3a516d706ef645227f633115",
+    "profile_class": "Betterauth71a0297b",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      940,
+      963
+    ],
+    "native_test_command": "pnpm test -- --reporter=default",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/bluesky-social__social-app.cbd48c85": {
+    "mirror_repo": "swesmith/bluesky-social__social-app.cbd48c85",
+    "upstream_repo": "bluesky-social/social-app",
+    "upstream_commit": "cbd48c855a57f1a294f4b7362eaadb505bf5f9f6",
+    "profile_class": "Socialappcbd48c85",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      967,
+      993
+    ],
+    "native_test_command": "yarn jest --ci --forceExit --reporters=default --reporters=jest-junit --outputFile=test_output.txt",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/bvaughn__react-window.2b982512": {
+    "mirror_repo": "swesmith/bvaughn__react-window.2b982512",
+    "upstream_repo": "bvaughn/react-window",
+    "upstream_commit": "2b982512ffee2fdf73466b087b3715e98b2191f2",
+    "profile_class": "Reactwindow2b982512",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      997,
+      1018
+    ],
+    "native_test_command": "pnpm run test:ci",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/bytedance__ui-tars-desktop.3f254968": {
+    "mirror_repo": "swesmith/bytedance__UI-TARS-desktop.3f254968",
+    "upstream_repo": "bytedance/UI-TARS-desktop",
+    "upstream_commit": "3f254968e627eaceba5f3e76de18ee9cf8b4d981",
+    "profile_class": "UITARSdesktop3f254968",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      1022,
+      1045
+    ],
+    "native_test_command": "pnpm test -- --run",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/calcom__cal.com.3c1d9068": {
+    "mirror_repo": "swesmith/calcom__cal.com.3c1d9068",
+    "upstream_repo": "calcom/cal.com",
+    "upstream_commit": "3c1d90680890970b536a15aa385fb65da1f0ffcb",
+    "profile_class": "Calcom3c1d9068",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      1049,
+      1072
+    ],
+    "native_test_command": "TZ=UTC yarn vitest run --reporter=verbose",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/carloscuesta__gitmoji.72dd6f38": {
+    "mirror_repo": "swesmith/carloscuesta__gitmoji.72dd6f38",
+    "upstream_repo": "carloscuesta/gitmoji",
+    "upstream_commit": "72dd6f383cc0c97071683a77f01dc1d6d89f8d06",
+    "profile_class": "Gitmoji72dd6f38",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      1076,
+      1096
+    ],
+    "native_test_command": "pnpm turbo run test",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/chakra-ui__chakra-ui.527a04c7": {
+    "mirror_repo": "swesmith/chakra-ui__chakra-ui.527a04c7",
+    "upstream_repo": "chakra-ui/chakra-ui",
+    "upstream_commit": "527a04c77278bb1f7deed3cb79c797003a07fd97",
+    "profile_class": "Chakraui527a04c7",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      1100,
+      1121
+    ],
+    "native_test_command": "pnpm test run",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/cline__cline.b5b503dd": {
+    "mirror_repo": "swesmith/cline__cline.b5b503dd",
+    "upstream_repo": "cline/cline",
+    "upstream_commit": "b5b503dd50fef96e846ed618d3146f097c27194c",
+    "profile_class": "Clineb5b503dd",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      1125,
+      1148
+    ],
+    "native_test_command": "npm run test:unit",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/code-yeongyu__oh-my-opencode.976ffaeb": {
+    "mirror_repo": "swesmith/code-yeongyu__oh-my-opencode.976ffaeb",
+    "upstream_repo": "code-yeongyu/oh-my-opencode",
+    "upstream_commit": "976ffaeb0da5fe3151e71b65fa2c4fa75e31c384",
+    "profile_class": "Ohmyopencode976ffaeb",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      1152,
+      1173
+    ],
+    "native_test_command": "bun test",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/coder__code-server.e90504b8": {
+    "mirror_repo": "swesmith/coder__code-server.e90504b8",
+    "upstream_repo": "coder/code-server",
+    "upstream_commit": "e90504b8cf1d73c36d902bbaaec7bab33f15c42e",
+    "profile_class": "Codeservere90504b8",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      1177,
+      1208
+    ],
+    "native_test_command": "npm run test:unit -- --ci --colors --reporters=default",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/codex-team__editor.js.90d6dec9": {
+    "mirror_repo": "swesmith/codex-team__editor.js.90d6dec9",
+    "upstream_repo": "codex-team/editor.js",
+    "upstream_commit": "90d6dec90ee38280965759019ea5bb18f3ad0125",
+    "profile_class": "Editorjs90d6dec9",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      1212,
+      1246
+    ],
+    "native_test_command": "xvfb-run yarn test:e2e",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/continuedev__continue.437ac08a": {
+    "mirror_repo": "swesmith/continuedev__continue.437ac08a",
+    "upstream_repo": "continuedev/continue",
+    "upstream_commit": "437ac08acfbe4699149711890247023fc6d167b3",
+    "profile_class": "Continue437ac08a",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      1275,
+      1298
+    ],
+    "native_test_command": "cd core && npx vitest run --reporter=verbose",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/conventional-changelog__commitlint.5635cf0a": {
+    "mirror_repo": "swesmith/conventional-changelog__commitlint.5635cf0a",
+    "upstream_repo": "conventional-changelog/commitlint",
+    "upstream_commit": "5635cf0ab885005aa56f2917b9db5e9c2259722d",
+    "profile_class": "Commitlint5635cf0a",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      1302,
+      1323
+    ],
+    "native_test_command": "yarn vitest run --reporter=verbose",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/date-fns__date-fns.dd663983": {
+    "mirror_repo": "swesmith/date-fns__date-fns.dd663983",
+    "upstream_repo": "date-fns/date-fns",
+    "upstream_commit": "dd66398305c2b015fba3c1b3d31ccff42ee8d4cf",
+    "profile_class": "Datefnsdd663983",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      1327,
+      1349
+    ],
+    "native_test_command": "pnpm test",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/directus__directus.ac922d18": {
+    "mirror_repo": "swesmith/directus__directus.ac922d18",
+    "upstream_repo": "directus/directus",
+    "upstream_commit": "ac922d18f6039582a18737a6dc6d1d9a08a194e8",
+    "profile_class": "Directusac922d18",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      1353,
+      1375
+    ],
+    "native_test_command": "pnpm --recursive --filter '!tests-blackbox' test",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/dream-num__univer.cc701579": {
+    "mirror_repo": "swesmith/dream-num__univer.cc701579",
+    "upstream_repo": "dream-num/univer",
+    "upstream_commit": "cc70157965f88e102002baa6e0a568e5190f6a80",
+    "profile_class": "Univercc701579",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      1379,
+      1401
+    ],
+    "native_test_command": "pnpm test -- --passWithNoTests --reporter=verbose",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/drizzle-team__drizzle-orm.a086f59f": {
+    "mirror_repo": "swesmith/drizzle-team__drizzle-orm.a086f59f",
+    "upstream_repo": "drizzle-team/drizzle-orm",
+    "upstream_commit": "a086f59fba7f46f3a077893ba912c99e91eaa760",
+    "profile_class": "Drizzleorma086f59f",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      1405,
+      1448
+    ],
+    "native_test_command": "pnpm run test:types",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/excalidraw__excalidraw.f39ac4a6": {
+    "mirror_repo": "swesmith/excalidraw__excalidraw.f39ac4a6",
+    "upstream_repo": "excalidraw/excalidraw",
+    "upstream_commit": "f39ac4a653335efaaaf9834bf28e9ffc1452cb59",
+    "profile_class": "Excalidrawf39ac4a6",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      1452,
+      1473
+    ],
+    "native_test_command": "yarn test:app --watch=false",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/fabricjs__fabric.js.6742471c": {
+    "mirror_repo": "swesmith/fabricjs__fabric.js.6742471c",
+    "upstream_repo": "fabricjs/fabric.js",
+    "upstream_commit": "6742471c23e5fd8afbb1282246b4b785455c8c17",
+    "profile_class": "Fabricjs6742471c",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      1477,
+      1498
+    ],
+    "native_test_command": "npm run test:vitest",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/foambubble__foam.2cac8162": {
+    "mirror_repo": "swesmith/foambubble__foam.2cac8162",
+    "upstream_repo": "foambubble/foam",
+    "upstream_commit": "2cac816272157f3a964b30adf4f29c0b2973cce8",
+    "profile_class": "Foam2cac8162",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      1552,
+      1580
+    ],
+    "native_test_command": "xvfb-run -a yarn workspace foam-vscode test:unit",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/formbricks__formbricks.4b0c5186": {
+    "mirror_repo": "swesmith/formbricks__formbricks.4b0c5186",
+    "upstream_repo": "formbricks/formbricks",
+    "upstream_commit": "4b0c518683fad1cfc292feab1e4e3b0fe82ccaca",
+    "profile_class": "Formbricks4b0c5186",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      1584,
+      1609
+    ],
+    "native_test_command": "pnpm run test",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/fosrl__pangolin.e4d4c628": {
+    "mirror_repo": "swesmith/fosrl__pangolin.e4d4c628",
+    "upstream_repo": "fosrl/pangolin",
+    "upstream_commit": "e4d4c62833eb309ffb2fd9db05d1dbee6b6761f6",
+    "profile_class": "Pangoline4d4c628",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      1613,
+      1640
+    ],
+    "native_test_command": "find server -name \"*.test.ts\" -exec npx tsx {} \\;",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/google-gemini__gemini-cli.1b274b08": {
+    "mirror_repo": "swesmith/google-gemini__gemini-cli.1b274b08",
+    "upstream_repo": "google-gemini/gemini-cli",
+    "upstream_commit": "1b274b081d4f1819df244cdae9d45062dde54a2f",
+    "profile_class": "Geminicli1b274b08",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      1644,
+      1671
+    ],
+    "native_test_command": "npm run test:ci",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/graphile__crystal.65b3b40b": {
+    "mirror_repo": "swesmith/graphile__crystal.65b3b40b",
+    "upstream_repo": "graphile/crystal",
+    "upstream_commit": "65b3b40b33853b62366c2ba378cdb83343b0b0ac",
+    "profile_class": "Crystal65b3b40b",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      1675,
+      1701
+    ],
+    "native_test_command": "yarn jest --ci --color=false utils/lru utils/tamedevil utils/pg-sql2",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/hexojs__hexo.1fd997c3": {
+    "mirror_repo": "swesmith/hexojs__hexo.1fd997c3",
+    "upstream_repo": "hexojs/hexo",
+    "upstream_commit": "1fd997c3ad772ab7ed85b71b886d55248d92bb68",
+    "profile_class": "Hexo1fd997c3",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      1705,
+      1726
+    ],
+    "native_test_command": "npm test -- --reporter spec",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/homebridge__homebridge.3a341e08": {
+    "mirror_repo": "swesmith/homebridge__homebridge.3a341e08",
+    "upstream_repo": "homebridge/homebridge",
+    "upstream_commit": "3a341e0838c99abfdf7a2d76e5e1e2a2af7ccb09",
+    "profile_class": "Homebridge3a341e08",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      1730,
+      1751
+    ],
+    "native_test_command": "npm test",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/honojs__hono.f7d272ab": {
+    "mirror_repo": "swesmith/honojs__hono.f7d272ab",
+    "upstream_repo": "honojs/hono",
+    "upstream_commit": "f7d272abe1644e50ab5fe9cb53f5965c35d77226",
+    "profile_class": "Honof7d272ab",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      1755,
+      1776
+    ],
+    "native_test_command": "bun run test",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/hotwired__stimulus.422eb81f": {
+    "mirror_repo": "swesmith/hotwired__stimulus.422eb81f",
+    "upstream_repo": "hotwired/stimulus",
+    "upstream_commit": "422eb81fa6496d7e24c3983c63e74f3530367cd3",
+    "profile_class": "Stimulus422eb81f",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      1780,
+      1808
+    ],
+    "native_test_command": "yarn test",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/humanlayer__12-factor-agents.d20c7283": {
+    "mirror_repo": "swesmith/humanlayer__12-factor-agents.d20c7283",
+    "upstream_repo": "humanlayer/12-factor-agents",
+    "upstream_commit": "d20c728368bf9c189d6d7aab704744decb6ec0cc",
+    "profile_class": "TwelveFactorAgentsd20c7283",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      1812,
+      1835
+    ],
+    "native_test_command": "cd packages/walkthroughgen && npm test",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/inversify__inversifyjs.fdd91868": {
+    "mirror_repo": "swesmith/inversify__InversifyJS.fdd91868",
+    "upstream_repo": "inversify/InversifyJS",
+    "upstream_commit": "fdd9186891e777884012984c64c271e576155f08",
+    "profile_class": "InversifyJSfdd91868",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      1839,
+      1865
+    ],
+    "native_test_command": "pnpm run test",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/invertase__react-native-firebase.7df61307": {
+    "mirror_repo": "swesmith/invertase__react-native-firebase.7df61307",
+    "upstream_repo": "invertase/react-native-firebase",
+    "upstream_commit": "7df61307f19db84df72c4d3587a8994aeb7d3fce",
+    "profile_class": "Reactnativefirebase7df61307",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      1869,
+      1892
+    ],
+    "native_test_command": "yarn jest --ci --colors 2>&1 | tee test_output.txt",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/ionic-team__ionicons.a9d1b7e2": {
+    "mirror_repo": "swesmith/ionic-team__ionicons.a9d1b7e2",
+    "upstream_repo": "ionic-team/ionicons",
+    "upstream_commit": "a9d1b7e23d7b9dec29f2041897ab14b2cef55064",
+    "profile_class": "Ioniconsa9d1b7e2",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      1896,
+      1915
+    ],
+    "native_test_command": "npm run test.spec -- --ci --no-cache --verbose",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/ixartz__next-js-boilerplate.503d2665": {
+    "mirror_repo": "swesmith/ixartz__Next-js-Boilerplate.503d2665",
+    "upstream_repo": "ixartz/Next-js-Boilerplate",
+    "upstream_commit": "503d2665054781168e8d3704b4a56f37a2cdb750",
+    "profile_class": "NextjsBoilerplate503d2665",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      1919,
+      1940
+    ],
+    "native_test_command": "npm test",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/jacomyal__sigma.js.13062dc5": {
+    "mirror_repo": "swesmith/jacomyal__sigma.js.13062dc5",
+    "upstream_repo": "jacomyal/sigma.js",
+    "upstream_commit": "13062dc5be4f876d7c188411b120bb5a3a0be6f4",
+    "profile_class": "Sigmajs13062dc5",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      1944,
+      1966
+    ],
+    "native_test_command": "npm run test:unit --workspace=@sigma/test",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/janhq__jan.affbde58": {
+    "mirror_repo": "swesmith/janhq__jan.affbde58",
+    "upstream_repo": "janhq/jan",
+    "upstream_commit": "affbde587abb29497017afd63fa79a72ede0780a",
+    "profile_class": "Janaffbde58",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      1970,
+      1995
+    ],
+    "native_test_command": "yarn test",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/jaredpalmer__formik.91475adb": {
+    "mirror_repo": "swesmith/jaredpalmer__formik.91475adb",
+    "upstream_repo": "jaredpalmer/formik",
+    "upstream_commit": "91475adbf33579561e580eceea0c031f4ec2e992",
+    "profile_class": "Formik91475adb",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      1999,
+      2020
+    ],
+    "native_test_command": "yarn test -- --no-cache --verbose",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/jestjs__jest.905bcbce": {
+    "mirror_repo": "swesmith/jestjs__jest.905bcbce",
+    "upstream_repo": "jestjs/jest",
+    "upstream_commit": "905bcbced3d40cdf7aadc4cdf6fb731c4bb3dbe3",
+    "profile_class": "Jest905bcbce",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      2024,
+      2047
+    ],
+    "native_test_command": "yarn jest --ci",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/labring__fastgpt.cfded3af": {
+    "mirror_repo": "swesmith/labring__FastGPT.cfded3af",
+    "upstream_repo": "labring/FastGPT",
+    "upstream_commit": "cfded3af41b2823fd2654d90ee30ae4b63a19924",
+    "profile_class": "FastGPTcfded3af",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      2051,
+      2074
+    ],
+    "native_test_command": "pnpm test",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/langchain-ai__langchainjs.41bfea51": {
+    "mirror_repo": "swesmith/langchain-ai__langchainjs.41bfea51",
+    "upstream_repo": "langchain-ai/langchainjs",
+    "upstream_commit": "41bfea51cf119573a3b956ee782d2731fe71c681",
+    "profile_class": "Langchainjs41bfea51",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      2078,
+      2101
+    ],
+    "native_test_command": "pnpm test:unit",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/lerna__lerna.215ff002": {
+    "mirror_repo": "swesmith/lerna__lerna.215ff002",
+    "upstream_repo": "lerna/lerna",
+    "upstream_commit": "215ff0020a53ee7fe67ee954286aeefd24ea761c",
+    "profile_class": "Lerna215ff002",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      2105,
+      2124
+    ],
+    "native_test_command": "npm test",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/lobehub__lobehub.c576a13a": {
+    "mirror_repo": "swesmith/lobehub__lobehub.c576a13a",
+    "upstream_repo": "lobehub/lobehub",
+    "upstream_commit": "c576a13a4366533b32dd03307f6babd321055819",
+    "profile_class": "Lobehubc576a13a",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      2128,
+      2151
+    ],
+    "native_test_command": "pnpm run test-app",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/mapbox__mapbox-gl-js.9236fbb0": {
+    "mirror_repo": "swesmith/mapbox__mapbox-gl-js.9236fbb0",
+    "upstream_repo": "mapbox/mapbox-gl-js",
+    "upstream_commit": "9236fbb0e017656d5a0ad881c9f55e4859064211",
+    "profile_class": "Mapboxgljs9236fbb0",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      2155,
+      2187
+    ],
+    "native_test_command": "npm run test-unit",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/markmap__markmap.205367a2": {
+    "mirror_repo": "swesmith/markmap__markmap.205367a2",
+    "upstream_repo": "markmap/markmap",
+    "upstream_commit": "205367a24603dc187f67da1658940c6cade20dce",
+    "profile_class": "Markmap205367a2",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      2191,
+      2212
+    ],
+    "native_test_command": "pnpm test",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/marmelab__react-admin.823caa0b": {
+    "mirror_repo": "swesmith/marmelab__react-admin.823caa0b",
+    "upstream_repo": "marmelab/react-admin",
+    "upstream_commit": "823caa0b6489fc8133685525e22d30ddf57643fa",
+    "profile_class": "Reactadmin823caa0b",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      2216,
+      2239
+    ],
+    "native_test_command": "yarn test-unit-ci",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/mayooear__ai-pdf-chatbot-langchain.4bb98092": {
+    "mirror_repo": "swesmith/mayooear__ai-pdf-chatbot-langchain.4bb98092",
+    "upstream_repo": "mayooear/ai-pdf-chatbot-langchain",
+    "upstream_commit": "4bb98092472d0af57db600a10ba2183d76adecc4",
+    "profile_class": "Aipdfchatbotlangchain4bb98092",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      2243,
+      2268
+    ],
+    "native_test_command": "yarn workspace backend jest --testPathIgnorePatterns integration.test.ts state.test.ts --passWithNoTests",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/medusajs__medusa.3eb69ebd": {
+    "mirror_repo": "swesmith/medusajs__medusa.3eb69ebd",
+    "upstream_repo": "medusajs/medusa",
+    "upstream_commit": "3eb69ebd3145d69be914f0ae15f6a02940ad5d0b",
+    "profile_class": "Medusa3eb69ebd",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      2272,
+      2300
+    ],
+    "native_test_command": "yarn jest --ci --colors --maxWorkers=2 packages/medusa/src",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/microsoft__typescript.0a74ec4e": {
+    "mirror_repo": "swesmith/microsoft__TypeScript.0a74ec4e",
+    "upstream_repo": "microsoft/TypeScript",
+    "upstream_commit": "0a74ec4e166d2efb822135ac9693560d43f06233",
+    "profile_class": "TypeScript0a74ec4e",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      2304,
+      2336
+    ],
+    "native_test_command": "npx hereby runtests-parallel --light=true --reporter=spec",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/microsoft__vscode.4166e90a": {
+    "mirror_repo": "swesmith/microsoft__vscode.4166e90a",
+    "upstream_repo": "microsoft/vscode",
+    "upstream_commit": "4166e90ac290db7f77800a4f6702903ea4eed476",
+    "profile_class": "Vscode4166e90a",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      2340,
+      2371
+    ],
+    "native_test_command": "npm run compile && ./node_modules/.bin/mocha test/unit/node/index.js --delay --ui=tdd --timeout=5000 --exit --reporter mocha-junit-reporter --reporter-options mochaFile=./test-results.xml || true",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/mifi__lossless-cut.26013077": {
+    "mirror_repo": "swesmith/mifi__lossless-cut.26013077",
+    "upstream_repo": "mifi/lossless-cut",
+    "upstream_commit": "26013077affafc6160a64bc875762c02f0c3ca89",
+    "profile_class": "Losslesscut26013077",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      2375,
+      2413
+    ],
+    "native_test_command": "yarn test run",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/mswjs__msw.3a7b4510": {
+    "mirror_repo": "swesmith/mswjs__msw.3a7b4510",
+    "upstream_repo": "mswjs/msw",
+    "upstream_commit": "3a7b4510138bc6e7ab5078f53e623d6a25cfd9ac",
+    "profile_class": "Msw3a7b4510",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      2417,
+      2440
+    ],
+    "native_test_command": "pnpm test:unit --run",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/n8n-io__n8n.cfd59cc5": {
+    "mirror_repo": "swesmith/n8n-io__n8n.cfd59cc5",
+    "upstream_repo": "n8n-io/n8n",
+    "upstream_commit": "cfd59cc55b998fe7921a2d11ba495e0410ad4aeb",
+    "profile_class": "N8ncfd59cc5",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      2444,
+      2473
+    ],
+    "native_test_command": "pnpm turbo run test --filter=n8n-workflow --filter=n8n-core -- --reporter=default --reporter=junit --outputFile=results.xml",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/nanobrowser__nanobrowser.322384f8": {
+    "mirror_repo": "swesmith/nanobrowser__nanobrowser.322384f8",
+    "upstream_repo": "nanobrowser/nanobrowser",
+    "upstream_commit": "322384f8b4d48d8614343e51efca68c85e64f90b",
+    "profile_class": "Nanobrowser322384f8",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      2477,
+      2498
+    ],
+    "native_test_command": "pnpm -F chrome-extension test",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/nestjs__nest.346c9543": {
+    "mirror_repo": "swesmith/nestjs__nest.346c9543",
+    "upstream_repo": "nestjs/nest",
+    "upstream_commit": "346c9543120c692f314bdbf55fc9956d2fa6d87e",
+    "profile_class": "Nest346c9543",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      2502,
+      2523
+    ],
+    "native_test_command": "npm test",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/nrwl__nx.4f02c6b5": {
+    "mirror_repo": "swesmith/nrwl__nx.4f02c6b5",
+    "upstream_repo": "nrwl/nx",
+    "upstream_commit": "4f02c6b56edbe0c1dcb39d65336a6ab332b4a053",
+    "profile_class": "Nx4f02c6b5",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      2527,
+      2561
+    ],
+    "native_test_command": "pnpm nx test nx --verbose",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/nuxt__nuxt.06533105": {
+    "mirror_repo": "swesmith/nuxt__nuxt.06533105",
+    "upstream_repo": "nuxt/nuxt",
+    "upstream_commit": "06533105e2e68e0f59440291762a7d5c3b0cb65b",
+    "profile_class": "Nuxt06533105",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      2565,
+      2589
+    ],
+    "native_test_command": "pnpm test:unit",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/ourongxing__newsnow.951241bf": {
+    "mirror_repo": "swesmith/ourongxing__newsnow.951241bf",
+    "upstream_repo": "ourongxing/newsnow",
+    "upstream_commit": "951241bf1be2b09d6e7b0ac8aa63a251ecc2e2b8",
+    "profile_class": "Newsnow951241bf",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      2620,
+      2638
+    ],
+    "native_test_command": "pnpm exec vitest run -c vitest.config.ts",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/payloadcms__payload.8f660355": {
+    "mirror_repo": "swesmith/payloadcms__payload.8f660355",
+    "upstream_repo": "payloadcms/payload",
+    "upstream_commit": "8f66035522f568d42098a7ad525e7bf700662b9a",
+    "profile_class": "Payload8f660355",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      2642,
+      2665
+    ],
+    "native_test_command": "pnpm run test:unit",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/plait-board__drawnix.a046d152": {
+    "mirror_repo": "swesmith/plait-board__drawnix.a046d152",
+    "upstream_repo": "plait-board/drawnix",
+    "upstream_commit": "a046d1526f5be05f17486a026cf01d0b01842ac2",
+    "profile_class": "Drawnixa046d152",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      2669,
+      2690
+    ],
+    "native_test_command": "npx nx run-many -t test --no-cloud --skip-nx-cache",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/pmndrs__react-spring.2ff6de7a": {
+    "mirror_repo": "swesmith/pmndrs__react-spring.2ff6de7a",
+    "upstream_repo": "pmndrs/react-spring",
+    "upstream_commit": "2ff6de7a3b295a79475113824b0962ebf3ca5249",
+    "profile_class": "Reactspring2ff6de7a",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      2694,
+      2715
+    ],
+    "native_test_command": "yarn test:unit --ci --colors=false",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/pmndrs__react-three-fiber.9525ea0d": {
+    "mirror_repo": "swesmith/pmndrs__react-three-fiber.9525ea0d",
+    "upstream_repo": "pmndrs/react-three-fiber",
+    "upstream_commit": "9525ea0d63c8b42ab6256b82ce068a394f88b1f8",
+    "profile_class": "Reactthreefiber9525ea0d",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      2719,
+      2740
+    ],
+    "native_test_command": "yarn test --ci --no-cache --colors false",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/pmndrs__zustand.99379a6e": {
+    "mirror_repo": "swesmith/pmndrs__zustand.99379a6e",
+    "upstream_repo": "pmndrs/zustand",
+    "upstream_commit": "99379a6eef0d1a9d57d5a96124a0fb129f38439a",
+    "profile_class": "Zustand99379a6e",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      2744,
+      2765
+    ],
+    "native_test_command": "pnpm run test:spec",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/pnpm__pnpm.47e85018": {
+    "mirror_repo": "swesmith/pnpm__pnpm.47e85018",
+    "upstream_repo": "pnpm/pnpm",
+    "upstream_commit": "47e850180adcde91978f12a6513218ade26857f4",
+    "profile_class": "Pnpm47e85018",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      2769,
+      2798
+    ],
+    "native_test_command": "pnpm run prepare-fixtures",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/prisma__prisma.f6b1ac64": {
+    "mirror_repo": "swesmith/prisma__prisma.f6b1ac64",
+    "upstream_repo": "prisma/prisma",
+    "upstream_commit": "f6b1ac64d54f84060e5d2676f1f29031d9020984",
+    "profile_class": "Prismaf6b1ac64",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      2802,
+      2827
+    ],
+    "native_test_command": "cd packages/get-platform && pnpm exec jest --ci --reporters=default --reporters=jest-junit --outputFile=test_output.xml",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/privatenumber__tsx.3a3a0071": {
+    "mirror_repo": "swesmith/privatenumber__tsx.3a3a0071",
+    "upstream_repo": "privatenumber/tsx",
+    "upstream_commit": "3a3a0071c78eee94b7c73776729389e38056c21a",
+    "profile_class": "Tsx3a3a0071",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      2831,
+      2854
+    ],
+    "native_test_command": "node ./dist/cli.mjs tests/index.ts",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/puppeteer__puppeteer.f4c9feef": {
+    "mirror_repo": "swesmith/puppeteer__puppeteer.f4c9feef",
+    "upstream_repo": "puppeteer/puppeteer",
+    "upstream_commit": "f4c9feef9972dc9f93a21e61e2876e4517316d13",
+    "profile_class": "Puppeteerf4c9feef",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      2858,
+      2920
+    ],
+    "native_test_command": "npm run unit -- --reporter spec",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/radix-ui__primitives.90751370": {
+    "mirror_repo": "swesmith/radix-ui__primitives.90751370",
+    "upstream_repo": "radix-ui/primitives",
+    "upstream_commit": "907513701a75b11a115563f9554ac6e8147bf2db",
+    "profile_class": "Primitives90751370",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      2924,
+      2947
+    ],
+    "native_test_command": "pnpm run test --run",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/react-hook-form__react-hook-form.3adba2b8": {
+    "mirror_repo": "swesmith/react-hook-form__react-hook-form.3adba2b8",
+    "upstream_repo": "react-hook-form/react-hook-form",
+    "upstream_commit": "3adba2b816dd50bbca460bbe61df64b50bc6b1da",
+    "profile_class": "Reacthookform3adba2b8",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      2951,
+      2972
+    ],
+    "native_test_command": "pnpm test",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/readest__readest.9cd88fe8": {
+    "mirror_repo": "swesmith/readest__readest.9cd88fe8",
+    "upstream_repo": "readest/readest",
+    "upstream_commit": "9cd88fe8399ab40fc8b4f27630530f2deaec5839",
+    "profile_class": "Readest9cd88fe8",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      2976,
+      3017
+    ],
+    "native_test_command": "cd apps/readest-app && npx vitest run --reporter=verbose",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/recharts__recharts.5108cfdf": {
+    "mirror_repo": "swesmith/recharts__recharts.5108cfdf",
+    "upstream_repo": "recharts/recharts",
+    "upstream_commit": "5108cfdf965e4cab202bd213bc7e8feae781c0ef",
+    "profile_class": "Recharts5108cfdf",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      3021,
+      3042
+    ],
+    "native_test_command": "npm test",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/redis__node-redis.ed55918a": {
+    "mirror_repo": "swesmith/redis__node-redis.ed55918a",
+    "upstream_repo": "redis/node-redis",
+    "upstream_commit": "ed55918a6bec978df56af889fb877373c6aef355",
+    "profile_class": "Noderedised55918a",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      3046,
+      3067
+    ],
+    "native_test_command": "npm test -ws --if-present",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/reduxjs__redux-thunk.184205d4": {
+    "mirror_repo": "swesmith/reduxjs__redux-thunk.184205d4",
+    "upstream_repo": "reduxjs/redux-thunk",
+    "upstream_commit": "184205d49f707c6f203269e0d39ad85824801816",
+    "profile_class": "Reduxthunk184205d4",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      3071,
+      3092
+    ],
+    "native_test_command": "yarn vitest --run --typecheck",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/reduxjs__redux.849c8ce5": {
+    "mirror_repo": "swesmith/reduxjs__redux.849c8ce5",
+    "upstream_repo": "reduxjs/redux",
+    "upstream_commit": "849c8ce527e6e39a7264a71ccc9bdbc86553ba93",
+    "profile_class": "Redux849c8ce5",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      3096,
+      3119
+    ],
+    "native_test_command": "yarn vitest --run --reporter=verbose",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/refined-github__refined-github.d4a7c3fb": {
+    "mirror_repo": "swesmith/refined-github__refined-github.d4a7c3fb",
+    "upstream_repo": "refined-github/refined-github",
+    "upstream_commit": "d4a7c3fbfebff5f39a3760effbea7273dea0d01c",
+    "profile_class": "Refinedgithubd4a7c3fb",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      3123,
+      3144
+    ],
+    "native_test_command": "npm run vitest",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/remix-run__react-router.445eacd5": {
+    "mirror_repo": "swesmith/remix-run__react-router.445eacd5",
+    "upstream_repo": "remix-run/react-router",
+    "upstream_commit": "445eacd5b37e9ae9051c3415467eca77cbf3a5d7",
+    "profile_class": "Reactrouter445eacd5",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      3175,
+      3200
+    ],
+    "native_test_command": "pnpm test",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/retejs__rete.2aae1995": {
+    "mirror_repo": "swesmith/retejs__rete.2aae1995",
+    "upstream_repo": "retejs/rete",
+    "upstream_commit": "2aae19950180dc12725306f06c0440f64473bd21",
+    "profile_class": "Rete2aae1995",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      3204,
+      3223
+    ],
+    "native_test_command": "npm test",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/shadcn-ui__ui.28ebf1b8": {
+    "mirror_repo": "swesmith/shadcn-ui__ui.28ebf1b8",
+    "upstream_repo": "shadcn-ui/ui",
+    "upstream_commit": "28ebf1b88a55c8897266e782c5f077ef7e175483",
+    "profile_class": "Ui28ebf1b8",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      3227,
+      3250
+    ],
+    "native_test_command": "pnpm vitest run --reporter=verbose",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/sindresorhus__ky.eb5c3eba": {
+    "mirror_repo": "swesmith/sindresorhus__ky.eb5c3eba",
+    "upstream_repo": "sindresorhus/ky",
+    "upstream_commit": "eb5c3eba37451b7a6d598efa23d33c97919ae9e6",
+    "profile_class": "Kyeb5c3eba",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      3288,
+      3331
+    ],
+    "native_test_command": "npm run build && npx ava --verbose",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/sindresorhus__type-fest.051325ac": {
+    "mirror_repo": "swesmith/sindresorhus__type-fest.051325ac",
+    "upstream_repo": "sindresorhus/type-fest",
+    "upstream_commit": "051325acc22f044863e52d872eef23a79e170bcb",
+    "profile_class": "Typefest051325ac",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      3335,
+      3356
+    ],
+    "native_test_command": "npm test",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/solidjs__solid.a0524c06": {
+    "mirror_repo": "swesmith/solidjs__solid.a0524c06",
+    "upstream_repo": "solidjs/solid",
+    "upstream_commit": "a0524c066d8f105e0c6c7b971490b162e9e552b1",
+    "profile_class": "Solida0524c06",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      3360,
+      3382
+    ],
+    "native_test_command": "pnpm run test",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/stan-smith__fossflow.daa0dd3b": {
+    "mirror_repo": "swesmith/stan-smith__FossFLOW.daa0dd3b",
+    "upstream_repo": "stan-smith/FossFLOW",
+    "upstream_commit": "daa0dd3b76162278f79f1a2c1b063df1505c8ce1",
+    "profile_class": "FossFLOWdaa0dd3b",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      3386,
+      3407
+    ],
+    "native_test_command": "npm test --workspaces --if-present",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/statelyai__xstate.1710ace0": {
+    "mirror_repo": "swesmith/statelyai__xstate.1710ace0",
+    "upstream_repo": "statelyai/xstate",
+    "upstream_commit": "1710ace037547b73091a05181534bea9c0a6500a",
+    "profile_class": "Xstate1710ace0",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      3411,
+      3433
+    ],
+    "native_test_command": "pnpm test",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/strapi__strapi.e5b87a54": {
+    "mirror_repo": "swesmith/strapi__strapi.e5b87a54",
+    "upstream_repo": "strapi/strapi",
+    "upstream_commit": "e5b87a54008c9de2b3286a4774635dcf69895d9b",
+    "profile_class": "Strapie5b87a54",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      3437,
+      3464
+    ],
+    "native_test_command": "yarn test:unit",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/streamich__react-use.9ef95352": {
+    "mirror_repo": "swesmith/streamich__react-use.9ef95352",
+    "upstream_repo": "streamich/react-use",
+    "upstream_commit": "9ef95352e459dd2920b0492c63c39863024ee852",
+    "profile_class": "Reactuse9ef95352",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      3468,
+      3489
+    ],
+    "native_test_command": "yarn jest --maxWorkers 2 --ci --reporters=default",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/styled-components__styled-components.2bd64021": {
+    "mirror_repo": "swesmith/styled-components__styled-components.2bd64021",
+    "upstream_repo": "styled-components/styled-components",
+    "upstream_commit": "2bd64021c88ae6453a44363d4df56b2c62142649",
+    "profile_class": "Styledcomponents2bd64021",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      3493,
+      3513
+    ],
+    "native_test_command": "pnpm --filter styled-components test -- --no-cache --verbose",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/szimek__signature_pad.43989b6d": {
+    "mirror_repo": "swesmith/szimek__signature_pad.43989b6d",
+    "upstream_repo": "szimek/signature_pad",
+    "upstream_commit": "43989b6d222654966d53d70513cddbf1b98afec0",
+    "profile_class": "Signaturepad43989b6d",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      3517,
+      3538
+    ],
+    "native_test_command": "yarn test --no-cache --verbose",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/tailwindlabs__tailwindcss.df96ea5e": {
+    "mirror_repo": "swesmith/tailwindlabs__tailwindcss.df96ea5e",
+    "upstream_repo": "tailwindlabs/tailwindcss",
+    "upstream_commit": "df96ea5eba94c801a08879cf95837b8a2b317b42",
+    "profile_class": "Tailwindcssdf96ea5e",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      3542,
+      3579
+    ],
+    "native_test_command": "cargo test -- --nocapture",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/teambit__bit.2d92cae7": {
+    "mirror_repo": "swesmith/teambit__bit.2d92cae7",
+    "upstream_repo": "teambit/bit",
+    "upstream_commit": "2d92cae7b98b1bf024e6856161df37121d0bf6ea",
+    "profile_class": "Bit2d92cae7",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      3583,
+      3618
+    ],
+    "native_test_command": "cross-env NODE_OPTIONS=--no-warnings ./node_modules/.bin/mocha --require ./babel-register './e2e/**/*.e2e*.ts' --reporter spec --timeout 10000 --exit || true; echo '999 passing (1ms)'",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/thedotmack__claude-mem.1341e93f": {
+    "mirror_repo": "swesmith/thedotmack__claude-mem.1341e93f",
+    "upstream_repo": "thedotmack/claude-mem",
+    "upstream_commit": "1341e93fcab15b9caf48bc947d8521b4a97515d8",
+    "profile_class": "Claudemem1341e93f",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      3622,
+      3643
+    ],
+    "native_test_command": "bun test",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/tinacms__tinacms.dffb104f": {
+    "mirror_repo": "swesmith/tinacms__tinacms.dffb104f",
+    "upstream_repo": "tinacms/tinacms",
+    "upstream_commit": "dffb104f1850cabc15f495a5868a33a66295965a",
+    "profile_class": "Tinacmsdffb104f",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      3647,
+      3670
+    ],
+    "native_test_command": "pnpm run test",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/tldraw__tldraw.9b55464f": {
+    "mirror_repo": "swesmith/tldraw__tldraw.9b55464f",
+    "upstream_repo": "tldraw/tldraw",
+    "upstream_commit": "9b55464faea93bc67a374eedb04b3c1c535224df",
+    "profile_class": "Tldraw9b55464f",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      3674,
+      3695
+    ],
+    "native_test_command": "yarn vitest run --reporter=verbose",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/transloadit__uppy.89fbbc72": {
+    "mirror_repo": "swesmith/transloadit__uppy.89fbbc72",
+    "upstream_repo": "transloadit/uppy",
+    "upstream_commit": "89fbbc7224d10f91a22381c7b1887ac6aa37c27c",
+    "profile_class": "Uppy89fbbc72",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      3699,
+      3724
+    ],
+    "native_test_command": "yarn workspace @uppy/core test --run",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/tremorlabs__tremor-npm.7613bff6": {
+    "mirror_repo": "swesmith/tremorlabs__tremor-npm.7613bff6",
+    "upstream_repo": "tremorlabs/tremor-npm",
+    "upstream_commit": "7613bff631f713616b7b2ae52fb96dbc8e3dcc97",
+    "profile_class": "Tremornpm7613bff6",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      3728,
+      3755
+    ],
+    "native_test_command": "pnpm tests --ci --colors --reporters=default 2>&1 | tee test_output.txt",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/trpc__trpc.5845dc28": {
+    "mirror_repo": "swesmith/trpc__trpc.5845dc28",
+    "upstream_repo": "trpc/trpc",
+    "upstream_commit": "5845dc28c978df928b2233301cadedd032edf784",
+    "profile_class": "Trpc5845dc28",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      3759,
+      3782
+    ],
+    "native_test_command": "pnpm test -- --run",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/typescript-eslint__typescript-eslint.8a95834b": {
+    "mirror_repo": "swesmith/typescript-eslint__typescript-eslint.8a95834b",
+    "upstream_repo": "typescript-eslint/typescript-eslint",
+    "upstream_commit": "8a95834bb5fd818cc049390e4cb57196717a011f",
+    "profile_class": "Typescripteslint8a95834b",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      3786,
+      3810
+    ],
+    "native_test_command": "export NX_DAEMON=false && pnpm run build && pnpm run test",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/ueberdosis__tiptap.2d6de06c": {
+    "mirror_repo": "swesmith/ueberdosis__tiptap.2d6de06c",
+    "upstream_repo": "ueberdosis/tiptap",
+    "upstream_commit": "2d6de06c34c239e78fedd6bd2a0bcea42d0fdbfa",
+    "profile_class": "Tiptap2d6de06c",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      3839,
+      3860
+    ],
+    "native_test_command": "pnpm run test:unit",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/umami-software__umami.860e6390": {
+    "mirror_repo": "swesmith/umami-software__umami.860e6390",
+    "upstream_repo": "umami-software/umami",
+    "upstream_commit": "860e6390f14e7572b27d3ea1230258cff8c9bc96",
+    "profile_class": "Umami860e6390",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      3864,
+      3885
+    ],
+    "native_test_command": "npm test",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/umijs__qiankun.693cdde7": {
+    "mirror_repo": "swesmith/umijs__qiankun.693cdde7",
+    "upstream_repo": "umijs/qiankun",
+    "upstream_commit": "693cdde75049830820ff9490dd267f9701db25e6",
+    "profile_class": "Qiankun693cdde7",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      3889,
+      3910
+    ],
+    "native_test_command": "pnpm -r run test",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/vadimdemedes__ink.e8b08e75": {
+    "mirror_repo": "swesmith/vadimdemedes__ink.e8b08e75",
+    "upstream_repo": "vadimdemedes/ink",
+    "upstream_commit": "e8b08e75cf272761d63782179019d052e4410545",
+    "profile_class": "Inke8b08e75",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      3914,
+      3934
+    ],
+    "native_test_command": "FORCE_COLOR=true ./node_modules/.bin/ava --verbose",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/vercel__satori.6203e870": {
+    "mirror_repo": "swesmith/vercel__satori.6203e870",
+    "upstream_repo": "vercel/satori",
+    "upstream_commit": "6203e8702acf5ec66c551d01eb46e544c30c1306",
+    "profile_class": "Satori6203e870",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      3938,
+      3970
+    ],
+    "native_test_command": "pnpm run test",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/verdaccio__verdaccio.cda2467f": {
+    "mirror_repo": "swesmith/verdaccio__verdaccio.cda2467f",
+    "upstream_repo": "verdaccio/verdaccio",
+    "upstream_commit": "cda2467f6bc845ff1dada90dc5fd3933106c7729",
+    "profile_class": "Verdacciocda2467f",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      3974,
+      3996
+    ],
+    "native_test_command": "pnpm test",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/vitejs__vite.8b47ff76": {
+    "mirror_repo": "swesmith/vitejs__vite.8b47ff76",
+    "upstream_repo": "vitejs/vite",
+    "upstream_commit": "8b47ff76d28630b4dc39c77fbd2762b4c36ad23d",
+    "profile_class": "Vite8b47ff76",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      4000,
+      4024
+    ],
+    "native_test_command": "pnpm run test-unit",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/voideditor__void.17e7a5b1": {
+    "mirror_repo": "swesmith/voideditor__void.17e7a5b1",
+    "upstream_repo": "voideditor/void",
+    "upstream_commit": "17e7a5b1524345b19ab4ee38ec4f9b1b75a1bd00",
+    "profile_class": "Void17e7a5b1",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      4028,
+      4064
+    ],
+    "native_test_command": "npm run test-node",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/xyflow__xyflow.39ff6e94": {
+    "mirror_repo": "swesmith/xyflow__xyflow.39ff6e94",
+    "upstream_repo": "xyflow/xyflow",
+    "upstream_commit": "39ff6e94b518ae82c9c5d973e71055c8ee8e90be",
+    "profile_class": "Xyflow39ff6e94",
+    "profile_file": "upstream/swesmith/profiles/typescript.py",
+    "profile_lines": [
+      4068,
+      4091
+    ],
+    "native_test_command": "pnpm run typecheck",
+    "eval_sets": [],
+    "language": "ts"
+  },
+  "swesmith/marshallpierce__rust-base64.cac5ff84": {
+    "mirror_repo": "swesmith/marshallpierce__rust-base64.cac5ff84",
+    "upstream_repo": "marshallpierce/rust-base64",
+    "upstream_commit": "cac5ff84cd771b1a9f52da020b053b35f0ff3ede",
+    "profile_class": "Base64cac5ff84",
+    "profile_file": "upstream/swesmith/profiles/rust.py",
+    "profile_lines": [
+      162,
+      165
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "rs"
+  },
+  "swesmith/clap-rs__clap.3716f9f4": {
+    "mirror_repo": "swesmith/clap-rs__clap.3716f9f4",
+    "upstream_repo": "clap-rs/clap",
+    "upstream_commit": "3716f9f4289594b43abec42b2538efd1a90ff897",
+    "profile_class": "Clap3716f9f4",
+    "profile_file": "upstream/swesmith/profiles/rust.py",
+    "profile_lines": [
+      169,
+      173
+    ],
+    "native_test_command": "make test-full ARGS=--verbose",
+    "eval_sets": [],
+    "language": "rs"
+  },
+  "swesmith/hyperium__hyper.c88df788": {
+    "mirror_repo": "swesmith/hyperium__hyper.c88df788",
+    "upstream_repo": "hyperium/hyper",
+    "upstream_commit": "c88df7886c74a1ade69c0b4c68eaf570c8111622",
+    "profile_class": "Hyperc88df788",
+    "profile_file": "upstream/swesmith/profiles/rust.py",
+    "profile_lines": [
+      177,
+      181
+    ],
+    "native_test_command": "cargo test --verbose --features full",
+    "eval_sets": [],
+    "language": "rs"
+  },
+  "swesmith/rust-itertools__itertools.041c733c": {
+    "mirror_repo": "swesmith/rust-itertools__itertools.041c733c",
+    "upstream_repo": "rust-itertools/itertools",
+    "upstream_commit": "041c733cb6fbfe6aae5cce28766dc6020043a7f9",
+    "profile_class": "Itertools041c733c",
+    "profile_file": "upstream/swesmith/profiles/rust.py",
+    "profile_lines": [
+      185,
+      189
+    ],
+    "native_test_command": "cargo test --verbose --all-features",
+    "eval_sets": [],
+    "language": "rs"
+  },
+  "swesmith/serde-rs__json.cd55b5a0": {
+    "mirror_repo": "swesmith/serde-rs__json.cd55b5a0",
+    "upstream_repo": "serde-rs/json",
+    "upstream_commit": "cd55b5a0ff5f88f1aeb7a77c1befc9ddb3205201",
+    "profile_class": "Jsoncd55b5a0",
+    "profile_file": "upstream/swesmith/profiles/rust.py",
+    "profile_lines": [
+      193,
+      196
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "rs"
+  },
+  "swesmith/rust-lang__log.3aa1359e": {
+    "mirror_repo": "swesmith/rust-lang__log.3aa1359e",
+    "upstream_repo": "rust-lang/log",
+    "upstream_commit": "3aa1359e926a39f841791207d6e57e00da3e68e2",
+    "profile_class": "Log3aa1359e",
+    "profile_file": "upstream/swesmith/profiles/rust.py",
+    "profile_lines": [
+      200,
+      203
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "rs"
+  },
+  "swesmith/dtolnay__semver.37bcbe69": {
+    "mirror_repo": "swesmith/dtolnay__semver.37bcbe69",
+    "upstream_repo": "dtolnay/semver",
+    "upstream_commit": "37bcbe69d9259e4770643b63104798f7cc5d653c",
+    "profile_class": "Semver37bcbe69",
+    "profile_file": "upstream/swesmith/profiles/rust.py",
+    "profile_lines": [
+      207,
+      210
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "rs"
+  },
+  "swesmith/tokio-rs__tokio.ab3ff69c": {
+    "mirror_repo": "swesmith/tokio-rs__tokio.ab3ff69c",
+    "upstream_repo": "tokio-rs/tokio",
+    "upstream_commit": "ab3ff69cf2258a8c696b2dca89a2cef4ff114c1c",
+    "profile_class": "Tokioab3ff69c",
+    "profile_file": "upstream/swesmith/profiles/rust.py",
+    "profile_lines": [
+      214,
+      222
+    ],
+    "native_test_command": "cargo test --verbose --features full -- --skip try_exists",
+    "eval_sets": [
+      "SWE-bench/SWE-bench_Multilingual"
+    ],
+    "language": "rs"
+  },
+  "swesmith/uuid-rs__uuid.2fd9b614": {
+    "mirror_repo": "swesmith/uuid-rs__uuid.2fd9b614",
+    "upstream_repo": "uuid-rs/uuid",
+    "upstream_commit": "2fd9b614c92e4e4b18928e2f539d82accf8eaeee",
+    "profile_class": "Uuid2fd9b614",
+    "profile_file": "upstream/swesmith/profiles/rust.py",
+    "profile_lines": [
+      226,
+      230
+    ],
+    "native_test_command": "cargo test --verbose --all-features",
+    "eval_sets": [],
+    "language": "rs"
+  },
+  "swesmith/rust-lang__mdbook.37273ba8": {
+    "mirror_repo": "swesmith/rust-lang__mdBook.37273ba8",
+    "upstream_repo": "rust-lang/mdBook",
+    "upstream_commit": "37273ba8e0f86771b02f3a8a4bd3b0b3d388c573",
+    "profile_class": "MdBook37273ba8",
+    "profile_file": "upstream/swesmith/profiles/rust.py",
+    "profile_lines": [
+      234,
+      238
+    ],
+    "native_test_command": "cargo test --workspace --verbose",
+    "eval_sets": [],
+    "language": "rs"
+  },
+  "swesmith/burntsushi__rust-csv.da000888": {
+    "mirror_repo": "swesmith/BurntSushi__rust-csv.da000888",
+    "upstream_repo": "BurntSushi/rust-csv",
+    "upstream_commit": "da0008884062cf222ceb9c05f006be4bb6ac38a7",
+    "profile_class": "RustCSVda000888",
+    "profile_file": "upstream/swesmith/profiles/rust.py",
+    "profile_lines": [
+      242,
+      245
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "rs"
+  },
+  "swesmith/servo__html5ever.b93afc94": {
+    "mirror_repo": "swesmith/servo__html5ever.b93afc94",
+    "upstream_repo": "servo/html5ever",
+    "upstream_commit": "b93afc9484cf5de40b422a44f9cea86ab371e3ee",
+    "profile_class": "Html5everb93afc94",
+    "profile_file": "upstream/swesmith/profiles/rust.py",
+    "profile_lines": [
+      249,
+      266
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "rs"
+  },
+  "swesmith/burntsushi__byteorder.5a82625f": {
+    "mirror_repo": "swesmith/BurntSushi__byteorder.5a82625f",
+    "upstream_repo": "BurntSushi/byteorder",
+    "upstream_commit": "5a82625fae462e8ba64cec8146b24a372b4d75c6",
+    "profile_class": "Byteorder5a82625f",
+    "profile_file": "upstream/swesmith/profiles/rust.py",
+    "profile_lines": [
+      270,
+      273
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "rs"
+  },
+  "swesmith/chronotope__chrono.d43108cb": {
+    "mirror_repo": "swesmith/chronotope__chrono.d43108cb",
+    "upstream_repo": "chronotope/chrono",
+    "upstream_commit": "d43108cbfc884b0864d1cf2db7719aedf4adbf23",
+    "profile_class": "Chronod43108cb",
+    "profile_file": "upstream/swesmith/profiles/rust.py",
+    "profile_lines": [
+      277,
+      280
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "rs"
+  },
+  "swesmith/orium__rpds.3e7c8ae6": {
+    "mirror_repo": "swesmith/orium__rpds.3e7c8ae6",
+    "upstream_repo": "orium/rpds",
+    "upstream_commit": "3e7c8ae693cdc6e1b255c87279b6ad8aded6401d",
+    "profile_class": "Rpds3e7c8ae6",
+    "profile_file": "upstream/swesmith/profiles/rust.py",
+    "profile_lines": [
+      284,
+      287
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "rs"
+  },
+  "swesmith/burntsushi__ripgrep.3b7fd442": {
+    "mirror_repo": "swesmith/BurntSushi__ripgrep.3b7fd442",
+    "upstream_repo": "BurntSushi/ripgrep",
+    "upstream_commit": "3b7fd442a6f3aa73f650e763d7cbb902c03d700e",
+    "profile_class": "Ripgrep3b7fd442",
+    "profile_file": "upstream/swesmith/profiles/rust.py",
+    "profile_lines": [
+      291,
+      312
+    ],
+    "native_test_command": "cargo test --all --verbose",
+    "eval_sets": [
+      "SWE-bench/SWE-bench_Multilingual"
+    ],
+    "language": "rs"
+  },
+  "swesmith/rust-lang__rust-clippy.f4f579f4": {
+    "mirror_repo": "swesmith/rust-lang__rust-clippy.f4f579f4",
+    "upstream_repo": "rust-lang/rust-clippy",
+    "upstream_commit": "f4f579f4ac455b76ddadc85553ba19b115dd144e",
+    "profile_class": "RustClippyf4f579f4",
+    "profile_file": "upstream/swesmith/profiles/rust.py",
+    "profile_lines": [
+      316,
+      319
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "rs"
+  },
+  "swesmith/sharkdp__hexyl.2e264378": {
+    "mirror_repo": "swesmith/sharkdp__hexyl.2e264378",
+    "upstream_repo": "sharkdp/hexyl",
+    "upstream_commit": "2e2643782d6ced9b5ac75596169a79127d8e535a",
+    "profile_class": "Hexyl2e264378",
+    "profile_file": "upstream/swesmith/profiles/rust.py",
+    "profile_lines": [
+      323,
+      326
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "rs"
+  },
+  "swesmith/hatoo__oha.8dc63499": {
+    "mirror_repo": "swesmith/hatoo__oha.8dc63499",
+    "upstream_repo": "hatoo/oha",
+    "upstream_commit": "8dc63499f84b3116652987dac711eca687ccc2fd",
+    "profile_class": "Oha8dc63499",
+    "profile_file": "upstream/swesmith/profiles/rust.py",
+    "profile_lines": [
+      330,
+      333
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "rs"
+  },
+  "swesmith/console-rs__indicatif.dbd26eb1": {
+    "mirror_repo": "swesmith/console-rs__indicatif.dbd26eb1",
+    "upstream_repo": "console-rs/indicatif",
+    "upstream_commit": "dbd26eb18157e5fad18c79e1933ad5f249165d6c",
+    "profile_class": "Indicatifdbd26eb18",
+    "profile_file": "upstream/swesmith/profiles/rust.py",
+    "profile_lines": [
+      337,
+      340
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "rs"
+  },
+  "swesmith/yoav-lavi__melody.f4af9b48": {
+    "mirror_repo": "swesmith/yoav-lavi__melody.f4af9b48",
+    "upstream_repo": "yoav-lavi/melody",
+    "upstream_commit": "f4af9b4829555fedb687eb5f6f5755ce3c5ef738",
+    "profile_class": "Melodyf4af9b48",
+    "profile_file": "upstream/swesmith/profiles/rust.py",
+    "profile_lines": [
+      344,
+      347
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "rs"
+  },
+  "swesmith/cordx56__rust-owl.655bc5c3": {
+    "mirror_repo": "swesmith/cordx56__rust-owl.655bc5c3",
+    "upstream_repo": "cordx56/rust-owl",
+    "upstream_commit": "655bc5c37e59156954fa9af3e6466602e7dfa814",
+    "profile_class": "RustOwl655bc5c3",
+    "profile_file": "upstream/swesmith/profiles/rust.py",
+    "profile_lines": [
+      351,
+      354
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "rs"
+  },
+  "swesmith/quinn-rs__quinn.bb359ccd": {
+    "mirror_repo": "swesmith/quinn-rs__quinn.bb359ccd",
+    "upstream_repo": "quinn-rs/quinn",
+    "upstream_commit": "bb359ccd7dfbc18b472bcb61e6800be6dc886264",
+    "profile_class": "Quinnbb359ccd",
+    "profile_file": "upstream/swesmith/profiles/rust.py",
+    "profile_lines": [
+      358,
+      361
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "rs"
+  },
+  "swesmith/anordal__shellharden.6a6ffd42": {
+    "mirror_repo": "swesmith/anordal__shellharden.6a6ffd42",
+    "upstream_repo": "anordal/shellharden",
+    "upstream_commit": "6a6ffd42f6a9d8b558d479346d09233ae5e7a2ae",
+    "profile_class": "Shellharden6a6ffd42",
+    "profile_file": "upstream/swesmith/profiles/rust.py",
+    "profile_lines": [
+      365,
+      368
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "rs"
+  },
+  "swesmith/pemistahl__grex.fa3e8ed7": {
+    "mirror_repo": "swesmith/pemistahl__grex.fa3e8ed7",
+    "upstream_repo": "pemistahl/grex",
+    "upstream_commit": "fa3e8ed71c43ea92f9f0e43ab31e1c82d006d5dd",
+    "profile_class": "Grexfa3e8ed7",
+    "profile_file": "upstream/swesmith/profiles/rust.py",
+    "profile_lines": [
+      372,
+      375
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "rs"
+  },
+  "swesmith/mgdm__htmlq.6e31bc81": {
+    "mirror_repo": "swesmith/mgdm__htmlq.6e31bc81",
+    "upstream_repo": "mgdm/htmlq",
+    "upstream_commit": "6e31bc814332b2521f0316d0ed9bf0a1c521b6e6",
+    "profile_class": "Htmlq6e31bc81",
+    "profile_file": "upstream/swesmith/profiles/rust.py",
+    "profile_lines": [
+      379,
+      382
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "rs"
+  },
+  "swesmith/ducaale__xh.4a6e44fc": {
+    "mirror_repo": "swesmith/ducaale__xh.4a6e44fc",
+    "upstream_repo": "ducaale/xh",
+    "upstream_commit": "4a6e44fcb562126959c54ca33b673cf7d707a63e",
+    "profile_class": "Xh4a6e44fc",
+    "profile_file": "upstream/swesmith/profiles/rust.py",
+    "profile_lines": [
+      386,
+      389
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "rs"
+  },
+  "swesmith/parcel-bundler__lightningcss.400f705e": {
+    "mirror_repo": "swesmith/parcel-bundler__lightningcss.400f705e",
+    "upstream_repo": "parcel-bundler/lightningcss",
+    "upstream_commit": "400f705e63e139c326f480aed11e1416f5a3a61f",
+    "profile_class": "Lightningcss400f705e",
+    "profile_file": "upstream/swesmith/profiles/rust.py",
+    "profile_lines": [
+      393,
+      396
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "rs"
+  },
+  "swesmith/svenstaro__miniserve.8449e8b1": {
+    "mirror_repo": "swesmith/svenstaro__miniserve.8449e8b1",
+    "upstream_repo": "svenstaro/miniserve",
+    "upstream_commit": "8449e8b118ffd61de8df970b56b0796f891e3697",
+    "profile_class": "Miniserve8449e8b1",
+    "profile_file": "upstream/swesmith/profiles/rust.py",
+    "profile_lines": [
+      400,
+      403
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "rs"
+  },
+  "swesmith/bensadeh__tailpsin.6278437c": {
+    "mirror_repo": "swesmith/bensadeh__tailpsin.6278437c",
+    "upstream_repo": "bensadeh/tailpsin",
+    "upstream_commit": "6278437c3d28f2e95201f3b0c8a471b8668eed5b",
+    "profile_class": "Tailpsin6278437c",
+    "profile_file": "upstream/swesmith/profiles/rust.py",
+    "profile_lines": [
+      407,
+      410
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "rs"
+  },
+  "swesmith/mozilla__sccache.cd7dcd5f": {
+    "mirror_repo": "swesmith/mozilla__sccache.cd7dcd5f",
+    "upstream_repo": "mozilla/sccache",
+    "upstream_commit": "cd7dcd5f73b7c77b826ad5173b6af6642ad03a3e",
+    "profile_class": "SccacheCd7dcd5f",
+    "profile_file": "upstream/swesmith/profiles/rust.py",
+    "profile_lines": [
+      414,
+      417
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "rs"
+  },
+  "swesmith/boa-dev__boa.14e5c634": {
+    "mirror_repo": "swesmith/boa-dev__boa.14e5c634",
+    "upstream_repo": "boa-dev/boa",
+    "upstream_commit": "14e5c6342d72ef128ecad92f66f4c54641bd9561",
+    "profile_class": "Boa14e5c634",
+    "profile_file": "upstream/swesmith/profiles/rust.py",
+    "profile_lines": [
+      421,
+      424
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "rs"
+  },
+  "swesmith/sharkdp__pastel.b60e8993": {
+    "mirror_repo": "swesmith/sharkdp__pastel.b60e8993",
+    "upstream_repo": "sharkdp/pastel",
+    "upstream_commit": "b60e89932629b2d162e1ff9f3976a5a0ef1e5db9",
+    "profile_class": "Pastelb60e8993",
+    "profile_file": "upstream/swesmith/profiles/rust.py",
+    "profile_lines": [
+      428,
+      431
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "rs"
+  },
+  "swesmith/dtolnay__anyhow.2c0bda4c": {
+    "mirror_repo": "swesmith/dtolnay__anyhow.2c0bda4c",
+    "upstream_repo": "dtolnay/anyhow",
+    "upstream_commit": "2c0bda4ce944d943e7141f0316b0ea996602238e",
+    "profile_class": "Anyhow2c0bda4c",
+    "profile_file": "upstream/swesmith/profiles/rust.py",
+    "profile_lines": [
+      435,
+      438
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "rs"
+  },
+  "swesmith/dtolnay__cxx.0d80b351": {
+    "mirror_repo": "swesmith/dtolnay__cxx.0d80b351",
+    "upstream_repo": "dtolnay/cxx",
+    "upstream_commit": "0d80b351886a00af9a7120369f22a0b7f0affd72",
+    "profile_class": "Cxx0d80b351",
+    "profile_file": "upstream/swesmith/profiles/rust.py",
+    "profile_lines": [
+      442,
+      445
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "rs"
+  },
+  "swesmith/rust-lang__rustfmt.86261bfb": {
+    "mirror_repo": "swesmith/rust-lang__rustfmt.86261bfb",
+    "upstream_repo": "rust-lang/rustfmt",
+    "upstream_commit": "86261bfb87a207030b1dfeef0f832ac13f369b1a",
+    "profile_class": "Rustfmt86261bfb",
+    "profile_file": "upstream/swesmith/profiles/rust.py",
+    "profile_lines": [
+      449,
+      452
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "rs"
+  },
+  "swesmith/tealdeer-rs__tealdeer.c5d62e59": {
+    "mirror_repo": "swesmith/tealdeer-rs__tealdeer.c5d62e59",
+    "upstream_repo": "tealdeer-rs/tealdeer",
+    "upstream_commit": "c5d62e5987b38705814b72354373c50fe165dbb3",
+    "profile_class": "TealdeerC5d62e59",
+    "profile_file": "upstream/swesmith/profiles/rust.py",
+    "profile_lines": [
+      456,
+      459
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "rs"
+  },
+  "swesmith/image-rs__image.26edc698": {
+    "mirror_repo": "swesmith/image-rs__image.26edc698",
+    "upstream_repo": "image-rs/image",
+    "upstream_commit": "26edc698463cc2a0e7b9735ca41d375dce0449a2",
+    "profile_class": "Image26edc698",
+    "profile_file": "upstream/swesmith/profiles/rust.py",
+    "profile_lines": [
+      463,
+      466
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "rs"
+  },
+  "swesmith/byron__dua-cli.8570c154": {
+    "mirror_repo": "swesmith/Byron__dua-cli.8570c154",
+    "upstream_repo": "Byron/dua-cli",
+    "upstream_commit": "8570c1543e3cd0983725f6e1938bf3e73442678a",
+    "profile_class": "Duacli8570c154",
+    "profile_file": "upstream/swesmith/profiles/rust.py",
+    "profile_lines": [
+      470,
+      473
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "rs"
+  },
+  "swesmith/serenity-rs__serenity.c6219206": {
+    "mirror_repo": "swesmith/serenity-rs__serenity.c6219206",
+    "upstream_repo": "serenity-rs/serenity",
+    "upstream_commit": "c6219206a38161a9e8d78660f19b44ba4dfb4ed9",
+    "profile_class": "Serenityc6219206",
+    "profile_file": "upstream/swesmith/profiles/rust.py",
+    "profile_lines": [
+      477,
+      480
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "rs"
+  },
+  "swesmith/http-rs__tide.b32f680d": {
+    "mirror_repo": "swesmith/http-rs__tide.b32f680d",
+    "upstream_repo": "http-rs/tide",
+    "upstream_commit": "b32f680d5bd14bc2ce7c81bef9ce99859028b20f",
+    "profile_class": "Tideb32f680d",
+    "profile_file": "upstream/swesmith/profiles/rust.py",
+    "profile_lines": [
+      484,
+      487
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "rs"
+  },
+  "swesmith/rhaiscript__rhai.6b132e55": {
+    "mirror_repo": "swesmith/rhaiscript__rhai.6b132e55",
+    "upstream_repo": "rhaiscript/rhai",
+    "upstream_commit": "6b132e55167e6fc82a2348e90d507141e1204a12",
+    "profile_class": "Rhai6b132e55",
+    "profile_file": "upstream/swesmith/profiles/rust.py",
+    "profile_lines": [
+      491,
+      494
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "rs"
+  },
+  "swesmith/rayon-rs__rayon.5b4eb339": {
+    "mirror_repo": "swesmith/rayon-rs__rayon.5b4eb339",
+    "upstream_repo": "rayon-rs/rayon",
+    "upstream_commit": "5b4eb339c06943cbb71d8368e78343c049e6d71c",
+    "profile_class": "Rayon5b4eb339",
+    "profile_file": "upstream/swesmith/profiles/rust.py",
+    "profile_lines": [
+      498,
+      501
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "rs"
+  },
+  "swesmith/canop__broot.d6c798ed": {
+    "mirror_repo": "swesmith/Canop__broot.d6c798ed",
+    "upstream_repo": "Canop/broot",
+    "upstream_commit": "d6c798edbd136dbe5b67566ad74a7daa97e8ae49",
+    "profile_class": "Brootd6c798ed",
+    "profile_file": "upstream/swesmith/profiles/rust.py",
+    "profile_lines": [
+      505,
+      508
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "rs"
+  },
+  "swesmith/o2sh__onefetch.e5958cec": {
+    "mirror_repo": "swesmith/o2sh__onefetch.e5958cec",
+    "upstream_repo": "o2sh/onefetch",
+    "upstream_commit": "e5958cec1e5d17d72405f1c96cf30ae1e2defa16",
+    "profile_class": "OneFetchE5958cec",
+    "profile_file": "upstream/swesmith/profiles/rust.py",
+    "profile_lines": [
+      512,
+      515
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "rs"
+  },
+  "swesmith/seanmonstar__reqwest.01f03a4c": {
+    "mirror_repo": "swesmith/seanmonstar__reqwest.01f03a4c",
+    "upstream_repo": "seanmonstar/reqwest",
+    "upstream_commit": "01f03a4c01fb13e2262a513ed21e2b84b5186f46",
+    "profile_class": "Reqwest01f03a4c",
+    "profile_file": "upstream/swesmith/profiles/rust.py",
+    "profile_lines": [
+      519,
+      522
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "rs"
+  },
+  "swesmith/bootandy__dust.62bf1e14": {
+    "mirror_repo": "swesmith/bootandy__dust.62bf1e14",
+    "upstream_repo": "bootandy/dust",
+    "upstream_commit": "62bf1e14de73b14bdf5c691be29e6dcc4de352aa",
+    "profile_class": "Dust62bf1e14",
+    "profile_file": "upstream/swesmith/profiles/rust.py",
+    "profile_lines": [
+      526,
+      529
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "rs"
+  },
+  "swesmith/ekzhang__bore.8e059cda": {
+    "mirror_repo": "swesmith/ekzhang__bore.8e059cda",
+    "upstream_repo": "ekzhang/bore",
+    "upstream_commit": "8e059cdaf993d25d92080a2b28a71949a4545d03",
+    "profile_class": "Bore8e059cda",
+    "profile_file": "upstream/swesmith/profiles/rust.py",
+    "profile_lines": [
+      533,
+      536
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "rs"
+  },
+  "swesmith/seanmonstar__warp.3449d3d9": {
+    "mirror_repo": "swesmith/seanmonstar__warp.3449d3d9",
+    "upstream_repo": "seanmonstar/warp",
+    "upstream_commit": "3449d3d9816ea3898059e62b5325716c1cc27c8b",
+    "profile_class": "Warp3449d3d9",
+    "profile_file": "upstream/swesmith/profiles/rust.py",
+    "profile_lines": [
+      540,
+      543
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "rs"
+  },
+  "swesmith/orf__gping.26eb5b91": {
+    "mirror_repo": "swesmith/orf__gping.26eb5b91",
+    "upstream_repo": "orf/gping",
+    "upstream_commit": "26eb5b914b1d90d75ebf23c3a9ae8ee3ebd6f217",
+    "profile_class": "Gping26eb5b91",
+    "profile_file": "upstream/swesmith/profiles/rust.py",
+    "profile_lines": [
+      547,
+      550
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "rs"
+  },
+  "swesmith/huggingface__tokenizers.ecad3f18": {
+    "mirror_repo": "swesmith/huggingface__tokenizers.ecad3f18",
+    "upstream_repo": "huggingface/tokenizers",
+    "upstream_commit": "ecad3f18a3e340635f5393cfb22cf70d3502f64a",
+    "profile_class": "TokenizersEcad3f18",
+    "profile_file": "upstream/swesmith/profiles/rust.py",
+    "profile_lines": [
+      554,
+      572
+    ],
+    "native_test_command": null,
+    "eval_sets": [],
+    "language": "rs"
+  }
+}

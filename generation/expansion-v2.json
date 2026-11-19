@@ -1,0 +1,471 @@
+{
+  "name": "tasksmith-gap-expand-v2",
+  "max_spend_usd": "600.00",
+  "target_verified": 12,
+  "benchmarks": [
+    "Terminal-Bench 2.1",
+    "SWE-bench Pro v2.0 Hard",
+    "DeepSWE 1.1"
+  ],
+  "excluded_prs": [],
+  "candidates": [
+    {
+      "url": "https://github.com/pallets/click/pull/3884",
+      "capability_tags": [
+        "cli",
+        "input-output",
+        "environment-config"
+      ],
+      "expected": {
+        "id": "c9c57b74041e",
+        "head": "c53d3732b98c764932e146c007146ad402acb229",
+        "base": "bb695aaecdef95832d167fc1d508921745aa824e",
+        "full_diff_sha256": "74cd2afbab6a4c6b071114d290b869588286f1710b763223475b66bd3fcad0cb"
+      },
+      "license": {
+        "path": "LICENSE.txt",
+        "sha256": "9a8ad106a394e853bfe21f42f4e72d592819a22805d991b5f3275029292b658d",
+        "spdx": "BSD-3-Clause"
+      }
+    },
+    {
+      "url": "https://github.com/Kludex/starlette/pull/3772",
+      "capability_tags": [
+        "http-protocol",
+        "streaming",
+        "path-routing"
+      ],
+      "expected": {
+        "id": "d04a3f8f9dc2",
+        "head": "91aa0cb83f8cab2dd0b714eccfe8762dff08c761",
+        "base": "1ce60e7157d5c7d1c4e48e1cfe2f5f255235a2cc",
+        "full_diff_sha256": "d2f2d233c8325fc999da853e554b575e06959f125c1df69084239e2b5169b1df"
+      },
+      "license": {
+        "path": "LICENSE.md",
+        "sha256": "dcb95677a02240243187e964f941847d19b17821cf99e5afae684fab328c19bf",
+        "spdx": "BSD-3-Clause"
+      }
+    },
+    {
+      "url": "https://github.com/fsspec/filesystem_spec/pull/2392",
+      "capability_tags": [
+        "filesystem",
+        "resource-cleanup",
+        "transaction",
+        "streaming"
+      ],
+      "expected": {
+        "id": "478022127424",
+        "head": "ac6e6ebf634b632337330003ec58889e29c7e0fc",
+        "base": "a62ed08e9f4f817692b35ab01afcb18a01e71470",
+        "full_diff_sha256": "8796b085cf87d1326356f40d0781181b3e6c959664c36bf6b022dd65419f0594"
+      },
+      "license": {
+        "path": "LICENSE",
+        "sha256": "2dc35496ce53a7307915c008a844aad53e772b49b34cdd00445067691407ec94",
+        "spdx": "BSD-3-Clause"
+      }
+    },
+    {
+      "url": "https://github.com/andialbrecht/sqlparse/pull/868",
+      "capability_tags": [
+        "sql-parsing",
+        "tokenization"
+      ],
+      "expected": {
+        "id": "067b1596dfa9",
+        "head": "267f5712e78be36ea36cd154806c76551e7b3931",
+        "base": "cd4c1b66cb0a148b40f742d435c527f27cf0a9fb",
+        "full_diff_sha256": "89ca6dab13b4edf8b7973b0a5bd6b12bdad1e40e9b1b733a04fc7eb50f21ce9a"
+      },
+      "license": {
+        "path": "LICENSE",
+        "sha256": "c1938235b80d39e93138eae89edc3af67e18ecbc40d266529fa57b2dce426310",
+        "spdx": "BSD-3-Clause"
+      }
+    },
+    {
+      "url": "https://github.com/networkx/networkx/pull/8956",
+      "capability_tags": [
+        "graph-algorithms",
+        "serialization",
+        "numeric-correctness"
+      ],
+      "expected": {
+        "id": "938c019ea3ea",
+        "head": "012c2d2d7fd8cf454311f784db4ad79ba1b7b278",
+        "base": "6da4704cbf32ba6f50f6d9c46cc0a071e3a87985",
+        "full_diff_sha256": "8944079f5ba36ee7f3f481af346a301d3090a2dbf17a9c942262694e8749d8c5"
+      },
+      "license": {
+        "path": "LICENSE.txt",
+        "sha256": "6025f323ea29dc2f0ee0abd9523bf910186f55b0e148e6ebf646c55566278e2e",
+        "spdx": "BSD-3-Clause"
+      }
+    },
+    {
+      "url": "https://github.com/python-attrs/attrs/pull/1592",
+      "capability_tags": [
+        "dataclass-models",
+        "typing",
+        "iterator-safety"
+      ],
+      "expected": {
+        "id": "4ca6d2396445",
+        "head": "5efaf84c7bbe8eba5619137766a6ee7c17f4c2ac",
+        "base": "79fb1645a17118666144ead131a88fdc8d8cd59f",
+        "full_diff_sha256": "42132b2a03358b261895910ecca949577ac99c4f46746efaa3e3b7d64eb2138b"
+      },
+      "license": {
+        "path": "LICENSE",
+        "sha256": "882115c95dfc2af1eeb6714f8ec6d5cbcabf667caff8729f42420da63f714e9f",
+        "spdx": "MIT"
+      }
+    },
+    {
+      "url": "https://github.com/python-attrs/cattrs/pull/778",
+      "capability_tags": [
+        "serialization",
+        "union-disambiguation",
+        "code-generation"
+      ],
+      "expected": {
+        "id": "c756db832cf4",
+        "head": "c3bd3f4175851a610446f22703db5064e3af0493",
+        "base": "0a1d658438f1cd0d2a409edf867c0f1d3ef40398",
+        "full_diff_sha256": "9a7a37bc5a3eb0eb1cb2665c5017956d9145c2025d0b89e93294ab76c554f7ea"
+      },
+      "license": {
+        "path": "LICENSE",
+        "sha256": "f5fb9d1ede37a88ca47f420c499dca0f4a05bc993e12c77d23520aad291c01bf",
+        "spdx": "MIT"
+      }
+    },
+    {
+      "url": "https://github.com/more-itertools/more-itertools/pull/1345",
+      "capability_tags": [
+        "stream-processing",
+        "bounded-memory",
+        "numeric-correctness"
+      ],
+      "expected": {
+        "id": "14f0d1c7f46a",
+        "head": "c629214760c78c0a2235e896d335cccfb3a64466",
+        "base": "08dca284ba5446a026afdc34067b658f9da989eb",
+        "full_diff_sha256": "27b1312ec376f76b293cee9d4eded301401b9380346a15a8963c074c6c69fb6c"
+      },
+      "license": {
+        "path": "LICENSE",
+        "sha256": "09f1c8c9e941af3e584d59641ea9b87d83c0cb0fd007eb5ef391a7e2643c1a46",
+        "spdx": "MIT"
+      }
+    },
+    {
+      "url": "https://github.com/pallets/click/pull/3865",
+      "capability_tags": [
+        "cli",
+        "input-output",
+        "environment-config"
+      ],
+      "expected": {
+        "id": "6382d7ac76fb",
+        "head": "f67c2bb6c2f055c1c7a57cd46c3697fc26a7742e",
+        "base": "6d5bac5c712195cbfa9666ba0ecbf0573cdea356",
+        "full_diff_sha256": "aa17e672235208495c9befd88f29564a20ea06d88eb8e4ae9c02512ee27f861e"
+      },
+      "license": {
+        "path": "LICENSE.txt",
+        "sha256": "9a8ad106a394e853bfe21f42f4e72d592819a22805d991b5f3275029292b658d",
+        "spdx": "BSD-3-Clause"
+      }
+    },
+    {
+      "url": "https://github.com/Kludex/starlette/pull/3599",
+      "capability_tags": [
+        "http-protocol",
+        "streaming",
+        "path-routing"
+      ],
+      "expected": {
+        "id": "aae143c11e78",
+        "head": "65a3a8530c2b4ddc4559d415e66c22dbf65b6264",
+        "base": "b973efd6156af397253815ecfdd11f37f2b5d1fd",
+        "full_diff_sha256": "8377e061ed6f3d2df1bc242e518a40b0904096996aa0fdd223487294bf3ab75a"
+      },
+      "license": {
+        "path": "LICENSE.md",
+        "sha256": "dcb95677a02240243187e964f941847d19b17821cf99e5afae684fab328c19bf",
+        "spdx": "BSD-3-Clause"
+      }
+    },
+    {
+      "url": "https://github.com/fsspec/filesystem_spec/pull/2380",
+      "capability_tags": [
+        "filesystem",
+        "resource-cleanup",
+        "transaction",
+        "streaming"
+      ],
+      "expected": {
+        "id": "3bb3c78392c6",
+        "head": "6bc5f2fb580aec53d8477ac5e1280e31c0c38076",
+        "base": "7aa038375b89d3191ebb81c70162d57441c19f89",
+        "full_diff_sha256": "077d898e291cfcdb6edd32e046b0a0caf62ada7d1fb7ffe2d37024e7824ca6a8"
+      },
+      "license": {
+        "path": "LICENSE",
+        "sha256": "2dc35496ce53a7307915c008a844aad53e772b49b34cdd00445067691407ec94",
+        "spdx": "BSD-3-Clause"
+      }
+    },
+    {
+      "url": "https://github.com/andialbrecht/sqlparse/pull/865",
+      "capability_tags": [
+        "sql-parsing",
+        "tokenization"
+      ],
+      "expected": {
+        "id": "48a798397efe",
+        "head": "b4835c451720119b5664e012d0d7fdfaeab5c2a4",
+        "base": "f80af6a4007f11ada847218df8c29dc859238290",
+        "full_diff_sha256": "2ff42e784de2ddffd7b46708bf18279773a9de8fbb1f83534bb46b81277423df"
+      },
+      "license": {
+        "path": "LICENSE",
+        "sha256": "c1938235b80d39e93138eae89edc3af67e18ecbc40d266529fa57b2dce426310",
+        "spdx": "BSD-3-Clause"
+      }
+    },
+    {
+      "url": "https://github.com/networkx/networkx/pull/8931",
+      "capability_tags": [
+        "graph-algorithms",
+        "serialization",
+        "numeric-correctness"
+      ],
+      "expected": {
+        "id": "e2223bed9d97",
+        "head": "c86a195a25006438536fbcc8695aa0b9b28b78a4",
+        "base": "9f6079c0120416599ea5d4018bbaba229ea2e456",
+        "full_diff_sha256": "02da3ef670866ed4619eeb285146251c3edab3dd007f57fd46b7ce2aad727dda"
+      },
+      "license": {
+        "path": "LICENSE.txt",
+        "sha256": "6025f323ea29dc2f0ee0abd9523bf910186f55b0e148e6ebf646c55566278e2e",
+        "spdx": "BSD-3-Clause"
+      }
+    },
+    {
+      "url": "https://github.com/python-attrs/attrs/pull/1593",
+      "capability_tags": [
+        "dataclass-models",
+        "typing",
+        "iterator-safety"
+      ],
+      "expected": {
+        "id": "35d8641e8647",
+        "head": "2e082f1c1efb019885fbdb601b32f8464dbe5d47",
+        "base": "6851ab593cd25f3c14393e9355d57d22bec2a074",
+        "full_diff_sha256": "a468b687925466808ccb18e244aaeb38bc36447a5619beb95a5a77d61d379b64"
+      },
+      "license": {
+        "path": "LICENSE",
+        "sha256": "882115c95dfc2af1eeb6714f8ec6d5cbcabf667caff8729f42420da63f714e9f",
+        "spdx": "MIT"
+      }
+    },
+    {
+      "url": "https://github.com/python-attrs/cattrs/pull/771",
+      "capability_tags": [
+        "serialization",
+        "union-disambiguation",
+        "code-generation"
+      ],
+      "expected": {
+        "id": "4e8ac6da681c",
+        "head": "9ff7d7a31e30b54666426e9dd7cbfc928a42d274",
+        "base": "f2e42f3c69dabd48dd1a5b8fb1aad9c1d39c339a",
+        "full_diff_sha256": "a9e7d7a5ebe8ff556d60476208accb448a9f583f7735fa2a2f1c1d49e428f0de"
+      },
+      "license": {
+        "path": "LICENSE",
+        "sha256": "f5fb9d1ede37a88ca47f420c499dca0f4a05bc993e12c77d23520aad291c01bf",
+        "spdx": "MIT"
+      }
+    },
+    {
+      "url": "https://github.com/more-itertools/more-itertools/pull/1322",
+      "capability_tags": [
+        "stream-processing",
+        "bounded-memory",
+        "numeric-correctness"
+      ],
+      "expected": {
+        "id": "bd649a7416c0",
+        "head": "d1f347fec150ca1b4c6f95082b9df89a0923b1d2",
+        "base": "4aeb4338ae1407d8da9723e86da99efeb446f719",
+        "full_diff_sha256": "8b457d4522779b9990cc45cf5241c7d71cdb0c04f922343f3e57f3bca2c6ee07"
+      },
+      "license": {
+        "path": "LICENSE",
+        "sha256": "09f1c8c9e941af3e584d59641ea9b87d83c0cb0fd007eb5ef391a7e2643c1a46",
+        "spdx": "MIT"
+      }
+    },
+    {
+      "url": "https://github.com/pallets/click/pull/3878",
+      "capability_tags": [
+        "cli",
+        "input-output",
+        "environment-config"
+      ],
+      "expected": {
+        "id": "868114253e23",
+        "head": "f8c5a8efc17d01a9fb10bba961def4c3215ce369",
+        "base": "2247b35ea1c47c727d7a06e51fa280e12a863ff6",
+        "full_diff_sha256": "f0e2398d56586dca5c2726943e56e56366d463d7d663b6ad23ad4732246b1c17"
+      },
+      "license": {
+        "path": "LICENSE.txt",
+        "sha256": "9a8ad106a394e853bfe21f42f4e72d592819a22805d991b5f3275029292b658d",
+        "spdx": "BSD-3-Clause"
+      }
+    },
+    {
+      "url": "https://github.com/Kludex/starlette/pull/3718",
+      "capability_tags": [
+        "http-protocol",
+        "streaming",
+        "path-routing"
+      ],
+      "expected": {
+        "id": "ca3eda4440f4",
+        "head": "91f8b769dc8b2edb4c53fbd6b97548c656a8e01d",
+        "base": "61123a5c76ebb9d5786758008945c4fbbb380bf6",
+        "full_diff_sha256": "1d811a6dc23d1c050466d2070ab01f201f7b3045cd5072802afb18b4ac858ca3"
+      },
+      "license": {
+        "path": "LICENSE.md",
+        "sha256": "dcb95677a02240243187e964f941847d19b17821cf99e5afae684fab328c19bf",
+        "spdx": "BSD-3-Clause"
+      }
+    },
+    {
+      "url": "https://github.com/fsspec/filesystem_spec/pull/2350",
+      "capability_tags": [
+        "filesystem",
+        "resource-cleanup",
+        "transaction",
+        "streaming"
+      ],
+      "expected": {
+        "id": "8d4e2cd77d46",
+        "head": "7f1485cca28875e755688043305f41405dbccba2",
+        "base": "f642bea166ed629674eb5b5c227dfa72159e86af",
+        "full_diff_sha256": "53086c3a61171eaace0ec8da440080e32cd82d2c2fbea571b4e99ac29fdca6d8"
+      },
+      "license": {
+        "path": "LICENSE",
+        "sha256": "2dc35496ce53a7307915c008a844aad53e772b49b34cdd00445067691407ec94",
+        "spdx": "BSD-3-Clause"
+      }
+    },
+    {
+      "url": "https://github.com/networkx/networkx/pull/8913",
+      "capability_tags": [
+        "graph-algorithms",
+        "serialization",
+        "numeric-correctness"
+      ],
+      "expected": {
+        "id": "4b8b7ed75252",
+        "head": "9270cce973b073551e837aa7bbf25ae53dfc107c",
+        "base": "4e74880b0da01977da79915167c64e5c2af38b47",
+        "full_diff_sha256": "9c5c7901efe23a79242b0556806440debebcbc18b569848271f54e9a3ee31341"
+      },
+      "license": {
+        "path": "LICENSE.txt",
+        "sha256": "6025f323ea29dc2f0ee0abd9523bf910186f55b0e148e6ebf646c55566278e2e",
+        "spdx": "BSD-3-Clause"
+      }
+    },
+    {
+      "url": "https://github.com/python-attrs/cattrs/pull/765",
+      "capability_tags": [
+        "serialization",
+        "union-disambiguation",
+        "code-generation"
+      ],
+      "expected": {
+        "id": "b4371e6ad496",
+        "head": "b2d0716ed11f4ad9283e8acb856d77be5e559336",
+        "base": "d7de3c2786a05a8dcef4616b2657c1ef0a856fff",
+        "full_diff_sha256": "bf695725f6af747aaf6bb12fe53533f246faaa1a0a2b212f78716e2f9eadad34"
+      },
+      "license": {
+        "path": "LICENSE",
+        "sha256": "f5fb9d1ede37a88ca47f420c499dca0f4a05bc993e12c77d23520aad291c01bf",
+        "spdx": "MIT"
+      }
+    },
+    {
+      "url": "https://github.com/more-itertools/more-itertools/pull/1294",
+      "capability_tags": [
+        "stream-processing",
+        "bounded-memory",
+        "numeric-correctness"
+      ],
+      "expected": {
+        "id": "7117f30e80e6",
+        "head": "edc63587ed2ec41ecc802d5550524471f48161c0",
+        "base": "b5e3886a37209bb880f17d82fbf4ba00ece0e41e",
+        "full_diff_sha256": "af43b2d567e6a36f04ea6f644d554ce1c2986d057b1a118f5f4449dbc34edca2"
+      },
+      "license": {
+        "path": "LICENSE",
+        "sha256": "09f1c8c9e941af3e584d59641ea9b87d83c0cb0fd007eb5ef391a7e2643c1a46",
+        "spdx": "MIT"
+      }
+    },
+    {
+      "url": "https://github.com/Kludex/starlette/pull/3675",
+      "capability_tags": [
+        "http-protocol",
+        "streaming",
+        "path-routing"
+      ],
+      "expected": {
+        "id": "46c98f0d458b",
+        "head": "dd33a43c30575b392630ad68f721f0857bf0d873",
+        "base": "414af4f6b95cbf1cbc43746dc84058a3394e989c",
+        "full_diff_sha256": "b8ded8ddb8f90989dd20f90b4338b63faf6a77bda011db257dc943fa0a1d4605"
+      },
+      "license": {
+        "path": "LICENSE.md",
+        "sha256": "dcb95677a02240243187e964f941847d19b17821cf99e5afae684fab328c19bf",
+        "spdx": "BSD-3-Clause"
+      }
+    },
+    {
+      "url": "https://github.com/fsspec/filesystem_spec/pull/2376",
+      "capability_tags": [
+        "filesystem",
+        "resource-cleanup",
+        "transaction",
+        "streaming"
+      ],
+      "expected": {
+        "id": "a0af25800811",
+        "head": "cd641607208d483298daa526ee3bad6d5b1f1b3a",
+        "base": "7aa038375b89d3191ebb81c70162d57441c19f89",
+        "full_diff_sha256": "f844780afe66f285fcf8816f568dc0e8e25c5c974501fb9886c7177d1186bab4"
+      },
+      "license": {
+        "path": "LICENSE",
+        "sha256": "2dc35496ce53a7307915c008a844aad53e772b49b34cdd00445067691407ec94",
+        "spdx": "BSD-3-Clause"
+      }
+    }
+  ]
+}

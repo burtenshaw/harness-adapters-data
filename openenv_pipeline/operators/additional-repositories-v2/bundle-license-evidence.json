@@ -1,0 +1,7 @@
+{
+  "reviewed": true,
+  "sha256": "18afda407941c9d3c65ff530bedd3bc93f3a13d9504ee5728e959fb43ffce808",
+  "spdx": "MIT",
+  "training_allowed": true,
+  "url": "https://huggingface.co/datasets/SWE-bench/SWE-smith-py/raw/77cab9055d42ab4a5c25c89a8f937096db13558e/README.md"
+}

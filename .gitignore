@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.sources/
+runs/
+.env
+.env.*
+.local/
+.ruff_cache/

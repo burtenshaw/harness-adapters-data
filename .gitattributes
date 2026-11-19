@@ -1,0 +1,2 @@
+# Historical operators and license evidence are verified byte-for-byte.
+openenv_pipeline/operators/** -text -whitespace

@@ -1,0 +1,6 @@
+# Recovered CPython 3.13 runtime additions after uv sync.
+-c runtime-constraints.txt
+harbor @ git+https://github.com/harbor-framework/harbor.git@9c7a39b991d7e2205019f6be0598cbd22d84bfc3
+huggingface-hub==1.33.0
+httpx-sse==0.4.3
+keyring==25.7.0

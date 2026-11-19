@@ -1,0 +1,8 @@
+{
+  "basis": "Declared MIT license and train partition in captured primary repository metadata; no semantic nonoverlap claim",
+  "reviewed": true,
+  "sha256": "2e917153213a0f11a6d0f314e87d8092eb8289ae4dc767cdc020d024c7d5339f",
+  "spdx": "MIT",
+  "training_allowed": true,
+  "url": "https://huggingface.co/api/datasets/SWE-bench/SWE-smith-go/revision/d2f6ecc2cf8ae1af00fc790801bbacfa2913e015"
+}

@@ -1,0 +1,708 @@
+{
+  "schema": "scale800-harbor-native-intake-files-v1",
+  "files": {
+    "SankalpKJ__swesmith-oracle-filtered.metadata.json": {
+      "sha256": "6c348a08b42d9a309389bf0ad2b0f15d6dce47458e42f081dd4b36d6c242aab9",
+      "bytes": 372
+    },
+    "TaskTrove.README.md": {
+      "sha256": "a906abccd50817f3dd2ea2485b43f5411aec676441025422c15c8a031ac55828",
+      "bytes": 68773
+    },
+    "TaskTrove.root-tree.json": {
+      "sha256": "a96eb4495c971ff989ad4284251dcb47efc1c36c2b8e733174c1199b1ad91d78",
+      "bytes": 16996
+    },
+    "acquire_samples.py": {
+      "sha256": "e31576597e5519abde0fe6e035fdc79d4afdf91e72b9a98de7ec5798fbb8db7c",
+      "bytes": 6040
+    },
+    "acquired/harbor/0f5c2c4e877a4f9a/sha256-0740ca74f962af4a2a1e228430d69d1679c57ea4ee05145779e0ee74131754dd/selection-h2lqnnvv/tasks/openthoughts/tasktrove-r2egym-patched-full-oracle-r2egym-v1-01509/0740ca74f962af4a2a1e228430d69d1679c57ea4ee05145779e0ee74131754dd/environment/Dockerfile": {
+      "sha256": "5254e5279e3a7d1fc207e8bde62b6b02751cddab23ca68e90ca50eed399c3c58",
+      "bytes": 972
+    },
+    "acquired/harbor/0f5c2c4e877a4f9a/sha256-0740ca74f962af4a2a1e228430d69d1679c57ea4ee05145779e0ee74131754dd/selection-h2lqnnvv/tasks/openthoughts/tasktrove-r2egym-patched-full-oracle-r2egym-v1-01509/0740ca74f962af4a2a1e228430d69d1679c57ea4ee05145779e0ee74131754dd/instruction.md": {
+      "sha256": "fb3798227e9eecedae57ad99a2a017edf26018f04346a6921bdddc4903268225",
+      "bytes": 3069
+    },
+    "acquired/harbor/0f5c2c4e877a4f9a/sha256-0740ca74f962af4a2a1e228430d69d1679c57ea4ee05145779e0ee74131754dd/selection-h2lqnnvv/tasks/openthoughts/tasktrove-r2egym-patched-full-oracle-r2egym-v1-01509/0740ca74f962af4a2a1e228430d69d1679c57ea4ee05145779e0ee74131754dd/solution/patched_files/moto/ses/template.py": {
+      "sha256": "cee462ba407eb4b72bf28111bb1cb81d80fb58f19768ce14d735258de797e34e",
+      "bytes": 1871
+    },
+    "acquired/harbor/0f5c2c4e877a4f9a/sha256-0740ca74f962af4a2a1e228430d69d1679c57ea4ee05145779e0ee74131754dd/selection-h2lqnnvv/tasks/openthoughts/tasktrove-r2egym-patched-full-oracle-r2egym-v1-01509/0740ca74f962af4a2a1e228430d69d1679c57ea4ee05145779e0ee74131754dd/solution/patched_files/tests/test_ses/test_templating.py": {
+      "sha256": "6e18e1853d0427198da38c601114abd7ae5ace21132a77597cbb0bfdc5b99c77",
+      "bytes": 1163
+    },
+    "acquired/harbor/0f5c2c4e877a4f9a/sha256-0740ca74f962af4a2a1e228430d69d1679c57ea4ee05145779e0ee74131754dd/selection-h2lqnnvv/tasks/openthoughts/tasktrove-r2egym-patched-full-oracle-r2egym-v1-01509/0740ca74f962af4a2a1e228430d69d1679c57ea4ee05145779e0ee74131754dd/solution/solve.sh": {
+      "sha256": "aab04b6825399ae3a57c79517695abc1b87538fcf10f57f5f90d343e03703b68",
+      "bytes": 1843
+    },
+    "acquired/harbor/0f5c2c4e877a4f9a/sha256-0740ca74f962af4a2a1e228430d69d1679c57ea4ee05145779e0ee74131754dd/selection-h2lqnnvv/tasks/openthoughts/tasktrove-r2egym-patched-full-oracle-r2egym-v1-01509/0740ca74f962af4a2a1e228430d69d1679c57ea4ee05145779e0ee74131754dd/task.toml": {
+      "sha256": "be3d796f0e7cdd5016bc2953af08d2f79e1b61dec977a5db0da22dda8d387e34",
+      "bytes": 593
+    },
+    "acquired/harbor/0f5c2c4e877a4f9a/sha256-0740ca74f962af4a2a1e228430d69d1679c57ea4ee05145779e0ee74131754dd/selection-h2lqnnvv/tasks/openthoughts/tasktrove-r2egym-patched-full-oracle-r2egym-v1-01509/0740ca74f962af4a2a1e228430d69d1679c57ea4ee05145779e0ee74131754dd/tests/test.sh": {
+      "sha256": "4e12e34cb13178647a1d304d4838b6fcdbe62718f37090e071e4237f09de2fab",
+      "bytes": 5763
+    },
+    "acquired/harbor/0f5c2c4e877a4f9a/sha256-0740ca74f962af4a2a1e228430d69d1679c57ea4ee05145779e0ee74131754dd/selection-h2lqnnvv/tasks/openthoughts/tasktrove-r2egym-patched-full-oracle-r2egym-v1-01509/0740ca74f962af4a2a1e228430d69d1679c57ea4ee05145779e0ee74131754dd/tests/test_state.py": {
+      "sha256": "eeadbcf6a3beafdacbbc83f7b3da84be79738a2d04b7310cfd271064319991a9",
+      "bytes": 3281
+    },
+    "acquired/harbor/0f5c2c4e877a4f9a/sha256-0740ca74f962af4a2a1e228430d69d1679c57ea4ee05145779e0ee74131754dd/selection-wyol_wrv/tasks/openthoughts/tasktrove-r2egym-patched-full-oracle-r2egym-v1-01509/0740ca74f962af4a2a1e228430d69d1679c57ea4ee05145779e0ee74131754dd/environment/Dockerfile": {
+      "sha256": "5254e5279e3a7d1fc207e8bde62b6b02751cddab23ca68e90ca50eed399c3c58",
+      "bytes": 972
+    },
+    "acquired/harbor/0f5c2c4e877a4f9a/sha256-0740ca74f962af4a2a1e228430d69d1679c57ea4ee05145779e0ee74131754dd/selection-wyol_wrv/tasks/openthoughts/tasktrove-r2egym-patched-full-oracle-r2egym-v1-01509/0740ca74f962af4a2a1e228430d69d1679c57ea4ee05145779e0ee74131754dd/instruction.md": {
+      "sha256": "fb3798227e9eecedae57ad99a2a017edf26018f04346a6921bdddc4903268225",
+      "bytes": 3069
+    },
+    "acquired/harbor/0f5c2c4e877a4f9a/sha256-0740ca74f962af4a2a1e228430d69d1679c57ea4ee05145779e0ee74131754dd/selection-wyol_wrv/tasks/openthoughts/tasktrove-r2egym-patched-full-oracle-r2egym-v1-01509/0740ca74f962af4a2a1e228430d69d1679c57ea4ee05145779e0ee74131754dd/solution/patched_files/moto/ses/template.py": {
+      "sha256": "cee462ba407eb4b72bf28111bb1cb81d80fb58f19768ce14d735258de797e34e",
+      "bytes": 1871
+    },
+    "acquired/harbor/0f5c2c4e877a4f9a/sha256-0740ca74f962af4a2a1e228430d69d1679c57ea4ee05145779e0ee74131754dd/selection-wyol_wrv/tasks/openthoughts/tasktrove-r2egym-patched-full-oracle-r2egym-v1-01509/0740ca74f962af4a2a1e228430d69d1679c57ea4ee05145779e0ee74131754dd/solution/patched_files/tests/test_ses/test_templating.py": {
+      "sha256": "6e18e1853d0427198da38c601114abd7ae5ace21132a77597cbb0bfdc5b99c77",
+      "bytes": 1163
+    },
+    "acquired/harbor/0f5c2c4e877a4f9a/sha256-0740ca74f962af4a2a1e228430d69d1679c57ea4ee05145779e0ee74131754dd/selection-wyol_wrv/tasks/openthoughts/tasktrove-r2egym-patched-full-oracle-r2egym-v1-01509/0740ca74f962af4a2a1e228430d69d1679c57ea4ee05145779e0ee74131754dd/solution/solve.sh": {
+      "sha256": "aab04b6825399ae3a57c79517695abc1b87538fcf10f57f5f90d343e03703b68",
+      "bytes": 1843
+    },
+    "acquired/harbor/0f5c2c4e877a4f9a/sha256-0740ca74f962af4a2a1e228430d69d1679c57ea4ee05145779e0ee74131754dd/selection-wyol_wrv/tasks/openthoughts/tasktrove-r2egym-patched-full-oracle-r2egym-v1-01509/0740ca74f962af4a2a1e228430d69d1679c57ea4ee05145779e0ee74131754dd/task.toml": {
+      "sha256": "be3d796f0e7cdd5016bc2953af08d2f79e1b61dec977a5db0da22dda8d387e34",
+      "bytes": 593
+    },
+    "acquired/harbor/0f5c2c4e877a4f9a/sha256-0740ca74f962af4a2a1e228430d69d1679c57ea4ee05145779e0ee74131754dd/selection-wyol_wrv/tasks/openthoughts/tasktrove-r2egym-patched-full-oracle-r2egym-v1-01509/0740ca74f962af4a2a1e228430d69d1679c57ea4ee05145779e0ee74131754dd/tests/test.sh": {
+      "sha256": "4e12e34cb13178647a1d304d4838b6fcdbe62718f37090e071e4237f09de2fab",
+      "bytes": 5763
+    },
+    "acquired/harbor/0f5c2c4e877a4f9a/sha256-0740ca74f962af4a2a1e228430d69d1679c57ea4ee05145779e0ee74131754dd/selection-wyol_wrv/tasks/openthoughts/tasktrove-r2egym-patched-full-oracle-r2egym-v1-01509/0740ca74f962af4a2a1e228430d69d1679c57ea4ee05145779e0ee74131754dd/tests/test_state.py": {
+      "sha256": "eeadbcf6a3beafdacbbc83f7b3da84be79738a2d04b7310cfd271064319991a9",
+      "bytes": 3281
+    },
+    "acquired/harbor/9518b2b05eea7431/sha256-6525e0cc0766b6a379c63ab2694ddeedc28eae1a19356854b9ed5c7dd299f19f/selection-k_i70dog/tasks/openthoughts/tasktrove-swesmith-oracle-filtered-swesmith-27998/6525e0cc0766b6a379c63ab2694ddeedc28eae1a19356854b9ed5c7dd299f19f/environment/Dockerfile": {
+      "sha256": "0e2877ddf268e52a38b7023e3cbb4da3f1e8454c399376f899bc2c5203a98da8",
+      "bytes": 518
+    },
+    "acquired/harbor/9518b2b05eea7431/sha256-6525e0cc0766b6a379c63ab2694ddeedc28eae1a19356854b9ed5c7dd299f19f/selection-k_i70dog/tasks/openthoughts/tasktrove-swesmith-oracle-filtered-swesmith-27998/6525e0cc0766b6a379c63ab2694ddeedc28eae1a19356854b9ed5c7dd299f19f/instruction.md": {
+      "sha256": "b5bdd8f790de479cfb85341e7fd7f4bb7a787a2a69d52b964471d92b0891a09b",
+      "bytes": 1908
+    },
+    "acquired/harbor/9518b2b05eea7431/sha256-6525e0cc0766b6a379c63ab2694ddeedc28eae1a19356854b9ed5c7dd299f19f/selection-k_i70dog/tasks/openthoughts/tasktrove-swesmith-oracle-filtered-swesmith-27998/6525e0cc0766b6a379c63ab2694ddeedc28eae1a19356854b9ed5c7dd299f19f/solution/solve.sh": {
+      "sha256": "be37adb9f22a92cfc6960cb2fd1dceab9c5abdf8afd2b9e6f5a0ca0091fa056b",
+      "bytes": 1776
+    },
+    "acquired/harbor/9518b2b05eea7431/sha256-6525e0cc0766b6a379c63ab2694ddeedc28eae1a19356854b9ed5c7dd299f19f/selection-k_i70dog/tasks/openthoughts/tasktrove-swesmith-oracle-filtered-swesmith-27998/6525e0cc0766b6a379c63ab2694ddeedc28eae1a19356854b9ed5c7dd299f19f/task.toml": {
+      "sha256": "bd184fd9d392dbb28565f5b84d36e0a38b44f890ff2c28fe56b5bb8080e521dc",
+      "bytes": 602
+    },
+    "acquired/harbor/9518b2b05eea7431/sha256-6525e0cc0766b6a379c63ab2694ddeedc28eae1a19356854b9ed5c7dd299f19f/selection-k_i70dog/tasks/openthoughts/tasktrove-swesmith-oracle-filtered-swesmith-27998/6525e0cc0766b6a379c63ab2694ddeedc28eae1a19356854b9ed5c7dd299f19f/tests/config.json": {
+      "sha256": "7a0821b9db27f2093c4a104e0bfdbbbaf2e003d0eb69e29caba49db9c7efd7fe",
+      "bytes": 1787
+    },
+    "acquired/harbor/9518b2b05eea7431/sha256-6525e0cc0766b6a379c63ab2694ddeedc28eae1a19356854b9ed5c7dd299f19f/selection-k_i70dog/tasks/openthoughts/tasktrove-swesmith-oracle-filtered-swesmith-27998/6525e0cc0766b6a379c63ab2694ddeedc28eae1a19356854b9ed5c7dd299f19f/tests/test.sh": {
+      "sha256": "c837808985f4f9176022d4d22cb20bdae3e21203ff30b42ca9a031c097ebff03",
+      "bytes": 1999
+    },
+    "acquired/harbor/9518b2b05eea7431/sha256-6525e0cc0766b6a379c63ab2694ddeedc28eae1a19356854b9ed5c7dd299f19f/selection-k_i70dog/tasks/openthoughts/tasktrove-swesmith-oracle-filtered-swesmith-27998/6525e0cc0766b6a379c63ab2694ddeedc28eae1a19356854b9ed5c7dd299f19f/tests/test_state.py": {
+      "sha256": "6cc1aa5402d00ebfac338cb0657c6580a592b5e70f335450fabda470fd61674e",
+      "bytes": 2339
+    },
+    "acquired/harbor/a8a64dbc052e9448/sha256-5f225f9577b3bc6362008f2c51f62947947bcb1e6289d84f717394cb14425153/selection-g4pn1ete/tasks/openthoughts/tasktrove-swegym-tasks-patched-validated-v2-swegym-0525/5f225f9577b3bc6362008f2c51f62947947bcb1e6289d84f717394cb14425153/environment/Dockerfile": {
+      "sha256": "7a81a86a86a8d2aa461bae8fddbe7aa3b2efde23292a526cc310f2fcd662e818",
+      "bytes": 1648
+    },
+    "acquired/harbor/a8a64dbc052e9448/sha256-5f225f9577b3bc6362008f2c51f62947947bcb1e6289d84f717394cb14425153/selection-g4pn1ete/tasks/openthoughts/tasktrove-swegym-tasks-patched-validated-v2-swegym-0525/5f225f9577b3bc6362008f2c51f62947947bcb1e6289d84f717394cb14425153/instruction.md": {
+      "sha256": "036fee50f1833bbcf6a914ed391618f0e11a267083cebf5454ed0e918873aca4",
+      "bytes": 1391
+    },
+    "acquired/harbor/a8a64dbc052e9448/sha256-5f225f9577b3bc6362008f2c51f62947947bcb1e6289d84f717394cb14425153/selection-g4pn1ete/tasks/openthoughts/tasktrove-swegym-tasks-patched-validated-v2-swegym-0525/5f225f9577b3bc6362008f2c51f62947947bcb1e6289d84f717394cb14425153/solution/solve.sh": {
+      "sha256": "e7c170bbdaa224e85e6509d5b871c0dd077a0556640eed67ac25ac5dbb16b5bb",
+      "bytes": 2028
+    },
+    "acquired/harbor/a8a64dbc052e9448/sha256-5f225f9577b3bc6362008f2c51f62947947bcb1e6289d84f717394cb14425153/selection-g4pn1ete/tasks/openthoughts/tasktrove-swegym-tasks-patched-validated-v2-swegym-0525/5f225f9577b3bc6362008f2c51f62947947bcb1e6289d84f717394cb14425153/task.toml": {
+      "sha256": "0029e6751d36e5fb8bda5514d17e3432e4897d3c3844ce3fa100e4ba5dc81566",
+      "bytes": 571
+    },
+    "acquired/harbor/a8a64dbc052e9448/sha256-5f225f9577b3bc6362008f2c51f62947947bcb1e6289d84f717394cb14425153/selection-g4pn1ete/tasks/openthoughts/tasktrove-swegym-tasks-patched-validated-v2-swegym-0525/5f225f9577b3bc6362008f2c51f62947947bcb1e6289d84f717394cb14425153/tests/config.json": {
+      "sha256": "51994b2235c919db8d7fa5ab5def0f8d3d6ae4942850ebfc12a5835d936d62e4",
+      "bytes": 893
+    },
+    "acquired/harbor/a8a64dbc052e9448/sha256-5f225f9577b3bc6362008f2c51f62947947bcb1e6289d84f717394cb14425153/selection-g4pn1ete/tasks/openthoughts/tasktrove-swegym-tasks-patched-validated-v2-swegym-0525/5f225f9577b3bc6362008f2c51f62947947bcb1e6289d84f717394cb14425153/tests/test.sh": {
+      "sha256": "c6ef8308f633bfb29a01621c54b64a66e6ca298610521787753a681e057ba386",
+      "bytes": 4058
+    },
+    "acquired/harbor/a8a64dbc052e9448/sha256-5f225f9577b3bc6362008f2c51f62947947bcb1e6289d84f717394cb14425153/selection-g4pn1ete/tasks/openthoughts/tasktrove-swegym-tasks-patched-validated-v2-swegym-0525/5f225f9577b3bc6362008f2c51f62947947bcb1e6289d84f717394cb14425153/tests/test_state.py": {
+      "sha256": "af8f6f22637f9a3ecf6a75cbeaf2c0ad01681279cc22202fee7b1ccc278d81c5",
+      "bytes": 311
+    },
+    "acquired/harbor/b42d4a869f8709de/sha256-0d00facf0887bcbe3f96eda70aa86a350fd78b445dcfb567a28206a66341c009/selection-c17wewgk/tasks/MichaelY310/build_bugfix_apache-jackrabbit-47753810794/0d00facf0887bcbe3f96eda70aa86a350fd78b445dcfb567a28206a66341c009/environment/Dockerfile": {
+      "sha256": "4527bda82f265da7eeb8894e3650edafe2e75504f6e9459cc9956756412edb73",
+      "bytes": 244
+    },
+    "acquired/harbor/b42d4a869f8709de/sha256-0d00facf0887bcbe3f96eda70aa86a350fd78b445dcfb567a28206a66341c009/selection-c17wewgk/tasks/MichaelY310/build_bugfix_apache-jackrabbit-47753810794/0d00facf0887bcbe3f96eda70aa86a350fd78b445dcfb567a28206a66341c009/environment/docker-compose.yaml": {
+      "sha256": "7e05319567244fc84fbe798ab3918de9060c523fe12cc5f7670bb743dca53824",
+      "bytes": 430
+    },
+    "acquired/harbor/b42d4a869f8709de/sha256-0d00facf0887bcbe3f96eda70aa86a350fd78b445dcfb567a28206a66341c009/selection-c17wewgk/tasks/MichaelY310/build_bugfix_apache-jackrabbit-47753810794/0d00facf0887bcbe3f96eda70aa86a350fd78b445dcfb567a28206a66341c009/instruction.md": {
+      "sha256": "3eef3c8ce83195a96d58c814aef02b0e9b411e11fe534a1ea670dc2d8c11153b",
+      "bytes": 197
+    },
+    "acquired/harbor/b42d4a869f8709de/sha256-0d00facf0887bcbe3f96eda70aa86a350fd78b445dcfb567a28206a66341c009/selection-c17wewgk/tasks/MichaelY310/build_bugfix_apache-jackrabbit-47753810794/0d00facf0887bcbe3f96eda70aa86a350fd78b445dcfb567a28206a66341c009/solution/solve.sh": {
+      "sha256": "bd473b81df05276f4102a0744ad03677cac2d72be2316dc2ee749473c4712e27",
+      "bytes": 643
+    },
+    "acquired/harbor/b42d4a869f8709de/sha256-0d00facf0887bcbe3f96eda70aa86a350fd78b445dcfb567a28206a66341c009/selection-c17wewgk/tasks/MichaelY310/build_bugfix_apache-jackrabbit-47753810794/0d00facf0887bcbe3f96eda70aa86a350fd78b445dcfb567a28206a66341c009/task.toml": {
+      "sha256": "53096a7303e442138552f1e3ce3ce476921334cdf11ff05a554552bd1d4340fa",
+      "bytes": 543
+    },
+    "acquired/harbor/b42d4a869f8709de/sha256-0d00facf0887bcbe3f96eda70aa86a350fd78b445dcfb567a28206a66341c009/selection-c17wewgk/tasks/MichaelY310/build_bugfix_apache-jackrabbit-47753810794/0d00facf0887bcbe3f96eda70aa86a350fd78b445dcfb567a28206a66341c009/tests/test.sh": {
+      "sha256": "952a9c420817dce327d1c9081996d6f93a8ce429d6262d5b69098fb04f7a102d",
+      "bytes": 1035
+    },
+    "acquired/harbor/b42d4a869f8709de/sha256-0d00facf0887bcbe3f96eda70aa86a350fd78b445dcfb567a28206a66341c009/selection-cossypsv/tasks/MichaelY310/build_bugfix_apache-jackrabbit-47753810794/0d00facf0887bcbe3f96eda70aa86a350fd78b445dcfb567a28206a66341c009/environment/Dockerfile": {
+      "sha256": "4527bda82f265da7eeb8894e3650edafe2e75504f6e9459cc9956756412edb73",
+      "bytes": 244
+    },
+    "acquired/harbor/b42d4a869f8709de/sha256-0d00facf0887bcbe3f96eda70aa86a350fd78b445dcfb567a28206a66341c009/selection-cossypsv/tasks/MichaelY310/build_bugfix_apache-jackrabbit-47753810794/0d00facf0887bcbe3f96eda70aa86a350fd78b445dcfb567a28206a66341c009/environment/docker-compose.yaml": {
+      "sha256": "7e05319567244fc84fbe798ab3918de9060c523fe12cc5f7670bb743dca53824",
+      "bytes": 430
+    },
+    "acquired/harbor/b42d4a869f8709de/sha256-0d00facf0887bcbe3f96eda70aa86a350fd78b445dcfb567a28206a66341c009/selection-cossypsv/tasks/MichaelY310/build_bugfix_apache-jackrabbit-47753810794/0d00facf0887bcbe3f96eda70aa86a350fd78b445dcfb567a28206a66341c009/instruction.md": {
+      "sha256": "3eef3c8ce83195a96d58c814aef02b0e9b411e11fe534a1ea670dc2d8c11153b",
+      "bytes": 197
+    },
+    "acquired/harbor/b42d4a869f8709de/sha256-0d00facf0887bcbe3f96eda70aa86a350fd78b445dcfb567a28206a66341c009/selection-cossypsv/tasks/MichaelY310/build_bugfix_apache-jackrabbit-47753810794/0d00facf0887bcbe3f96eda70aa86a350fd78b445dcfb567a28206a66341c009/solution/solve.sh": {
+      "sha256": "bd473b81df05276f4102a0744ad03677cac2d72be2316dc2ee749473c4712e27",
+      "bytes": 643
+    },
+    "acquired/harbor/b42d4a869f8709de/sha256-0d00facf0887bcbe3f96eda70aa86a350fd78b445dcfb567a28206a66341c009/selection-cossypsv/tasks/MichaelY310/build_bugfix_apache-jackrabbit-47753810794/0d00facf0887bcbe3f96eda70aa86a350fd78b445dcfb567a28206a66341c009/task.toml": {
+      "sha256": "53096a7303e442138552f1e3ce3ce476921334cdf11ff05a554552bd1d4340fa",
+      "bytes": 543
+    },
+    "acquired/harbor/b42d4a869f8709de/sha256-0d00facf0887bcbe3f96eda70aa86a350fd78b445dcfb567a28206a66341c009/selection-cossypsv/tasks/MichaelY310/build_bugfix_apache-jackrabbit-47753810794/0d00facf0887bcbe3f96eda70aa86a350fd78b445dcfb567a28206a66341c009/tests/test.sh": {
+      "sha256": "952a9c420817dce327d1c9081996d6f93a8ce429d6262d5b69098fb04f7a102d",
+      "bytes": 1035
+    },
+    "canonical/license-evidence.json": {
+      "sha256": "a70af3e552bcbaf995b86be7ddb72d42939753e37212c2534aede62e77d49722",
+      "bytes": 3032
+    },
+    "canonical/licenses/Project-MONAI__MONAI.LICENSE": {
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357
+    },
+    "canonical/licenses/conan-io__conan.LICENSE": {
+      "sha256": "cb0cfe10fad4eeb3ec0c1482474ddae67dcf2b2715cfd58655f6d18e5ce92aac",
+      "bytes": 1084
+    },
+    "canonical/licenses/getmoto__moto.LICENSE": {
+      "sha256": "f12ef9fd396a13e90878630b1b4fab471c6ed9cb7a48cf2abb2516281632218e",
+      "bytes": 10834
+    },
+    "canonical/licenses/iterative__dvc.LICENSE": {
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "bytes": 11357
+    },
+    "canonical/licenses/python__mypy.LICENSE": {
+      "sha256": "46afff0c9b6de61e4b3d8e229fd3e0c22d79ee1171b0ce6c13c828a6ab14ee3f",
+      "bytes": 11290
+    },
+    "canonical/licenses-by-commit/swegym-0092.LICENSE": {
+      "sha256": "f12ef9fd396a13e90878630b1b4fab471c6ed9cb7a48cf2abb2516281632218e",
+      "bytes": 10834
+    },
+    "canonical/licenses-by-commit/swegym-0124.LICENSE": {
+      "sha256": "f12ef9fd396a13e90878630b1b4fab471c6ed9cb7a48cf2abb2516281632218e",
+      "bytes": 10834
+    },
+    "canonical/licenses-by-commit/swegym-0282.LICENSE": {
+      "sha256": "f12ef9fd396a13e90878630b1b4fab471c6ed9cb7a48cf2abb2516281632218e",
+      "bytes": 10834
+    },
+    "canonical/licenses-by-commit/swegym-0351.LICENSE": {
+      "sha256": "ec7946bb19036e223dba8a1921bdb259eb4d3a5dca0765d995aac6a756f112f0",
+      "bytes": 11333
+    },
+    "canonical/licenses-by-commit/swegym-0369.LICENSE": {
+      "sha256": "f98edd816906e986c70992221e3711c73cc68dad09e00b8747e1366f6db33f9b",
+      "bytes": 11328
+    },
+    "canonical/licenses-by-commit/swegym-0386.LICENSE": {
+      "sha256": "ec7946bb19036e223dba8a1921bdb259eb4d3a5dca0765d995aac6a756f112f0",
+      "bytes": 11333
+    },
+    "canonical/licenses-by-commit/swegym-0421.LICENSE": {
+      "sha256": "f98edd816906e986c70992221e3711c73cc68dad09e00b8747e1366f6db33f9b",
+      "bytes": 11328
+    },
+    "canonical/licenses-by-commit/swegym-0440.LICENSE": {
+      "sha256": "feff63c71db0af5236001ec6ccdd4bdb1ab7438f02dcc160f50aa877c5d3b161",
+      "bytes": 11333
+    },
+    "canonical/licenses-by-commit/swegym-0488.LICENSE": {
+      "sha256": "feff63c71db0af5236001ec6ccdd4bdb1ab7438f02dcc160f50aa877c5d3b161",
+      "bytes": 11333
+    },
+    "canonical/licenses-by-commit/swegym-0504.LICENSE": {
+      "sha256": "ec7946bb19036e223dba8a1921bdb259eb4d3a5dca0765d995aac6a756f112f0",
+      "bytes": 11333
+    },
+    "canonical/licenses-by-commit/swegym-0525.LICENSE": {
+      "sha256": "feff63c71db0af5236001ec6ccdd4bdb1ab7438f02dcc160f50aa877c5d3b161",
+      "bytes": 11333
+    },
+    "canonical/licenses-by-commit/swegym-0567.LICENSE": {
+      "sha256": "46afff0c9b6de61e4b3d8e229fd3e0c22d79ee1171b0ce6c13c828a6ab14ee3f",
+      "bytes": 11290
+    },
+    "canonical/licenses-by-commit/swegym-0594.LICENSE": {
+      "sha256": "f98edd816906e986c70992221e3711c73cc68dad09e00b8747e1366f6db33f9b",
+      "bytes": 11328
+    },
+    "canonical/licenses-by-commit/swegym-0627.LICENSE": {
+      "sha256": "cb0cfe10fad4eeb3ec0c1482474ddae67dcf2b2715cfd58655f6d18e5ce92aac",
+      "bytes": 1084
+    },
+    "canonical/licenses-by-commit/swegym-0691.LICENSE": {
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "bytes": 11357
+    },
+    "canonical/licenses-by-commit/swegym-0779.LICENSE": {
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "bytes": 11357
+    },
+    "canonical/licenses-by-commit/swegym-0790.LICENSE": {
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "bytes": 11357
+    },
+    "canonical/licenses-by-commit/swegym-0812.LICENSE": {
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "bytes": 11357
+    },
+    "canonical/licenses-by-commit/swegym-0831.LICENSE": {
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "bytes": 11357
+    },
+    "canonical/licenses-by-commit/swegym-0838.LICENSE": {
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "bytes": 11357
+    },
+    "canonical/licenses-by-commit/swegym-1979.LICENSE": {
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357
+    },
+    "canonical/licenses-by-commit/swegym-1982.LICENSE": {
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357
+    },
+    "canonical/licenses-by-commit/swegym-2169.LICENSE": {
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357
+    },
+    "canonical/licenses-by-commit/swegym-2190.LICENSE": {
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357
+    },
+    "canonical/licenses-by-commit/swegym-2294.LICENSE": {
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357
+    },
+    "canonical/licenses-by-commit.json": {
+      "sha256": "3c9644993bf9d98da2af38ffe417c6f3ab80e514f678db427aef33778b6a768a",
+      "bytes": 17063
+    },
+    "canonical/selected25.json": {
+      "sha256": "bc7a1d51b86b1ec1c9afd6af6cad15f67a0d28d70d60879f17934e118b920455",
+      "bytes": 106483
+    },
+    "canonical/selected25.raw.json": {
+      "sha256": "f5854f6780a2bf7a12f9e40dd4acf01ea0c8c4a6914af4338c5d2c7447613d68",
+      "bytes": 193229
+    },
+    "canonical/source.json": {
+      "sha256": "c8ca53c650f2ffcdded2de38d81252683eedece4df522bae26a0bb4e3411fee6",
+      "bytes": 535
+    },
+    "canonical/swegym-v5.tasks.parquet": {
+      "sha256": "b0905406ee4d0a97154949a991a00bf91cb7e6a0a1224eb304c04689ff8f6aa0",
+      "bytes": 24983766
+    },
+    "canonical/tasks/swegym-0124/environment/Dockerfile": {
+      "sha256": "5be3c77c6622ed0705384e986ef3047fec1c4240c1132a4eb5fe1998b6734437",
+      "bytes": 1345
+    },
+    "canonical/tasks/swegym-0124/instruction.md": {
+      "sha256": "f00d100450d78938fcb1d42df1fca907bb7038a35e210d044702022defc20906",
+      "bytes": 2058
+    },
+    "canonical/tasks/swegym-0124/metadata.json": {
+      "sha256": "3d8e89b1cf1597450e4eae65a3240c21acb6c896a840f2cc02b89dcaa8052c18",
+      "bytes": 557
+    },
+    "canonical/tasks/swegym-0124/solution/solve.sh": {
+      "sha256": "b786ccc4a519a1c825fda41ee8a02fafdcba4b80f318e7f70ceacd746a2bc557",
+      "bytes": 1993
+    },
+    "canonical/tasks/swegym-0124/task.toml": {
+      "sha256": "2c6a82597e524b059e804504a121f55407ae939383f5d22fa0de25a5c1e7b731",
+      "bytes": 264
+    },
+    "canonical/tasks/swegym-0124/tests/config.json": {
+      "sha256": "eeec8049ad1879f01870749e0ee9cdf4356d11fecbbee5655ab45d093da3b762",
+      "bytes": 1243
+    },
+    "canonical/tasks/swegym-0124/tests/install_trusted_test_patch.sh": {
+      "sha256": "dd89167910a0d7dbbd5c0664c0a0fc3d69d3c8dff6eb08a7ac5a5060dca9987a",
+      "bytes": 294
+    },
+    "canonical/tasks/swegym-0124/tests/install_trusted_test_paths.sh": {
+      "sha256": "d3fd5d66d3e66c13f621967bb83a8f8e32961477202340b9e57fc2a308a488fa",
+      "bytes": 2702
+    },
+    "canonical/tasks/swegym-0124/tests/test.sh": {
+      "sha256": "ed95638cd8d3d108b1ed6b173a223faf2fac95623e8a84571c0495d043731985",
+      "bytes": 4322
+    },
+    "canonical/tasks/swegym-0124/tests/test_patch.diff": {
+      "sha256": "f85a6d4b9c13e9d8f53d6fc2ef51cf6c83e78eaf95c08500bad5162752a0a351",
+      "bytes": 637
+    },
+    "canonical/tasks/swegym-0124/tests/test_state.py": {
+      "sha256": "af8f6f22637f9a3ecf6a75cbeaf2c0ad01681279cc22202fee7b1ccc278d81c5",
+      "bytes": 311
+    },
+    "canonical/tasks/swegym-0124/tests/trusted_patch_paths.txt": {
+      "sha256": "d7d7cbe7f494debfe16a496768fa56ff16b36b3681d8a33ed2b9e7f0fbca38bb",
+      "bytes": 54
+    },
+    "canonical/tasks/swegym-0124/tests/trusted_test_paths.txt": {
+      "sha256": "d7d7cbe7f494debfe16a496768fa56ff16b36b3681d8a33ed2b9e7f0fbca38bb",
+      "bytes": 54
+    },
+    "canonical/tasks/swegym-0567/environment/Dockerfile": {
+      "sha256": "1ab4a44c464ed051a67f2c858b0c9794b6fd072c3a90138b747f17c2960e05a3",
+      "bytes": 1383
+    },
+    "canonical/tasks/swegym-0567/instruction.md": {
+      "sha256": "0244b5cbe5a471c41f8e38c30921fd30c535e33a1dedd0d5e81acc7aed9e1e98",
+      "bytes": 1672
+    },
+    "canonical/tasks/swegym-0567/metadata.json": {
+      "sha256": "89dbf6d652a9c7c57a0acd028891e61e9da39e27a75055ce48dab90fc85c2b55",
+      "bytes": 376
+    },
+    "canonical/tasks/swegym-0567/solution/solve.sh": {
+      "sha256": "3b11e9af4fb052cf2d1981b772babfed8ea63f3e44a4ce6304b1a6e0a2fa4955",
+      "bytes": 1884
+    },
+    "canonical/tasks/swegym-0567/task.toml": {
+      "sha256": "2c6a82597e524b059e804504a121f55407ae939383f5d22fa0de25a5c1e7b731",
+      "bytes": 264
+    },
+    "canonical/tasks/swegym-0567/tests/config.json": {
+      "sha256": "e292b2df74bd2f24dfccfd9806cf414069498caf09328615e0e208004705a39a",
+      "bytes": 923
+    },
+    "canonical/tasks/swegym-0567/tests/install_trusted_test_patch.sh": {
+      "sha256": "dd89167910a0d7dbbd5c0664c0a0fc3d69d3c8dff6eb08a7ac5a5060dca9987a",
+      "bytes": 294
+    },
+    "canonical/tasks/swegym-0567/tests/install_trusted_test_paths.sh": {
+      "sha256": "d3fd5d66d3e66c13f621967bb83a8f8e32961477202340b9e57fc2a308a488fa",
+      "bytes": 2702
+    },
+    "canonical/tasks/swegym-0567/tests/test.sh": {
+      "sha256": "16c86f468abc41db86127fdd7971f4f83e0db584efb651d493a280887c826e08",
+      "bytes": 3888
+    },
+    "canonical/tasks/swegym-0567/tests/test_patch.diff": {
+      "sha256": "dd3e267556090abd71b93b3ad22a9766b3b2640994c99f4d7f84b167b5c65c8c",
+      "bytes": 653
+    },
+    "canonical/tasks/swegym-0567/tests/test_state.py": {
+      "sha256": "af8f6f22637f9a3ecf6a75cbeaf2c0ad01681279cc22202fee7b1ccc278d81c5",
+      "bytes": 311
+    },
+    "canonical/tasks/swegym-0567/tests/trusted_patch_paths.txt": {
+      "sha256": "79f3234d7cd9b3a5af4b9aa7b0f0463eb04f71ca723cc20b32819d6628a3ef18",
+      "bytes": 31
+    },
+    "canonical/tasks/swegym-0567/tests/trusted_test_paths.txt": {
+      "sha256": "579ea718e74ffe5fc4bbcf4d32b5cda36025d9ca68c21c46412338e137e92f67",
+      "bytes": 23
+    },
+    "canonical/tasks/swegym-0627/environment/Dockerfile": {
+      "sha256": "5be3c77c6622ed0705384e986ef3047fec1c4240c1132a4eb5fe1998b6734437",
+      "bytes": 1345
+    },
+    "canonical/tasks/swegym-0627/instruction.md": {
+      "sha256": "947b6c4e045ac8c6375bb9f2b3353a4a403e00bb81e536ca7dc6b9f2fb44c812",
+      "bytes": 1545
+    },
+    "canonical/tasks/swegym-0627/metadata.json": {
+      "sha256": "e7cafe039df1c54ab25c9b99e2c390a5628659e6492b7f78ddcb112013f7add7",
+      "bytes": 464
+    },
+    "canonical/tasks/swegym-0627/solution/solve.sh": {
+      "sha256": "3687fe3a4152434ee5f4a3f7653cdce4915b9ed4914c52af1bd040f729759730",
+      "bytes": 1947
+    },
+    "canonical/tasks/swegym-0627/task.toml": {
+      "sha256": "2c6a82597e524b059e804504a121f55407ae939383f5d22fa0de25a5c1e7b731",
+      "bytes": 264
+    },
+    "canonical/tasks/swegym-0627/tests/config.json": {
+      "sha256": "36d20117b13b8456bba5b81c7bd7f0565fa8142797041a8a009af760912a881b",
+      "bytes": 1100
+    },
+    "canonical/tasks/swegym-0627/tests/install_trusted_test_patch.sh": {
+      "sha256": "dd89167910a0d7dbbd5c0664c0a0fc3d69d3c8dff6eb08a7ac5a5060dca9987a",
+      "bytes": 294
+    },
+    "canonical/tasks/swegym-0627/tests/install_trusted_test_paths.sh": {
+      "sha256": "d3fd5d66d3e66c13f621967bb83a8f8e32961477202340b9e57fc2a308a488fa",
+      "bytes": 2702
+    },
+    "canonical/tasks/swegym-0627/tests/test.sh": {
+      "sha256": "1131e6a80aeeba06fa0ecc4f14fd74f929b88d22a70aeacb0795134e15c3f20c",
+      "bytes": 4028
+    },
+    "canonical/tasks/swegym-0627/tests/test_patch.diff": {
+      "sha256": "d96334187a1feb8c4c707d22fcbb5b537e043c45d497b256c426e19c73af2624",
+      "bytes": 639
+    },
+    "canonical/tasks/swegym-0627/tests/test_state.py": {
+      "sha256": "af8f6f22637f9a3ecf6a75cbeaf2c0ad01681279cc22202fee7b1ccc278d81c5",
+      "bytes": 311
+    },
+    "canonical/tasks/swegym-0627/tests/trusted_patch_paths.txt": {
+      "sha256": "7ab5c79be44fb0ba5eeb78527397bd07da44074da188d8c8318b5ee6ef1e4f82",
+      "bytes": 56
+    },
+    "canonical/tasks/swegym-0627/tests/trusted_test_paths.txt": {
+      "sha256": "7ab5c79be44fb0ba5eeb78527397bd07da44074da188d8c8318b5ee6ef1e4f82",
+      "bytes": 56
+    },
+    "canonical/tasks/swegym-0691/environment/Dockerfile": {
+      "sha256": "b0d8635d5e468b1b97d769ca2716eefa86574919f44dc1fd7d0018e7e8cdf1da",
+      "bytes": 1387
+    },
+    "canonical/tasks/swegym-0691/instruction.md": {
+      "sha256": "750a1c17ca6095d80e73d5b06bd510ac686bb951898018cecf1e12067071c7cf",
+      "bytes": 1700
+    },
+    "canonical/tasks/swegym-0691/metadata.json": {
+      "sha256": "5ba0743cf041c5b55807741fe2cbebe0a4dc7cad123ec78ac8d3f277916c8d6e",
+      "bytes": 402
+    },
+    "canonical/tasks/swegym-0691/solution/solve.sh": {
+      "sha256": "953da7e62b2aea5029170ba6875dce42e8cb9d02fd4314a79ede2bb732eb42f4",
+      "bytes": 1531
+    },
+    "canonical/tasks/swegym-0691/task.toml": {
+      "sha256": "1dbc7390ab6e738ef28b56dc2372e705f09352805c4dad932f21e1600e46e693",
+      "bytes": 265
+    },
+    "canonical/tasks/swegym-0691/tests/config.json": {
+      "sha256": "6bd4638ce2a426ba1c89522f6cbb98e9c634aadeaa6afe26e4addfe888640ecf",
+      "bytes": 677
+    },
+    "canonical/tasks/swegym-0691/tests/install_trusted_test_patch.sh": {
+      "sha256": "dd89167910a0d7dbbd5c0664c0a0fc3d69d3c8dff6eb08a7ac5a5060dca9987a",
+      "bytes": 294
+    },
+    "canonical/tasks/swegym-0691/tests/install_trusted_test_paths.sh": {
+      "sha256": "d3fd5d66d3e66c13f621967bb83a8f8e32961477202340b9e57fc2a308a488fa",
+      "bytes": 2702
+    },
+    "canonical/tasks/swegym-0691/tests/test.sh": {
+      "sha256": "a3591c064cb1a3c7f049adc89e0175043a1445539b38bf2a452094014fbaca8a",
+      "bytes": 4215
+    },
+    "canonical/tasks/swegym-0691/tests/test_patch.diff": {
+      "sha256": "d5da987b5773bc66d8124a74c762df9c8ec22bcf20da97fa9ef76e97f21b4a28",
+      "bytes": 570
+    },
+    "canonical/tasks/swegym-0691/tests/test_state.py": {
+      "sha256": "af8f6f22637f9a3ecf6a75cbeaf2c0ad01681279cc22202fee7b1ccc278d81c5",
+      "bytes": 311
+    },
+    "canonical/tasks/swegym-0691/tests/trusted_patch_paths.txt": {
+      "sha256": "699fc2cb15e5cdc709b65e27fb5a0d95ebcbbac0e624ef11eb32cd1418b001a4",
+      "bytes": 21
+    },
+    "canonical/tasks/swegym-0691/tests/trusted_test_paths.txt": {
+      "sha256": "699fc2cb15e5cdc709b65e27fb5a0d95ebcbbac0e624ef11eb32cd1418b001a4",
+      "bytes": 21
+    },
+    "canonical/tasks/swegym-0831/environment/Dockerfile": {
+      "sha256": "1ab4a44c464ed051a67f2c858b0c9794b6fd072c3a90138b747f17c2960e05a3",
+      "bytes": 1383
+    },
+    "canonical/tasks/swegym-0831/instruction.md": {
+      "sha256": "c48d5fae5f559871269d1402897f92f20bdd997a135d6989d06ac0976995cb13",
+      "bytes": 1953
+    },
+    "canonical/tasks/swegym-0831/metadata.json": {
+      "sha256": "b008925997acfd6472a9d1bfabf1b57885b6bf7468d778de2f2d75ad2179ce13",
+      "bytes": 758
+    },
+    "canonical/tasks/swegym-0831/solution/solve.sh": {
+      "sha256": "dafa99d0a0aa8c69ecac2838d6ac7437bf1e6220b07d92b79df652d03ab0a5f5",
+      "bytes": 1474
+    },
+    "canonical/tasks/swegym-0831/task.toml": {
+      "sha256": "1dbc7390ab6e738ef28b56dc2372e705f09352805c4dad932f21e1600e46e693",
+      "bytes": 265
+    },
+    "canonical/tasks/swegym-0831/tests/config.json": {
+      "sha256": "772bd5c3236c16a2aae0bf9e8def51884d8757113121a232be7929c341493792",
+      "bytes": 1130
+    },
+    "canonical/tasks/swegym-0831/tests/install_trusted_test_patch.sh": {
+      "sha256": "dd89167910a0d7dbbd5c0664c0a0fc3d69d3c8dff6eb08a7ac5a5060dca9987a",
+      "bytes": 294
+    },
+    "canonical/tasks/swegym-0831/tests/install_trusted_test_paths.sh": {
+      "sha256": "d3fd5d66d3e66c13f621967bb83a8f8e32961477202340b9e57fc2a308a488fa",
+      "bytes": 2702
+    },
+    "canonical/tasks/swegym-0831/tests/test.sh": {
+      "sha256": "b81801ce3af84db04733dba19ff6fa870dc893aeb34d477d62358cf64026597b",
+      "bytes": 4974
+    },
+    "canonical/tasks/swegym-0831/tests/test_patch.diff": {
+      "sha256": "cca5ac8e9d8b24cdcd1c1df266506fca729127b64cce6a934f424010c29c0d00",
+      "bytes": 421
+    },
+    "canonical/tasks/swegym-0831/tests/test_state.py": {
+      "sha256": "af8f6f22637f9a3ecf6a75cbeaf2c0ad01681279cc22202fee7b1ccc278d81c5",
+      "bytes": 311
+    },
+    "canonical/tasks/swegym-0831/tests/trusted_patch_paths.txt": {
+      "sha256": "dba099da47745e3ec04894e80f6acc4ca346c13fe3b89794b7fdb4f19e968c45",
+      "bytes": 33
+    },
+    "canonical/tasks/swegym-0831/tests/trusted_test_paths.txt": {
+      "sha256": "dba099da47745e3ec04894e80f6acc4ca346c13fe3b89794b7fdb4f19e968c45",
+      "bytes": 33
+    },
+    "canonical/tasks/swegym-1979/environment/Dockerfile": {
+      "sha256": "b0d8635d5e468b1b97d769ca2716eefa86574919f44dc1fd7d0018e7e8cdf1da",
+      "bytes": 1387
+    },
+    "canonical/tasks/swegym-1979/instruction.md": {
+      "sha256": "0063b65a4f9555a0f6d12aeb0afbb7a6ccc13e2752899ee4255abbd90b35b3ce",
+      "bytes": 2154
+    },
+    "canonical/tasks/swegym-1979/metadata.json": {
+      "sha256": "37a11efb62b5833a558030d56e89a460d05dd75d89c71f51f27ac27b5e19d00d",
+      "bytes": 468
+    },
+    "canonical/tasks/swegym-1979/solution/solve.sh": {
+      "sha256": "7897f05f20924741fad9627f4dcf1d5ac17c767d97c820f0868113d951367e2d",
+      "bytes": 1560
+    },
+    "canonical/tasks/swegym-1979/task.toml": {
+      "sha256": "1dbc7390ab6e738ef28b56dc2372e705f09352805c4dad932f21e1600e46e693",
+      "bytes": 265
+    },
+    "canonical/tasks/swegym-1979/tests/config.json": {
+      "sha256": "bfda04784c2f7e50c4797470849a1beaaa1aec61c8b31033d624ec1d16ce86c6",
+      "bytes": 907
+    },
+    "canonical/tasks/swegym-1979/tests/install_trusted_test_patch.sh": {
+      "sha256": "dd89167910a0d7dbbd5c0664c0a0fc3d69d3c8dff6eb08a7ac5a5060dca9987a",
+      "bytes": 294
+    },
+    "canonical/tasks/swegym-1979/tests/install_trusted_test_paths.sh": {
+      "sha256": "d3fd5d66d3e66c13f621967bb83a8f8e32961477202340b9e57fc2a308a488fa",
+      "bytes": 2702
+    },
+    "canonical/tasks/swegym-1979/tests/test.sh": {
+      "sha256": "38878411e11f2f467539b1fe7a3fa1bfe2a66d4ad2ef566e0757bd6c12134b56",
+      "bytes": 3948
+    },
+    "canonical/tasks/swegym-1979/tests/test_patch.diff": {
+      "sha256": "e4367b101b86dd71352b4156bf83c27272a7838d5a5e42ca6b34dcc8aea0dd19",
+      "bytes": 429
+    },
+    "canonical/tasks/swegym-1979/tests/test_state.py": {
+      "sha256": "af8f6f22637f9a3ecf6a75cbeaf2c0ad01681279cc22202fee7b1ccc278d81c5",
+      "bytes": 311
+    },
+    "canonical/tasks/swegym-1979/tests/trusted_patch_paths.txt": {
+      "sha256": "89378f69c2a5dc1a3a7ac7330f2fffff08864b342ae27c1bb74f42db5e0b6d49",
+      "bytes": 36
+    },
+    "canonical/tasks/swegym-1979/tests/trusted_test_paths.txt": {
+      "sha256": "89378f69c2a5dc1a3a7ac7330f2fffff08864b342ae27c1bb74f42db5e0b6d49",
+      "bytes": 36
+    },
+    "capture_license_evidence.py": {
+      "sha256": "5659f997646e5eb2f789d7eb48486a800e794cb5420d6d8b528dc76305a8f553",
+      "bytes": 2317
+    },
+    "census-shortlist.json": {
+      "sha256": "663f4076825349b6fc5914cac7066665950af8751eb454309543466306b9c05a",
+      "bytes": 380460
+    },
+    "contract-drafts/swegym-0567.operator-draft.json": {
+      "sha256": "7fb9948afda42fba5c83a6564d787c3264261995dd3b85c36295e00ababd4b68",
+      "bytes": 420
+    },
+    "contract-drafts/swegym-0627.operator-draft.json": {
+      "sha256": "7fb9948afda42fba5c83a6564d787c3264261995dd3b85c36295e00ababd4b68",
+      "bytes": 420
+    },
+    "contract-drafts/swegym-0691.operator-draft.json": {
+      "sha256": "7fb9948afda42fba5c83a6564d787c3264261995dd3b85c36295e00ababd4b68",
+      "bytes": 420
+    },
+    "download_canonical.py": {
+      "sha256": "8347a7ea531a9b6616eda30333248d0c9636c41ae756f2fc816b73b673f7911a",
+      "bytes": 1845
+    },
+    "initial-membership-listing-error.json": {
+      "sha256": "f25b1a70e398be9081f6ef6693dcce820f424eba7d0fc4499a0b0620d15f5736",
+      "bytes": 331
+    },
+    "laion__r2egym-patched-full-oracle-v3.tree.json": {
+      "sha256": "d8310d62e015b72d4c5ff48ad289754caa0c4f87ac0cc224bf763bf71f88e2f3",
+      "bytes": 407
+    },
+    "laion__swegym-tasks-patched-validated-v5.tree.json": {
+      "sha256": "53690fc8a17bdf313a27c857df55bd9d2c46f0033b1db3d05119ea2597d03501",
+      "bytes": 411
+    },
+    "laion__swesmith-oracle-filtered-v2.tree.json": {
+      "sha256": "516075c98da65bc630e857d4771fdaaa88fcdac23cff43efb0c3591d52245b9d",
+      "bytes": 407
+    },
+    "materialize_canonical.py": {
+      "sha256": "76d1052db63460e3513d55f45584b84a8a1e20b12807bf9c02e6b577e3c9f3ba",
+      "bytes": 7286
+    },
+    "recipe.md": {
+      "sha256": "3af27d17fbb2f2b1d420977d00eca0b9567619311ead0d3b6073567e4cb13335",
+      "bytes": 8906
+    },
+    "sample-acquisition.json": {
+      "sha256": "8851cd009587cd75021df28178d383144c783c754c59aee028449aca1dba5f91",
+      "bytes": 25628
+    },
+    "selected25-candidates.jsonl": {
+      "sha256": "cf10c677dc99ea4c8b678b5f20e5d51e89c42e90aae494125030533e20693d10",
+      "bytes": 27657
+    },
+    "summary.json": {
+      "sha256": "b7328eb0b2fda6f5a8d7dba66e0e268191e1cf9cc089f818b3f137a46ab17334",
+      "bytes": 711
+    }
+  },
+  "file_count": 175,
+  "total_local_bytes": 26326058,
+  "scope": "read_only_public_acquisition_and_static_inspection_no_runtime"
+}

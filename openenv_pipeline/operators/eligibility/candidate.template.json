@@ -1,0 +1,29 @@
+{
+  "candidate_id": "REPLACE_WITH_NAMESPACED_TASK_ID",
+  "source_kind": "mutation",
+  "source_dataset": null,
+  "source_repo": null,
+  "source_commit": null,
+  "source_revision": null,
+  "source_split": null,
+  "patch_sha256": null,
+  "task_sha256": null,
+  "upstream_identity_reviewed": false,
+  "anti_training_reviewed": false,
+  "license_evidence": {
+    "source_code": {
+      "spdx": null,
+      "sha256": null,
+      "url": null,
+      "reviewed": false,
+      "training_allowed": null
+    },
+    "task_bundle": {
+      "spdx": null,
+      "sha256": null,
+      "url": null,
+      "reviewed": false,
+      "training_allowed": null
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "sql-parser-gap",
+  "benchmarks": [
+    {
+      "name": "Terminal-Bench 2.1",
+      "repository": "harbor-framework/terminal-bench-2-1",
+      "revision": "12b7565679ce5006230b820666353673a133db93"
+    },
+    {
+      "name": "SWE-bench Pro v2.0 Hard",
+      "repository": "scaleapi/SWE-bench_Pro-os",
+      "revision": "66f92766bba642462d4bbe5479e83f91f9211862"
+    },
+    {
+      "name": "DeepSWE 1.1",
+      "repository": "datacurve-ai/deep-swe",
+      "revision": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea"
+    }
+  ],
+  "capability_tags": [
+    "sql-parsing"
+  ],
+  "holdout_repos": [],
+  "holdout_prs": [],
+  "holdout_task_ids": [],
+  "target_verified": 1,
+  "max_spend_usd": "48.00"
+}

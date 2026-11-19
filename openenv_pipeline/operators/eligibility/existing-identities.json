@@ -1,0 +1,638 @@
+{
+  "constructed_source_pr_urls": [
+    "https://github.com/andialbrecht/sqlparse/pull/865",
+    "https://github.com/andialbrecht/sqlparse/pull/868",
+    "https://github.com/fsspec/filesystem_spec/pull/2350",
+    "https://github.com/fsspec/filesystem_spec/pull/2376",
+    "https://github.com/fsspec/filesystem_spec/pull/2380",
+    "https://github.com/fsspec/filesystem_spec/pull/2392",
+    "https://github.com/kludex/starlette/pull/3599",
+    "https://github.com/kludex/starlette/pull/3675",
+    "https://github.com/kludex/starlette/pull/3718",
+    "https://github.com/kludex/starlette/pull/3772",
+    "https://github.com/more-itertools/more-itertools/pull/1294",
+    "https://github.com/more-itertools/more-itertools/pull/1322",
+    "https://github.com/more-itertools/more-itertools/pull/1345",
+    "https://github.com/pallets/click/pull/3865",
+    "https://github.com/pallets/click/pull/3878",
+    "https://github.com/pallets/click/pull/3884",
+    "https://github.com/pallets/werkzeug/pull/3335",
+    "https://github.com/pypa/packaging/pull/1475",
+    "https://github.com/pypa/packaging/pull/1492",
+    "https://github.com/pytest-dev/pytest/pull/14372",
+    "https://github.com/python-attrs/attrs/pull/1592",
+    "https://github.com/python-attrs/attrs/pull/1593",
+    "https://github.com/python-attrs/cattrs/pull/765",
+    "https://github.com/python-attrs/cattrs/pull/771",
+    "https://github.com/python-attrs/cattrs/pull/778",
+    "https://github.com/tobymao/sqlglot/pull/8722"
+  ],
+  "dataset_revision": "f1045a7ff7a3e92960e2d06a7e296e3f3ae2bbdf",
+  "patch_digest_scope": "Exact recorded UTF-8 source_diff/full_diff bytes only; no normalized or semantic patch matching.",
+  "patch_sha256s": [
+    "002dab073ba60c50f92f344f7a26324fcc7080ec0ca6a3957d3839466eb359c6",
+    "02da3ef670866ed4619eeb285146251c3edab3dd007f57fd46b7ce2aad727dda",
+    "077d898e291cfcdb6edd32e046b0a0caf62ada7d1fb7ffe2d37024e7824ca6a8",
+    "07bc44e8282fb4ec8f36e069f43459299fdc2a34df3ea823c89d29e69072e902",
+    "0ff4852805eaefa4671cca203c5f6f3771de81a45981709a184941d7001aa984",
+    "178ef4b7b310e463f22572e00f41210f2ffa9a3b1f8e2bbc867e9d7ae5e0332d",
+    "1c98e71862ea57879be179169deed8dccf7ab8b2fff8d3d58dd714c46750a971",
+    "1d811a6dc23d1c050466d2070ab01f201f7b3045cd5072802afb18b4ac858ca3",
+    "2212da9b3645369e76e7928c0d654f9d1a405e7e75dd0dd6d95e73373e6b0a15",
+    "240956fb62bd495bd38e332de58e2ad1903a09f8735bcda5cd2a60acf415fbe0",
+    "27b1312ec376f76b293cee9d4eded301401b9380346a15a8963c074c6c69fb6c",
+    "2cecdda6faecb76198b873aeb142cc50a7b25d01a8ff0f815b7aa770eb57bf1d",
+    "2ff42e784de2ddffd7b46708bf18279773a9de8fbb1f83534bb46b81277423df",
+    "350dc03546936cc2b70884ffbb2739f04f464a3664801f1837a7741d063f3ae9",
+    "3f2e7adf3f74025e773ee3047a3d0c81dc8d140220a971354ee260a6cba0db5a",
+    "42132b2a03358b261895910ecca949577ac99c4f46746efaa3e3b7d64eb2138b",
+    "441c9db588977da43a7066e45c94633f821aa258940689d61ea5d67a4f7cd033",
+    "51c6f2df875d7762ebcb2dda196c8eb6964d44aae5519bcf1710fb0345d1c558",
+    "53086c3a61171eaace0ec8da440080e32cd82d2c2fbea571b4e99ac29fdca6d8",
+    "53b0c52b8733af003756e037f82569e043ea0938bf2d9f10dfe5bc33aa3719a4",
+    "62d71b8e2fd35503ca0f18556af7ed71e218772e38a6e4bcddfe71af31b10495",
+    "68fb576c56567b1d58b3d39a0918318a29e9445304a24c30fe1e4aced415547b",
+    "74cd2afbab6a4c6b071114d290b869588286f1710b763223475b66bd3fcad0cb",
+    "8377e061ed6f3d2df1bc242e518a40b0904096996aa0fdd223487294bf3ab75a",
+    "860252d03e77b8d6fd134e7f47a360d20ebb5c14eb5f4cf3e7b37cba8f913c66",
+    "8796b085cf87d1326356f40d0781181b3e6c959664c36bf6b022dd65419f0594",
+    "8944079f5ba36ee7f3f481af346a301d3090a2dbf17a9c942262694e8749d8c5",
+    "89ca6dab13b4edf8b7973b0a5bd6b12bdad1e40e9b1b733a04fc7eb50f21ce9a",
+    "8b457d4522779b9990cc45cf5241c7d71cdb0c04f922343f3e57f3bca2c6ee07",
+    "8d762a661f1905d053d958005207d2af4f06e9c9ef8227c2c3762549203734c0",
+    "93ce931038c746deafadde147bcca69b7c6473cbc9d9391022e0b5b49ee1f015",
+    "98ed3ff9c3275d13b95edaab9412389ed272883d0bdeff03bdd5b7b3dcb0b294",
+    "9a7a37bc5a3eb0eb1cb2665c5017956d9145c2025d0b89e93294ab76c554f7ea",
+    "9ae5805c4d8894e43e270b676e02038dc6d79b6ef22976d43f1302e7c59906db",
+    "9c5c7901efe23a79242b0556806440debebcbc18b569848271f54e9a3ee31341",
+    "a468b687925466808ccb18e244aaeb38bc36447a5619beb95a5a77d61d379b64",
+    "a49862f4f5b02efa21a8af163d437bec27237747d149317fffe22bc8f3784167",
+    "a5be529bc51b266103b7755d74b9361eea34287b15912b1fd0be2f8007e9a6b5",
+    "a9e7d7a5ebe8ff556d60476208accb448a9f583f7735fa2a2f1c1d49e428f0de",
+    "aa17e672235208495c9befd88f29564a20ea06d88eb8e4ae9c02512ee27f861e",
+    "ab7a67b84aa859ae7e46d6fb014b624fb82c7d51c034c75d38cb0ceda108be4e",
+    "af1fed7ad99930b375ee365a06f156799cab65c075aa6208642e2cb3f2c40b2e",
+    "af43b2d567e6a36f04ea6f644d554ce1c2986d057b1a118f5f4449dbc34edca2",
+    "afcb5a5ed7ec0a32fd5dd4b0ab4044f9f8e9b24ee071bc5ef4645a1283e4e92b",
+    "b8ded8ddb8f90989dd20f90b4338b63faf6a77bda011db257dc943fa0a1d4605",
+    "be3e647ac680ea558f403d658dda079d1c9c9d036a2ab5e0a055a7a698fac04d",
+    "bf695725f6af747aaf6bb12fe53533f246faaa1a0a2b212f78716e2f9eadad34",
+    "c18261ff13a96f375f0e0085dca8867d32a8c2343f005a458f1aedf87e702fb7",
+    "c1870400971dd8db11385a9e16fb073ee3ef94401ed5d1c63939dc4f327bd8d0",
+    "cd9bc433f35f062d2de7c2caf3e339912020901b4d1809b0dfe42abe73eace1e",
+    "d2f2d233c8325fc999da853e554b575e06959f125c1df69084239e2b5169b1df",
+    "d4297b5da8271aba11c7c49274b7ef1443c6ff629dce96d8dc60cc49293db8b2",
+    "d92b9bf5efd7e33bc873b1eaf825a8da2e37a8d6e2f0e5807a3af84b91a8b3bf",
+    "dd423421095f094ec7b9d69768be6a32b747798d66585e15f3004d6b57ba8080",
+    "ed79370216b127948e79c39d99daa5b14bf7b6b2197b19a7e9daddb747f92ceb",
+    "f0e2398d56586dca5c2726943e56e56366d463d7d663b6ad23ad4732246b1c17",
+    "f37fda32d5234cce2848d77c735ecb0fbb73d5987da9de4e24420d32b11e3a41",
+    "f528b3892e5f3077fb9ef2af879c5c0e1e5ae439700b8afdae4d8eac3bc7acbb",
+    "f5e5664bd2e055b33cfae699df89a01fe91fdead2a31fbf7497ad2226ec518f1",
+    "f844780afe66f285fcf8816f568dc0e8e25c5c974501fb9886c7177d1186bab4"
+  ],
+  "repeated_source_pr_rows": {
+    "https://github.com/andialbrecht/sqlparse/pull/868": 2,
+    "https://github.com/kludex/starlette/pull/3718": 2,
+    "https://github.com/more-itertools/more-itertools/pull/1322": 2,
+    "https://github.com/more-itertools/more-itertools/pull/1345": 2,
+    "https://github.com/pallets/click/pull/3865": 2,
+    "https://github.com/pallets/click/pull/3878": 2
+  },
+  "schema": "scale800-existing-identities-v1",
+  "seen_source_ids": [
+    "067b1596dfa9",
+    "14f0d1c7f46a",
+    "175057afb0f3",
+    "300ca60892d7",
+    "35d8641e8647",
+    "3bb3c78392c6",
+    "431d77a11688",
+    "46c98f0d458b",
+    "478022127424",
+    "48a798397efe",
+    "499495016a5e",
+    "4b8b7ed75252",
+    "4ca6d2396445",
+    "4e8ac6da681c",
+    "5e916b3f6da1",
+    "6382d7ac76fb",
+    "7117f30e80e6",
+    "868114253e23",
+    "8d4e2cd77d46",
+    "938c019ea3ea",
+    "a0af25800811",
+    "aae143c11e78",
+    "b4371e6ad496",
+    "bd649a7416c0",
+    "c756db832cf4",
+    "c9c57b74041e",
+    "ca3eda4440f4",
+    "d04a3f8f9dc2",
+    "e2223bed9d97",
+    "ff5cea929429"
+  ],
+  "source_ids": [
+    "067b1596dfa9",
+    "14f0d1c7f46a",
+    "300ca60892d7",
+    "35d8641e8647",
+    "3bb3c78392c6",
+    "431d77a11688",
+    "46c98f0d458b",
+    "478022127424",
+    "48a798397efe",
+    "499495016a5e",
+    "4ca6d2396445",
+    "4e8ac6da681c",
+    "5e916b3f6da1",
+    "6382d7ac76fb",
+    "7117f30e80e6",
+    "868114253e23",
+    "8d4e2cd77d46",
+    "a0af25800811",
+    "aae143c11e78",
+    "b4371e6ad496",
+    "bd649a7416c0",
+    "c756db832cf4",
+    "c9c57b74041e",
+    "ca3eda4440f4",
+    "d04a3f8f9dc2",
+    "ff5cea929429"
+  ],
+  "source_pr_urls": [
+    "https://github.com/agronholm/anyio/pull/1443",
+    "https://github.com/andialbrecht/sqlparse/pull/865",
+    "https://github.com/andialbrecht/sqlparse/pull/868",
+    "https://github.com/fsspec/filesystem_spec/pull/2350",
+    "https://github.com/fsspec/filesystem_spec/pull/2376",
+    "https://github.com/fsspec/filesystem_spec/pull/2380",
+    "https://github.com/fsspec/filesystem_spec/pull/2392",
+    "https://github.com/kludex/starlette/pull/3599",
+    "https://github.com/kludex/starlette/pull/3675",
+    "https://github.com/kludex/starlette/pull/3718",
+    "https://github.com/kludex/starlette/pull/3772",
+    "https://github.com/more-itertools/more-itertools/pull/1294",
+    "https://github.com/more-itertools/more-itertools/pull/1322",
+    "https://github.com/more-itertools/more-itertools/pull/1345",
+    "https://github.com/networkx/networkx/pull/8913",
+    "https://github.com/networkx/networkx/pull/8931",
+    "https://github.com/networkx/networkx/pull/8956",
+    "https://github.com/pallets/click/pull/3865",
+    "https://github.com/pallets/click/pull/3878",
+    "https://github.com/pallets/click/pull/3884",
+    "https://github.com/pallets/werkzeug/pull/3335",
+    "https://github.com/pypa/packaging/pull/1475",
+    "https://github.com/pypa/packaging/pull/1492",
+    "https://github.com/pytest-dev/pytest/pull/14372",
+    "https://github.com/python-attrs/attrs/pull/1592",
+    "https://github.com/python-attrs/attrs/pull/1593",
+    "https://github.com/python-attrs/cattrs/pull/765",
+    "https://github.com/python-attrs/cattrs/pull/771",
+    "https://github.com/python-attrs/cattrs/pull/778",
+    "https://github.com/tobymao/sqlglot/pull/8722"
+  ],
+  "source_records": [
+    {
+      "base": "02ff4f85650413b1c4d12aeafa0a4f9290766393",
+      "head": "b31a762bd19c1887309cf53c398e00a1c117f57b",
+      "patch_sha256s": [
+        "2cecdda6faecb76198b873aeb142cc50a7b25d01a8ff0f815b7aa770eb57bf1d",
+        "53b0c52b8733af003756e037f82569e043ea0938bf2d9f10dfe5bc33aa3719a4"
+      ],
+      "repo": "agronholm/anyio",
+      "source_id": "175057afb0f3",
+      "url": "https://github.com/agronholm/anyio/pull/1443"
+    },
+    {
+      "base": "f80af6a4007f11ada847218df8c29dc859238290",
+      "head": "b4835c451720119b5664e012d0d7fdfaeab5c2a4",
+      "patch_sha256s": [
+        "07bc44e8282fb4ec8f36e069f43459299fdc2a34df3ea823c89d29e69072e902",
+        "2ff42e784de2ddffd7b46708bf18279773a9de8fbb1f83534bb46b81277423df"
+      ],
+      "repo": "andialbrecht/sqlparse",
+      "source_id": "48a798397efe",
+      "url": "https://github.com/andialbrecht/sqlparse/pull/865"
+    },
+    {
+      "base": "cd4c1b66cb0a148b40f742d435c527f27cf0a9fb",
+      "head": "267f5712e78be36ea36cd154806c76551e7b3931",
+      "patch_sha256s": [
+        "002dab073ba60c50f92f344f7a26324fcc7080ec0ca6a3957d3839466eb359c6",
+        "89ca6dab13b4edf8b7973b0a5bd6b12bdad1e40e9b1b733a04fc7eb50f21ce9a"
+      ],
+      "repo": "andialbrecht/sqlparse",
+      "source_id": "067b1596dfa9",
+      "url": "https://github.com/andialbrecht/sqlparse/pull/868"
+    },
+    {
+      "base": "f642bea166ed629674eb5b5c227dfa72159e86af",
+      "head": "7f1485cca28875e755688043305f41405dbccba2",
+      "patch_sha256s": [
+        "53086c3a61171eaace0ec8da440080e32cd82d2c2fbea571b4e99ac29fdca6d8",
+        "c18261ff13a96f375f0e0085dca8867d32a8c2343f005a458f1aedf87e702fb7"
+      ],
+      "repo": "fsspec/filesystem_spec",
+      "source_id": "8d4e2cd77d46",
+      "url": "https://github.com/fsspec/filesystem_spec/pull/2350"
+    },
+    {
+      "base": "7aa038375b89d3191ebb81c70162d57441c19f89",
+      "head": "cd641607208d483298daa526ee3bad6d5b1f1b3a",
+      "patch_sha256s": [
+        "a49862f4f5b02efa21a8af163d437bec27237747d149317fffe22bc8f3784167",
+        "f844780afe66f285fcf8816f568dc0e8e25c5c974501fb9886c7177d1186bab4"
+      ],
+      "repo": "fsspec/filesystem_spec",
+      "source_id": "a0af25800811",
+      "url": "https://github.com/fsspec/filesystem_spec/pull/2376"
+    },
+    {
+      "base": "7aa038375b89d3191ebb81c70162d57441c19f89",
+      "head": "6bc5f2fb580aec53d8477ac5e1280e31c0c38076",
+      "patch_sha256s": [
+        "077d898e291cfcdb6edd32e046b0a0caf62ada7d1fb7ffe2d37024e7824ca6a8",
+        "240956fb62bd495bd38e332de58e2ad1903a09f8735bcda5cd2a60acf415fbe0"
+      ],
+      "repo": "fsspec/filesystem_spec",
+      "source_id": "3bb3c78392c6",
+      "url": "https://github.com/fsspec/filesystem_spec/pull/2380"
+    },
+    {
+      "base": "a62ed08e9f4f817692b35ab01afcb18a01e71470",
+      "head": "ac6e6ebf634b632337330003ec58889e29c7e0fc",
+      "patch_sha256s": [
+        "51c6f2df875d7762ebcb2dda196c8eb6964d44aae5519bcf1710fb0345d1c558",
+        "8796b085cf87d1326356f40d0781181b3e6c959664c36bf6b022dd65419f0594"
+      ],
+      "repo": "fsspec/filesystem_spec",
+      "source_id": "478022127424",
+      "url": "https://github.com/fsspec/filesystem_spec/pull/2392"
+    },
+    {
+      "base": "b973efd6156af397253815ecfdd11f37f2b5d1fd",
+      "head": "65a3a8530c2b4ddc4559d415e66c22dbf65b6264",
+      "patch_sha256s": [
+        "8377e061ed6f3d2df1bc242e518a40b0904096996aa0fdd223487294bf3ab75a",
+        "d92b9bf5efd7e33bc873b1eaf825a8da2e37a8d6e2f0e5807a3af84b91a8b3bf"
+      ],
+      "repo": "kludex/starlette",
+      "source_id": "aae143c11e78",
+      "url": "https://github.com/kludex/starlette/pull/3599"
+    },
+    {
+      "base": "414af4f6b95cbf1cbc43746dc84058a3394e989c",
+      "head": "dd33a43c30575b392630ad68f721f0857bf0d873",
+      "patch_sha256s": [
+        "b8ded8ddb8f90989dd20f90b4338b63faf6a77bda011db257dc943fa0a1d4605",
+        "be3e647ac680ea558f403d658dda079d1c9c9d036a2ab5e0a055a7a698fac04d"
+      ],
+      "repo": "kludex/starlette",
+      "source_id": "46c98f0d458b",
+      "url": "https://github.com/kludex/starlette/pull/3675"
+    },
+    {
+      "base": "61123a5c76ebb9d5786758008945c4fbbb380bf6",
+      "head": "91f8b769dc8b2edb4c53fbd6b97548c656a8e01d",
+      "patch_sha256s": [
+        "1d811a6dc23d1c050466d2070ab01f201f7b3045cd5072802afb18b4ac858ca3",
+        "62d71b8e2fd35503ca0f18556af7ed71e218772e38a6e4bcddfe71af31b10495"
+      ],
+      "repo": "kludex/starlette",
+      "source_id": "ca3eda4440f4",
+      "url": "https://github.com/kludex/starlette/pull/3718"
+    },
+    {
+      "base": "1ce60e7157d5c7d1c4e48e1cfe2f5f255235a2cc",
+      "head": "91aa0cb83f8cab2dd0b714eccfe8762dff08c761",
+      "patch_sha256s": [
+        "350dc03546936cc2b70884ffbb2739f04f464a3664801f1837a7741d063f3ae9",
+        "d2f2d233c8325fc999da853e554b575e06959f125c1df69084239e2b5169b1df"
+      ],
+      "repo": "kludex/starlette",
+      "source_id": "d04a3f8f9dc2",
+      "url": "https://github.com/kludex/starlette/pull/3772"
+    },
+    {
+      "base": "b5e3886a37209bb880f17d82fbf4ba00ece0e41e",
+      "head": "edc63587ed2ec41ecc802d5550524471f48161c0",
+      "patch_sha256s": [
+        "af43b2d567e6a36f04ea6f644d554ce1c2986d057b1a118f5f4449dbc34edca2",
+        "cd9bc433f35f062d2de7c2caf3e339912020901b4d1809b0dfe42abe73eace1e"
+      ],
+      "repo": "more-itertools/more-itertools",
+      "source_id": "7117f30e80e6",
+      "url": "https://github.com/more-itertools/more-itertools/pull/1294"
+    },
+    {
+      "base": "4aeb4338ae1407d8da9723e86da99efeb446f719",
+      "head": "d1f347fec150ca1b4c6f95082b9df89a0923b1d2",
+      "patch_sha256s": [
+        "1c98e71862ea57879be179169deed8dccf7ab8b2fff8d3d58dd714c46750a971",
+        "8b457d4522779b9990cc45cf5241c7d71cdb0c04f922343f3e57f3bca2c6ee07"
+      ],
+      "repo": "more-itertools/more-itertools",
+      "source_id": "bd649a7416c0",
+      "url": "https://github.com/more-itertools/more-itertools/pull/1322"
+    },
+    {
+      "base": "08dca284ba5446a026afdc34067b658f9da989eb",
+      "head": "c629214760c78c0a2235e896d335cccfb3a64466",
+      "patch_sha256s": [
+        "27b1312ec376f76b293cee9d4eded301401b9380346a15a8963c074c6c69fb6c",
+        "d4297b5da8271aba11c7c49274b7ef1443c6ff629dce96d8dc60cc49293db8b2"
+      ],
+      "repo": "more-itertools/more-itertools",
+      "source_id": "14f0d1c7f46a",
+      "url": "https://github.com/more-itertools/more-itertools/pull/1345"
+    },
+    {
+      "base": "4e74880b0da01977da79915167c64e5c2af38b47",
+      "head": "9270cce973b073551e837aa7bbf25ae53dfc107c",
+      "patch_sha256s": [
+        "860252d03e77b8d6fd134e7f47a360d20ebb5c14eb5f4cf3e7b37cba8f913c66",
+        "9c5c7901efe23a79242b0556806440debebcbc18b569848271f54e9a3ee31341"
+      ],
+      "repo": "networkx/networkx",
+      "source_id": "4b8b7ed75252",
+      "url": "https://github.com/networkx/networkx/pull/8913"
+    },
+    {
+      "base": "9f6079c0120416599ea5d4018bbaba229ea2e456",
+      "head": "c86a195a25006438536fbcc8695aa0b9b28b78a4",
+      "patch_sha256s": [
+        "02da3ef670866ed4619eeb285146251c3edab3dd007f57fd46b7ce2aad727dda",
+        "c1870400971dd8db11385a9e16fb073ee3ef94401ed5d1c63939dc4f327bd8d0"
+      ],
+      "repo": "networkx/networkx",
+      "source_id": "e2223bed9d97",
+      "url": "https://github.com/networkx/networkx/pull/8931"
+    },
+    {
+      "base": "6da4704cbf32ba6f50f6d9c46cc0a071e3a87985",
+      "head": "012c2d2d7fd8cf454311f784db4ad79ba1b7b278",
+      "patch_sha256s": [
+        "8944079f5ba36ee7f3f481af346a301d3090a2dbf17a9c942262694e8749d8c5",
+        "af1fed7ad99930b375ee365a06f156799cab65c075aa6208642e2cb3f2c40b2e"
+      ],
+      "repo": "networkx/networkx",
+      "source_id": "938c019ea3ea",
+      "url": "https://github.com/networkx/networkx/pull/8956"
+    },
+    {
+      "base": "6d5bac5c712195cbfa9666ba0ecbf0573cdea356",
+      "head": "f67c2bb6c2f055c1c7a57cd46c3697fc26a7742e",
+      "patch_sha256s": [
+        "a5be529bc51b266103b7755d74b9361eea34287b15912b1fd0be2f8007e9a6b5",
+        "aa17e672235208495c9befd88f29564a20ea06d88eb8e4ae9c02512ee27f861e"
+      ],
+      "repo": "pallets/click",
+      "source_id": "6382d7ac76fb",
+      "url": "https://github.com/pallets/click/pull/3865"
+    },
+    {
+      "base": "2247b35ea1c47c727d7a06e51fa280e12a863ff6",
+      "head": "f8c5a8efc17d01a9fb10bba961def4c3215ce369",
+      "patch_sha256s": [
+        "0ff4852805eaefa4671cca203c5f6f3771de81a45981709a184941d7001aa984",
+        "f0e2398d56586dca5c2726943e56e56366d463d7d663b6ad23ad4732246b1c17"
+      ],
+      "repo": "pallets/click",
+      "source_id": "868114253e23",
+      "url": "https://github.com/pallets/click/pull/3878"
+    },
+    {
+      "base": "bb695aaecdef95832d167fc1d508921745aa824e",
+      "head": "c53d3732b98c764932e146c007146ad402acb229",
+      "patch_sha256s": [
+        "3f2e7adf3f74025e773ee3047a3d0c81dc8d140220a971354ee260a6cba0db5a",
+        "74cd2afbab6a4c6b071114d290b869588286f1710b763223475b66bd3fcad0cb"
+      ],
+      "repo": "pallets/click",
+      "source_id": "c9c57b74041e",
+      "url": "https://github.com/pallets/click/pull/3884"
+    },
+    {
+      "base": "665e760ca6325a348ce03e5cf780b17e4be01848",
+      "head": "5b68c736ff07163c84454d305d67d9e1f473481f",
+      "patch_sha256s": [
+        "68fb576c56567b1d58b3d39a0918318a29e9445304a24c30fe1e4aced415547b",
+        "f528b3892e5f3077fb9ef2af879c5c0e1e5ae439700b8afdae4d8eac3bc7acbb"
+      ],
+      "repo": "pallets/werkzeug",
+      "source_id": "300ca60892d7",
+      "url": "https://github.com/pallets/werkzeug/pull/3335"
+    },
+    {
+      "base": "a17c28bd75075468493cd5d9500b2ab1e5acef16",
+      "head": "08db0bbb3ff49e0ee6206524ef4fcf7535f48cac",
+      "patch_sha256s": [
+        "98ed3ff9c3275d13b95edaab9412389ed272883d0bdeff03bdd5b7b3dcb0b294",
+        "f37fda32d5234cce2848d77c735ecb0fbb73d5987da9de4e24420d32b11e3a41"
+      ],
+      "repo": "pypa/packaging",
+      "source_id": "499495016a5e",
+      "url": "https://github.com/pypa/packaging/pull/1475"
+    },
+    {
+      "base": "713d0d78924ab2686c513dde058ce6aafc63e766",
+      "head": "9a28ad1b601695670f2325859088c2eb87fd899a",
+      "patch_sha256s": [
+        "441c9db588977da43a7066e45c94633f821aa258940689d61ea5d67a4f7cd033",
+        "dd423421095f094ec7b9d69768be6a32b747798d66585e15f3004d6b57ba8080"
+      ],
+      "repo": "pypa/packaging",
+      "source_id": "431d77a11688",
+      "url": "https://github.com/pypa/packaging/pull/1492"
+    },
+    {
+      "base": "8ecf49ec2807768105b05dda5461b28cdad89d03",
+      "head": "38d2b0fe28babd690abcdf2371bd1a8551a7f0b7",
+      "patch_sha256s": [
+        "8d762a661f1905d053d958005207d2af4f06e9c9ef8227c2c3762549203734c0",
+        "ab7a67b84aa859ae7e46d6fb014b624fb82c7d51c034c75d38cb0ceda108be4e"
+      ],
+      "repo": "pytest-dev/pytest",
+      "source_id": "5e916b3f6da1",
+      "url": "https://github.com/pytest-dev/pytest/pull/14372"
+    },
+    {
+      "base": "79fb1645a17118666144ead131a88fdc8d8cd59f",
+      "head": "5efaf84c7bbe8eba5619137766a6ee7c17f4c2ac",
+      "patch_sha256s": [
+        "42132b2a03358b261895910ecca949577ac99c4f46746efaa3e3b7d64eb2138b",
+        "f5e5664bd2e055b33cfae699df89a01fe91fdead2a31fbf7497ad2226ec518f1"
+      ],
+      "repo": "python-attrs/attrs",
+      "source_id": "4ca6d2396445",
+      "url": "https://github.com/python-attrs/attrs/pull/1592"
+    },
+    {
+      "base": "6851ab593cd25f3c14393e9355d57d22bec2a074",
+      "head": "2e082f1c1efb019885fbdb601b32f8464dbe5d47",
+      "patch_sha256s": [
+        "a468b687925466808ccb18e244aaeb38bc36447a5619beb95a5a77d61d379b64",
+        "ed79370216b127948e79c39d99daa5b14bf7b6b2197b19a7e9daddb747f92ceb"
+      ],
+      "repo": "python-attrs/attrs",
+      "source_id": "35d8641e8647",
+      "url": "https://github.com/python-attrs/attrs/pull/1593"
+    },
+    {
+      "base": "d7de3c2786a05a8dcef4616b2657c1ef0a856fff",
+      "head": "b2d0716ed11f4ad9283e8acb856d77be5e559336",
+      "patch_sha256s": [
+        "9ae5805c4d8894e43e270b676e02038dc6d79b6ef22976d43f1302e7c59906db",
+        "bf695725f6af747aaf6bb12fe53533f246faaa1a0a2b212f78716e2f9eadad34"
+      ],
+      "repo": "python-attrs/cattrs",
+      "source_id": "b4371e6ad496",
+      "url": "https://github.com/python-attrs/cattrs/pull/765"
+    },
+    {
+      "base": "f2e42f3c69dabd48dd1a5b8fb1aad9c1d39c339a",
+      "head": "9ff7d7a31e30b54666426e9dd7cbfc928a42d274",
+      "patch_sha256s": [
+        "2212da9b3645369e76e7928c0d654f9d1a405e7e75dd0dd6d95e73373e6b0a15",
+        "a9e7d7a5ebe8ff556d60476208accb448a9f583f7735fa2a2f1c1d49e428f0de"
+      ],
+      "repo": "python-attrs/cattrs",
+      "source_id": "4e8ac6da681c",
+      "url": "https://github.com/python-attrs/cattrs/pull/771"
+    },
+    {
+      "base": "0a1d658438f1cd0d2a409edf867c0f1d3ef40398",
+      "head": "c3bd3f4175851a610446f22703db5064e3af0493",
+      "patch_sha256s": [
+        "93ce931038c746deafadde147bcca69b7c6473cbc9d9391022e0b5b49ee1f015",
+        "9a7a37bc5a3eb0eb1cb2665c5017956d9145c2025d0b89e93294ab76c554f7ea"
+      ],
+      "repo": "python-attrs/cattrs",
+      "source_id": "c756db832cf4",
+      "url": "https://github.com/python-attrs/cattrs/pull/778"
+    },
+    {
+      "base": "65eb0f229a5d7af5e4d3ff9084d79362e5fc899a",
+      "head": "3f13943480273d7633cd3e3568e1f1354d4209e9",
+      "patch_sha256s": [
+        "178ef4b7b310e463f22572e00f41210f2ffa9a3b1f8e2bbc867e9d7ae5e0332d",
+        "afcb5a5ed7ec0a32fd5dd4b0ab4044f9f8e9b24ee071bc5ef4645a1283e4e92b"
+      ],
+      "repo": "tobymao/sqlglot",
+      "source_id": "ff5cea929429",
+      "url": "https://github.com/tobymao/sqlglot/pull/8722"
+    }
+  ],
+  "stored_source_rows": 56,
+  "task_ids": [
+    "async-retry-budget",
+    "atomic-artifact-publish",
+    "audio-timeline-render",
+    "capacity-plan-artifact",
+    "chain-posterior-inference",
+    "framed-stream-recovery",
+    "git-release-bundle",
+    "go-expression-pipeline",
+    "go-stream-lifecycle",
+    "grouped-calibration-report",
+    "incremental-build-graph",
+    "javascript-plugin-graph",
+    "layered-config-cli",
+    "native-cache-lifetime",
+    "native-prefix-install",
+    "pki-chain-artifacts",
+    "raster-track-association",
+    "rust-journal-recovery",
+    "service-route-repair",
+    "sqlite-event-migration",
+    "sqlite-query-budget",
+    "tabular-reconciliation-artifact",
+    "tasksmith-067b1596dfa9",
+    "tasksmith-14f0d1c7f46a",
+    "tasksmith-300ca60892d7",
+    "tasksmith-35d8641e8647",
+    "tasksmith-3bb3c78392c6",
+    "tasksmith-431d77a11688",
+    "tasksmith-46c98f0d458b",
+    "tasksmith-478022127424",
+    "tasksmith-48a798397efe",
+    "tasksmith-499495016a5e",
+    "tasksmith-4ca6d2396445",
+    "tasksmith-4e8ac6da681c",
+    "tasksmith-5e916b3f6da1",
+    "tasksmith-6382d7ac76fb",
+    "tasksmith-7117f30e80e6",
+    "tasksmith-868114253e23",
+    "tasksmith-8d4e2cd77d46",
+    "tasksmith-a0af25800811",
+    "tasksmith-aae143c11e78",
+    "tasksmith-b4371e6ad496",
+    "tasksmith-bd649a7416c0",
+    "tasksmith-c756db832cf4",
+    "tasksmith-c9c57b74041e",
+    "tasksmith-ca3eda4440f4",
+    "tasksmith-d04a3f8f9dc2",
+    "tasksmith-ff5cea929429",
+    "typescript-project-overlay",
+    "typescript-reactive-workbench"
+  ],
+  "task_sha256s": [
+    "08ea48c5661bd5bd4c0f32652b4e1028d67949cda49b53006e19bb8b321258a1",
+    "0b512649799448f01026678ac0809051f9177e030ca364e052e391d9829d15f2",
+    "0c982868fab366521340096e335af5b4116498fca65ff985a2dd481ccb42e6c2",
+    "0dfae716b8dd2979e611dfb836c1e0d6922d1aac347fac55f460cfee752521cd",
+    "10fd70ac95b3f0a4e7bb1244de53d3cea4ad5ed6bde7c26bd9036186caa916c8",
+    "1c9058ca7212c4945dfd40d7455325d40ff13ee473721c16115328ddf7b4ff53",
+    "1e8520a2b4d5e23892630cf3ccd1c2d3dc935cec27a922b23a97feacd2a81c65",
+    "20485a2326ff26127e6cbe385303090ed52eb7a134dddf411534a0474de08f78",
+    "2222d1da5aa569ed5202a147baa09cd998525537165c62d05c8781e30a4d80a1",
+    "2453f80de760e558b9a1180755998a440e3708d550622323278d4d020938d691",
+    "27e4ed1e0988f69e5108540500c603aae0bd838157e6f7642b9d16b2659eb87e",
+    "2951df11225020bd89245bf42df30421fae8a801e51eafcce8bb29d78b2125d4",
+    "2b9340b74eb8c608b85f71688d8cc74f1373aba2c59f76e409dc27afc195df7f",
+    "3ce80158dca78a1eac89f96a3cb01863684fae35723907bec4523a3e89d7792b",
+    "3e3545a36e30bfcbacf18ad92e705244756e275646738bc942d73bc3e4697138",
+    "3fe31ad2fa551ca3ad0ed1b3307bc1bcaa565f4dd84bf3b0001d3e11c6f0facc",
+    "41a4c0f1c7cc43071e68abd27c3a8ba51ea679b61c63b3fb37ee8ce9ace71b94",
+    "43d2080d1add727dca61b6cc529ef8c8fdb85329dba745ed591b3b5c07d3d048",
+    "54151e2a7df10fe70716a489ae8142acc47f7bfaf17da0cb81ce1b7a83678f81",
+    "548e8a5ccb300b607db6a5160b6f7a7b82174b0e6927dd59b9131f1603051382",
+    "54a7a595c840fb3c3f8263b48d59f4ad8eb9d95bab4853bdc5a30dcdca4c17f6",
+    "56e7180875dadc3b554aeab47162e2d232089a77da01f57da0a7610d41d6d666",
+    "5b21c4343deac4cd1614e0f226ccd056b83df3052fa2e3f987e7b250ad26e27a",
+    "6679e6711f55a11dbdf92580c78b29822abf72f3def073293dd1bb9cfca9d4b3",
+    "67c692b0b4f2f07d39b81c09eb466731dcf693517adbd9a7f1c08c1e03492abb",
+    "6a2f55a33630546f8f968102dd95addfc482a7dfc697d0e8d1c10fb6610d5ffe",
+    "76e989a2cec14dc31046d4862ae225113ebd9d1c6d20e21f560ee120f0719660",
+    "78e33f09bf16053e9d6c6fb802ea97fb132593c6b43540853f585e7e128aff0c",
+    "794b3035c33e90e9fb4504cc5dcbf406c40a117d2a250405063cec24712f349f",
+    "82a537053a971dfb5cb3d74bf26327dd83465d0a33a9d9efb2c2c3fa2d970ea7",
+    "8547ebcc72771b1137ee322bd304152333bff4395deb60eb2d2ca78bf159067d",
+    "8ade64dc8faa0237db2876d06a6155570cd1f4e8b97eb10f8a1b6e4b591fcd42",
+    "92d532df3b4175f7b7cb21ab87e89800a342b49a25dc4c0f4ede37c8858fea69",
+    "942d776d3eec2287768edda310764b9a949d4792dd10c9e4c5d5503eb4cc1524",
+    "9abf4e0d0a9c083b0cb1f242137f43bc85dc9689c6ef12978d2a175a4544faab",
+    "9d9ac990973a572279bd0c5c133ae11aab25ba8020150ec20d2052811d4def1e",
+    "a5ab6ded6b623198a88b2345ca196fb36dd6db3700e39fc725b1fe690233d4f8",
+    "a74a7a42d4e49f7b850172ac128c0ee3b6b93fba69a62921a2f74e8e8d817be4",
+    "ac01da61dc881b5d9233d9ab9cf0d30a9475c468f7c2f83ac1031491a43887f9",
+    "b2a1d6234f762626feed1ab4077c4a302f3e3e4bbcec8402cd3e8c694953b915",
+    "b3606d406a211b9914406022e800722d6ffb1ad70dcecb1ba47566ff04107e68",
+    "b564a9fdb9542e950e3a4c92cba0bf2f38265e91139162a313446d0baf35b40e",
+    "b7455b903e6f106079a0dedb5f83c8ef6cf935f43e0b078e746760e8a789fd95",
+    "ba7f21744c6db4311ad392cb94cb17241f382612b2ab7d5465efc2c4ed86e0ff",
+    "bd643ac3637189f72bd65db543e50274f287e5b4149b6c454871e584ea75873d",
+    "c073eb3024d72ea874b486ac601c82d89c3f02dc979639317063c65e6c1bffc6",
+    "c7a6a0bffa068684998921679b07ef3f46e0d7cc84f8d147d3257bcd94679c7b",
+    "ca57d856cccfd93da42249296f45e2fc703ba5a28732310b99ecc2c4056ca421",
+    "cdd9f386614e37c139c5ce02b80aef03f992075dd22391bbe83a9c89f2f274d6",
+    "cf695b56df74acc994f03b8950e0ecb5c149661ef665691f7f5078906314ba96",
+    "d1326f7233447801fff43d7df98e9194f174a46e270f8ae685592cc72aa0cce9",
+    "d6d7f98275e51bc28ad6562eb21a0036a65d3e781b80e9edc9e23aea0e6e829f",
+    "f597d20598e8eb0e20209562095c2c586d1ba97172f08e4745429bba7853d61d",
+    "f7e6300379ae12ecd84c9fb6fa467e4bda02a02ca5a288d11dc92a7ec12bc334",
+    "fb58b7f3b4151c3a1525fdf16b909c56f15830168f517582b02d4f6ef6f92f59",
+    "fbdcc14c8867acbb2f4c423a34eb10bc585cb7fc45e819aab11f811a1614f76b"
+  ]
+}

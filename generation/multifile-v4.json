@@ -1,0 +1,64 @@
+{
+  "name": "tasksmith-gap-multifile-v4",
+  "max_spend_usd": "180.00",
+  "target_verified": 3,
+  "benchmarks": [
+    "Terminal-Bench 2.1",
+    "SWE-bench Pro v2.0 Hard",
+    "DeepSWE 1.1"
+  ],
+  "excluded_prs": [],
+  "candidates": [
+    {
+      "url": "https://github.com/tobymao/sqlglot/pull/8722",
+      "capability_tags": [
+        "SQL syntax / AST / generation / optimizer integration"
+      ],
+      "expected": {
+        "id": "ff5cea929429",
+        "head": "3f13943480273d7633cd3e3568e1f1354d4209e9",
+        "base": "65eb0f229a5d7af5e4d3ff9084d79362e5fc899a",
+        "full_diff_sha256": "178ef4b7b310e463f22572e00f41210f2ffa9a3b1f8e2bbc867e9d7ae5e0332d"
+      },
+      "license": {
+        "path": "LICENSE",
+        "sha256": "b0bf909b472ddf9bd4eab30f6e6fd8b33bf3997ce038b882fe0663f291958d2d",
+        "spdx": "MIT"
+      }
+    },
+    {
+      "url": "https://github.com/pallets/werkzeug/pull/3335",
+      "capability_tags": [
+        "Stateful WSGI response and iterable lifecycle"
+      ],
+      "expected": {
+        "id": "300ca60892d7",
+        "head": "5b68c736ff07163c84454d305d67d9e1f473481f",
+        "base": "665e760ca6325a348ce03e5cf780b17e4be01848",
+        "full_diff_sha256": "f528b3892e5f3077fb9ef2af879c5c0e1e5ae439700b8afdae4d8eac3bc7acbb"
+      },
+      "license": {
+        "path": "LICENSE.txt",
+        "sha256": "3b49dcee4105eb37bac10faf1be260408fe85d252b8e9df2e0979fc1e094437b",
+        "spdx": "BSD-3-Clause"
+      }
+    },
+    {
+      "url": "https://github.com/pytest-dev/pytest/pull/14372",
+      "capability_tags": [
+        "CLI/configuration / session lifecycle / terminal reporting"
+      ],
+      "expected": {
+        "id": "5e916b3f6da1",
+        "head": "38d2b0fe28babd690abcdf2371bd1a8551a7f0b7",
+        "base": "8ecf49ec2807768105b05dda5461b28cdad89d03",
+        "full_diff_sha256": "8d762a661f1905d053d958005207d2af4f06e9c9ef8227c2c3762549203734c0"
+      },
+      "license": {
+        "path": "LICENSE",
+        "sha256": "ca836a5f9ecca3b2f350230faa20a48fb8b145653b5568d784862df864706b9b",
+        "spdx": "MIT"
+      }
+    }
+  ]
+}
