@@ -27,6 +27,8 @@ The SEC-bench Pro expansion keeps all 344 benchmark cases held out. Tasksmith dr
 
 ## Expand for a different benchmark
 
+The defensive authorization experiment converts 1,000 Cedar and OpenFGA policy audits to one-turn OpenEnv tasks. Its Qwen3.8-27B protocol samples eight answers per task. [Dataset, validation and scoring protocol](cyber_defense/README.md)
+
 1. Copy the benchmark profile and provide its benchmark revision, target capabilities, evaluation exclusions and a reviewed panel of independent merged PRs. Freeze the PR heads, license evidence and source diffs. The screen compares these with existing tasks and the historical quarantine. [Benchmark intake and runnable example](benchmarks/README.md)
 2. Prepare a native Tasksmith plan. The worked SQL-parser example is ready locally. It selected `andialbrecht/sqlparse#867` and excluded `#868`, which already occurred in the source history. Its plan digest is `73e2f714dc045668d443a11f461b11f49e022cd506c76058de208e3c426328b2`. The planned candidate has no generated task or score yet. [Intake decisions](runs/sql-parser-gap/intake-report.json) · [Prepared plan and input hashes](runs/sql-parser-gap/prepared/binding.json)
 3. On an authorized campaign budget, run the frozen Repo2RLEnv batch, then collect verified bundles. Use the existing full final JSONL as the base, validate and score the additions, and stage the expanded dataset. The guide includes the five historical plans and their recovery inputs. [Tasksmith generation](generation/README.md) · [OpenEnv validation, Terminus-2 scoring and private publication](tasksmith_final/README.md)
