@@ -4,10 +4,59 @@ import tempfile
 import unittest
 from unittest.mock import patch
 
-from benchmarks import prepare
+from benchmarks import prepare, sec_bench_pro_inventory
 
 
 class IntakeTest(unittest.TestCase):
+    def test_sec_bench_pro_panel_and_holdout_aliases(self):
+        profile_path = sec_bench_pro_inventory.PROFILE
+        profile = prepare.read(profile_path)
+        counts = sec_bench_pro_inventory.verify(profile)
+        self.assertEqual(counts, {"v8": 103, "sm": 104, "linux": 137})
+        panel = prepare.read(profile_path.with_name("sec-bench-pro-panel.json"))
+
+        # Give copies of the same eligible PR different provenance, in separate intakes.
+        probes = [
+            ({"repository_lineage": [repo]}, "benchmark repository overlap")
+            for repo in ("v8/v8", "mozilla-firefox/firefox", "torvalds/linux")
+        ]
+        for project in counts:
+            qualified = next(
+                value
+                for value in profile["holdout_task_ids"]
+                if value.startswith(project + "__")
+            )
+            for alias in (qualified, qualified.split("__")[1]):
+                probes.append(
+                    (
+                        {"source_task_ids": [alias]},
+                        "benchmark identity or evaluation-only source",
+                    )
+                )
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            baseline = root / "baseline.jsonl"
+            baseline.write_bytes(b"")
+            with patch.dict(prepare.DIGESTS, {prepare.BASELINE_VIEW: prepare.sha(b"")}):
+                report = prepare.setup(
+                    profile_path,
+                    profile_path.with_name("sec-bench-pro-panel.json"),
+                    root / "eligible",
+                    baseline,
+                )
+                self.assertEqual(report["eligible_candidates"], len(panel))
+                self.assertEqual(
+                    prepare.read(root / "eligible/generation-spec.json")["candidates"],
+                    panel,
+                )
+                for i, (fields, reason) in enumerate(probes):
+                    with self.subTest(fields=fields):
+                        path, output = root / "panel.json", root / str(i)
+                        path.write_text(json.dumps([{**panel[0], **fields}]))
+                        report = prepare.setup(profile_path, path, output, baseline)
+                        self.assertEqual(report["decisions"][0]["reasons"], [reason])
+                        self.assertFalse((output / "generation-spec.json").exists())
+
     def test_panel_routing_and_holdouts(self):
         profile = prepare.read(prepare.ROOT / "benchmarks/original-benchmarks.json")
         example = prepare.read(prepare.ROOT / "benchmarks/example-panel.json")[0]

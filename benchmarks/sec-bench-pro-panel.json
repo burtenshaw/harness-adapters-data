@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://github.com/gcovr/gcovr/pull/1075",
+    "capability_tags": ["source-location-mapping", "diagnostic-reporting"],
+    "expected": {
+      "id": "f2d805463b6c",
+      "head": "c46c46243f5025485bb7eee9e6ab6aa372a89b30",
+      "base": "aebf556129f40ba6c38d03ca19a44a1051f3ad64",
+      "full_diff_sha256": "2b4e750c4ad12a311220476ca747d2488a4ed41bcfb468e093ad06a5122b41f9"
+    },
+    "license": {
+      "path": "LICENSE.txt",
+      "spdx": "BSD-3-Clause",
+      "sha256": "4efc0ca6dde48072eb4182c3fc3db8a99e976f96a88b61b0f3fdb5b42ce6b86a"
+    }
+  },
+  {
+    "url": "https://github.com/gristlabs/asttokens/pull/174",
+    "capability_tags": ["source-location-mapping"],
+    "expected": {
+      "id": "875518576259",
+      "head": "4a4c6f7b6a9e8913580e87391fe341fb9982fe48",
+      "base": "d1eed1023e1203f5392d3e2ebd1f195fdf4c1973",
+      "full_diff_sha256": "97cbff7857f1832f398f54c4633de76e424aabd35e78c90a1b5636d1239c37d8"
+    },
+    "license": {
+      "path": "LICENSE",
+      "spdx": "Apache-2.0",
+      "sha256": "62fb8a3a9621dc2388174caaabe9c2317b694bb9a1d46c98bcf5655b68f51be3"
+    }
+  },
+  {
+    "url": "https://github.com/alexmojaki/stack_data/pull/20",
+    "capability_tags": ["diagnostic-reporting"],
+    "expected": {
+      "id": "1eb9d1116e78",
+      "head": "7ca809a7e69c63f60f7207a0c5c9acbea0e3c095",
+      "base": "637e10e59daae92f5f3bafc97aedbb119c6151e7",
+      "full_diff_sha256": "ddc9f217dee6c485830f759a903db0d14b6ca33d5ce76f9d825ea38b3cf27201"
+    },
+    "license": {
+      "path": "LICENSE.txt",
+      "spdx": "MIT",
+      "sha256": "a476a2cb0ef4c41450340a577a28b91ac4c7f669136b2ee148047fabd5fc4181"
+    }
+  }
+]

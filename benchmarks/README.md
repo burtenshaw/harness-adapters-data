@@ -51,3 +51,34 @@ python3 benchmarks/prepare.py benchmarks/swe-bench-verified.json "$INTAKE/panel.
 ```
 
 The worked output is `runs/swe-verified-sql-gap/prepared/launch-plan.json`, SHA-256 `d58d12d28fbf2d520855a43b8c6a9f03e29ce2db138104674cb52fb46c4fa101`.
+
+## SEC-bench Pro
+
+Use the profile to prepare diagnostic-maintenance tasks from repositories outside SEC-bench Pro. The official benchmark evaluates vulnerability discovery and proof-of-concept generation. This project uses its case identifiers and repository lineages as exclusions. Qwen scores collected downstream describe the generated maintenance tasks. [Official benchmark overview](https://sec-bench.github.io/) · [Pinned profile](sec-bench-pro.json)
+
+The pinned GitHub tree contains **344 cases** across V8 (103), SpiderMonkey (104) and Linux (137). The intake excludes each case in both native and project-qualified form. A separate read of the `project` and `instance_id` columns in the pinned Hugging Face test split found **183 distinct IDs**. All 183 matched GitHub exactly. GitHub also contains 24 additional SpiderMonkey and 137 Linux cases. The profile records both revisions and the SHA-256 of each sorted ID list. [GitHub revision](https://github.com/SEC-bench/SEC-bench-Pro/tree/da80928ee20dc417ca6a068a1213e1d9d279df20) · [Hugging Face revision](https://huggingface.co/datasets/SEC-bench/SEC-bench-Pro/tree/226b7a006e1b0e3c24d20a17fff9934609901fc1)
+
+| Merged source PR | Behavior the upstream tests exercise |
+| --- | --- |
+| [gcovr #1075](https://github.com/gcovr/gcovr/pull/1075) | Attach the filename and source line to coverage-counter diagnostics. |
+| [asttokens #174](https://github.com/gristlabs/asttokens/pull/174) | Map tokens back to source positions across mixed line endings. |
+| [stack_data #20](https://github.com/alexmojaki/stack_data/pull/20) | Align traceback markers with the highlighted multiline expression. |
+
+The panel pins each PR's base, head, diff digest and license bytes. All three cleared the historical quarantine, the 871-row baseline and this workspace's 15-row APEX Tasksmith roster. The default pilot targets one verified task with a USD 48 generation admission budget. These are preparation settings. Generation, validation, scoring and publication have separate execution steps. [Frozen panel](sec-bench-pro-panel.json)
+
+Run from the project root after installing the runtimes and materializing `runs/baseline` as described above. Choose a fresh `RUN` directory. The first command compares the profile against upstream Git tree metadata. For offline verification, omit `--github`. The freeze step reads the three independent PRs from GitHub.
+
+```sh
+PY="$PWD/runs/tasksmith-runtime/Repo2RLEnv/.venv/bin/python"
+RUN="$PWD/runs/sec-bench-pro-replay"
+python3 -B benchmarks/sec_bench_pro_inventory.py --github
+"$PY" -IB generation/campaign.py freeze benchmarks/sec-bench-pro-panel.json "$RUN/intake"
+python3 -B benchmarks/prepare.py benchmarks/sec-bench-pro.json \
+  "$RUN/intake/panel.json" "$RUN/screen"
+"$PY" -IB generation/campaign.py prepare "$RUN/screen/generation-spec.json" \
+  "$RUN/prepared" --frozen-records "$RUN/intake/frozen-records.json"
+```
+
+For an offline replay on the setup machine, reuse `runs/sec-bench-pro/intake` in the last two commands. To repeat the APEX overlap check, also pass `--accepted runs/apex-agents-gap/downstream/export/verified.jsonl` to `benchmarks/prepare.py`. The worked plan is `runs/sec-bench-pro/prepared/launch-plan.json`, SHA-256 `d1c2339ec5c5edcaecb1bbc8bbc30d6bbca09e6aaae23aab17bbda3a0ff2067f`.
+
+For a live expansion, use the prepared run directory in the native batch and collect commands. Once collection produces a verified export, use its `verified.jsonl` as the OpenEnv input, the full `final_v1` view as the base and `sec_bench_pro_v1` as the new dataset tag. Each accepted addition goes through the do-nothing and two reference controls before the eight-slot Qwen protocol. [Tasksmith batch and collection](../generation/README.md#run-a-new-campaign) · [OpenEnv validation and Qwen scoring](../tasksmith_final/README.md#prepare-an-expansion)

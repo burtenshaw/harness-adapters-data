@@ -21,6 +21,10 @@ python3 tasksmith_final/pipeline.py replay \
 
 On the setup machine, the workspace contains a [baseline summary](runs/baseline/summary.json), a [raw-evidence replay](runs/final-replay/publish-summary.json) and the prepared [Squirrel example](runs/baseline/squirrel-task/). The [five native generation replays](runs/tasksmith-replay/) retain the 24 verified task IDs, source PRs and commits that appear in the final release. The two independent routes matched the SHA-256s `13aafbf59d7ae530916cde1e37f1cc6ddc691c6b1e909cf0eb9cb3d8e150c292` (full) and `ea0fd9799e2265295466b91b77dbc2a76731fd4c281fd9aa35aac51834f5f172` (mixed). The original one-task public consumer is in [replay/prepare_squirrel.py](replay/prepare_squirrel.py). Run it from an empty directory with huggingface_hub 1.33.0 installed.
 
+## SEC-bench Pro
+
+The SEC-bench Pro expansion keeps all 344 benchmark cases held out. Tasksmith draws from three Python PRs outside the benchmark that improve compiler coverage diagnostics, source positions and traceback formatting. The prepared plan targets one verified task. The OpenEnv validation and Qwen scoring stages follow generation. [Reproduce the SEC-bench Pro plan](benchmarks/README.md#sec-bench-pro)
+
 ## Expand for a different benchmark
 
 1. Copy the benchmark profile and provide its benchmark revision, target capabilities, evaluation exclusions and a reviewed panel of independent merged PRs. Freeze the PR heads, license evidence and source diffs. The screen compares these with existing tasks and the historical quarantine. [Benchmark intake and runnable example](benchmarks/README.md)
@@ -56,3 +60,4 @@ All worked examples here used local replay, read-only downloads or plan preparat
 | [Validate and Score Tasksmith Tasks](t3-thread://v2/d013e134-6c2d-4190-af72-9a5cb82d2691/53f28326-f24a-4427-9026-e202acc7c1d1) | HF Sandbox adaptation, control evidence, eight-attempt scoring and final views |
 | [Create Benchmark-Gap Environments](t3-thread://v2/d013e134-6c2d-4190-af72-9a5cb82d2691/115101eb-3acb-43b3-9a85-702efcf93a42) | Benchmark screening, Tasksmith source selection, recovery phases and private exports |
 | [Build an OpenEnv RL Pipeline](t3-thread://v2/d013e134-6c2d-4190-af72-9a5cb82d2691/1f093fad-03de-4f23-a9e3-856e37c76ea7) | Real-task acquisition, Harbor adapters, HF control gates and prepared Jobs |
+| [Reproduce and Expand Data Pipeline](t3-thread://v2/d013e134-6c2d-4190-af72-9a5cb82d2691/2fbc866a-32fc-478e-a133-01b4240b28fc) | Byte-for-byte dataset replay, independent PR intake for new benchmark targets, and the later APEX expansion |
