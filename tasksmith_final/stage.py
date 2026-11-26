@@ -102,10 +102,19 @@ def stage(run, out, cfg, *, historical=False):
             require(
                 image["task_id"] == tid
                 and image["status"] == "resolved"
-                and image["image"] == mod["image"]
-                and image["space_commit"] == mod["starter_space_commit"],
+                and image["image"] == mod["image"],
                 f"starter receipt mismatch for {tid}",
             )
+            if "starter_space_commit" in mod:
+                require(
+                    image.get("space_commit") == mod["starter_space_commit"],
+                    f"starter space commit mismatch for {tid}",
+                )
+            elif "image_registry_digest" in mod:
+                require(
+                    image.get("registry_digest") == mod["image_registry_digest"],
+                    f"image registry digest mismatch for {tid}",
+                )
             shutil.copytree(task, pub / mod["path"])
             inventory = {
                 p.relative_to(task).as_posix(): sha(p)

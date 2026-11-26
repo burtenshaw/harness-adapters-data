@@ -255,13 +255,16 @@ def check(tmp, base, check_publish, check_budget):
     image = {
         "task_id": tid,
         "status": "resolved",
-        "space_id": f"example/{tid}-env",
-        "space_commit": "c" * 40,
+        "builder": "kaniko",
+        "tag": tid,
         "registry_digest": digest,
         "config": {"os": "linux", "architecture": "amd64"},
-        "image": f"registry.hf.space/example-{tid}-env@{digest}",
+        "image": f"ghcr.io/harness-hub/tasksmith-smoke@{digest}",
+        "public_pull_verified": True,
         "context_files": {
-            k: hashlib.sha256(v).hexdigest() for k, v in context(native).items()
+            k: hashlib.sha256(v).hexdigest()
+            for k, v in context(native).items()
+            if k != "README.md"
         },
     }
     write(tmp / "images" / f"{tid}.json", image)

@@ -156,12 +156,19 @@ def provider_reader(repo, revision):
 def image_identity(receipt):
     image = {k: receipt[k] for k in IMAGE_FIELDS if receipt.get(k) is not None}
     image["omitted_fields"] = [k for k in IMAGE_FIELDS if k not in image]
-    require(
-        re.fullmatch(IMAGE, image["image"])
-        and re.fullmatch(REPO, image["space_id"])
-        and re.fullmatch(GIT, image["space_commit"]),
-        "Missing immutable starter image identity",
-    )
+    require(re.fullmatch(IMAGE, image.get("image", "")), "Missing immutable image digest")
+    if "space_id" in image or "space_commit" in image:
+        require(
+            re.fullmatch(REPO, image.get("space_id", ""))
+            and re.fullmatch(GIT, image.get("space_commit", "")),
+            "Missing immutable starter Space identity",
+        )
+    else:
+        require(
+            receipt.get("status") == "resolved"
+            and receipt.get("registry_digest") == image["image"].rsplit("@", 1)[1],
+            "Missing resolved OCI image receipt identity",
+        )
     if "source_image" in image:
         require(re.fullmatch(IMAGE, image["source_image"]), "Mutable upstream image")
     for k in (

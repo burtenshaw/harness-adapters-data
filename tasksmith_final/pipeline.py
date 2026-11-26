@@ -120,8 +120,10 @@ def prepare(run, cfg, receipt_dir):
             hashes = {
                 k: hashlib.sha256(v).hexdigest() for k, v in context(task).items()
             }
+            oci_hashes = {k: v for k, v in hashes.items() if k != "README.md"}
             require(
-                receipt["task_id"] == tid and receipt["context_files"] == hashes,
+                receipt["task_id"] == tid
+                and receipt["context_files"] in (hashes, oci_hashes),
                 f"receipt does not match starter bytes for {tid}",
             )
             require(
@@ -178,33 +180,31 @@ def live_environment():
 
 def live(args, run, cfg):
     cmd = args.command
-    if cmd in ("publish-images", "resolve-images"):
-        from huggingface_hub import HfApi
-        from images import load_registry, publish, resolve
+    if cmd == "build-images":
+        from images import build_oci
 
-        api = HfApi(endpoint="https://huggingface.co", token=os.environ["HF_TOKEN"])
-        receipts = run / "images"
-        receipts.mkdir(exist_ok=True)
-        registry = (
-            load_registry(args.starter_images) if cmd == "resolve-images" else None
+        results = build_oci(
+            [original(cfg, tid) for tid in sorted(cfg["selected"])],
+            run / "images",
+            registry=args.registry,
+            builder=args.builder,
+            namespace=args.namespace,
+            flavor=args.flavor,
+            timeout=args.timeout,
+            cache_repo=args.cache_repo,
+            concurrency=args.concurrency,
+            no_push=args.no_push,
+            verify_public=not args.no_verify_public,
+            tag_prefix=args.tag_prefix,
+            extra_dockerfile=args.extra_dockerfile,
+            openenv_src=args.openenv_src,
         )
-        for tid in cfg["selected"]:
-            if cmd == "publish-images":
-                publish(api, original(cfg, tid), receipts, args.namespace)
-            else:
-                receipt = resolve(
-                    api,
-                    receipts,
-                    tid,
-                    api.whoami()["name"],
-                    os.environ["HF_TOKEN"],
-                    registry,
-                )
-                require(
-                    receipt["status"] == "resolved",
-                    f"{tid} image pending: {receipt.get('stage')}",
-                )
-        return {"images": len(cfg["selected"])}
+        return {
+            "images": len(results),
+            "resolved": sum(r["status"] == "resolved" for r in results.values()),
+            "builder": args.builder,
+            "registry": args.registry,
+        }
     mods = read(run / "modified/modifications.json")
     require(
         mods.keys() == cfg["selected"].keys(),
@@ -365,8 +365,7 @@ def main():
     for name in (
         "init",
         "prepare",
-        "publish-images",
-        "resolve-images",
+        "build-images",
         "validate",
         "score",
         "stage",
@@ -399,18 +398,40 @@ def main():
             parser.add_argument(
                 "--images", type=Path, help="directory of resolved starter receipts"
             )
-        elif name == "resolve-images":
+        elif name == "build-images":
             parser.add_argument(
-                "--starter-images",
-                type=Path,
+                "--registry",
                 required=True,
-                help="pinned OpenEnv starter_images.py",
+                help="Target OCI repository (e.g. ghcr.io/harness-hub/tasksmith)",
             )
-        elif name in ("publish-images", "validate", "score"):
+            parser.add_argument(
+                "--builder",
+                choices=("auto", "kaniko", "docker"),
+                default="kaniko",
+                help="Build backend (defaults to Kaniko on HF Jobs; no Spaces)",
+            )
+            parser.add_argument(
+                "--namespace",
+                help="HF Jobs billing namespace for --builder kaniko",
+            )
+            parser.add_argument("--flavor", default="cpu-basic")
+            parser.add_argument("--timeout", default="30m")
+            parser.add_argument("--cache-repo")
+            parser.add_argument("--tag-prefix", default="")
+            parser.add_argument(
+                "--extra-dockerfile",
+                type=Path,
+                help="Optional Dockerfile fragment appended during build (e.g. preinstalling pi harness)",
+            )
+            parser.add_argument("--concurrency", type=int, default=4)
+            parser.add_argument("--no-push", action="store_true")
+            parser.add_argument("--no-verify-public", action="store_true")
+            parser.add_argument("--openenv-src", type=Path)
+        elif name in ("validate", "score"):
             parser.add_argument(
                 "--namespace",
                 required=True,
-                help="HF Space owner or Jobs billing namespace",
+                help="HF Jobs billing namespace",
             )
             if name in ("score", "validate"):
                 parser.add_argument(

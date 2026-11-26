@@ -47,7 +47,7 @@ The bootstrap selects CPython 3.13.14, fetches the exact OpenEnv commit, install
 
 [runtime-constraints.txt](runtime-constraints.txt) contains the installed mandatory dependency closure from the original macOS arm64 scoring environment. Linux also resolves the platform-specific keyring dependencies SecretStorage and jeepney. Archival versions for those two are unavailable. Export uses PyArrow 26.0.1 when writing rejected-task Parquet, installed separately from the historical scoring closure. The HF Jobs starter images themselves use pinned Linux/amd64 digests.
 
-### Starter images
+### Starter images (OCI registry, no Spaces)
 
 For previously built starters, supply their existing resolved receipts. The local adapter checks every starter file against its build receipt.
 
@@ -55,15 +55,18 @@ For previously built starters, supply their existing resolved receipts. The loca
 python3 tasksmith_final/pipeline.py prepare "$RUN_DIR" --images "$RECEIPTS_DIR"
 ```
 
-For new starters, the following distinct operations write to the Hub. Set `HF_TOKEN` for the chosen Space namespace. Use the recovered `starter_images.py` from the [OpenEnv pipeline checkout](../openenv_pipeline/) at `bb027fa3f7b50718df4b8d8a2312d8bee1760c41`.
+For new starters, build and push immutable `linux/amd64` images directly to a public OCI registry (such as GHCR) using OpenEnv's `openenv.harbor.images` engine — either via **Kaniko on HF Jobs** (`--builder kaniko`, default; no persistent VM or Docker Space needed) or local/VM **Docker Buildx** (`--builder docker`):
 
 ```sh
-"$PY" tasksmith_final/pipeline.py publish-images "$RUN_DIR" --namespace "$SPACE_OWNER"
-"$PY" tasksmith_final/pipeline.py resolve-images "$RUN_DIR" --starter-images "$STARTER_IMAGES_PY"
+export GHCR_TOKEN=...  # push token for ghcr.io
+"$PY" tasksmith_final/pipeline.py build-images "$RUN_DIR" \
+  --registry "ghcr.io/$ORG/tasksmith" \
+  --builder kaniko --namespace "$JOBS_OWNER" \
+  --cache-repo "ghcr.io/$ORG/tasksmith-cache"
 "$PY" tasksmith_final/pipeline.py prepare "$RUN_DIR"
 ```
 
-Each starter is a Docker Space. Its context consists of the Space README, `environment/Dockerfile` and `environment/source/`. The builder audits private test and solution separation, creates the Space privately, reads back its committed files, then makes it public. When the build finishes, resolution pins the Linux/amd64 digest and pauses the Space. Repeat `resolve-images` while builds are pending. Public visibility is part of this historical route and requires source code approved for public distribution.
+`build-images` audits `environment/` (blocking private tests, solutions, symlinks and credentials), builds each `environment/Dockerfile` for `linux/amd64`, verifies the pushed manifest is anonymously pullable (as required by HF Sandbox), and writes each receipt with its pinned `<repo>@sha256:<digest>` image reference. Historical Space receipts remain supported for offline replay.
 
 The adapted task runs with network access and as root, replacing the original learner/root user split. Harbor uploads the private tests to a separate verifier sandbox at grading time and copies submitted artifacts across. The original and modified bundles have separate paths. The transform checks the original Dockerfile, shell and TOML shapes before applying the changes. Other languages or verifier layouts require their own adapter.
 

@@ -78,7 +78,7 @@ def modify(original, receipt, out, relative, revision):
         p.is_symlink() for p in (original / "tests/source").rglob("*")
     )
     assert receipt["status"] == "resolved" and re.fullmatch(
-        r"registry\.hf\.space/[a-z0-9-]+@sha256:[0-9a-f]{64}", receipt["image"]
+        r"[^\s@]+@sha256:[0-9a-f]{64}", receipt["image"]
     )
 
     shutil.copytree(original, out, ignore=shutil.ignore_patterns(".complete"))
@@ -111,10 +111,20 @@ def modify(original, receipt, out, relative, revision):
         "original_task_toml_sha256": hashlib.sha256(toml_text.encode()).hexdigest(),
         "original_bundle_hash": config["metadata"]["repo2env"]["bundle_hash"],
         "original_source_digest": source_digest(original),
-        "starter_space": receipt["space_id"],
-        "starter_space_commit": receipt["space_commit"],
         "changes": CHANGES,
     }
+    if receipt.get("space_id") is not None:
+        provenance["starter_space"] = receipt["space_id"]
+        provenance["starter_space_commit"] = receipt["space_commit"]
+    else:
+        provenance["image_builder"] = receipt.get("builder", "oci")
+        provenance["image_registry_digest"] = receipt["registry_digest"]
+        if receipt.get("tag"):
+            provenance["image_tag"] = receipt["tag"]
+        if receipt.get("job_id"):
+            provenance["image_build_job_id"] = receipt["job_id"]
+        if receipt.get("extra_dockerfile_sha256"):
+            provenance["extra_dockerfile_sha256"] = receipt["extra_dockerfile_sha256"]
     text += "\n[metadata.openenv_hf_sandbox]\n" + "".join(
         f"{key} = {json.dumps(value)}\n" for key, value in provenance.items()
     )

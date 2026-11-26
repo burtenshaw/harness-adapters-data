@@ -141,3 +141,34 @@ The assembler writes a campaign and a stage manifest accepted by the shared priv
 ```
 
 For a new cohort's `in_stratified_sample` values, pass the `sample-manifest.json` produced by the immutable Qwen draw capture to `run.py views --sample-manifest`. A missing published roster leaves membership null. [Qwen population and draw](../qwen_pipeline/)
+
+## Containerize Harbor tasks for HF Sandbox (no Spaces)
+
+To turn any Harbor task directory (Scale800 Go/Python, SWE-Gym, Tasksmith, Flash-Next waves, Knowledge, or Cyber Defense) into HF-Sandbox-ready bundles with digest-pinned, publicly pullable `linux/amd64` `[environment].docker_image` entries in `task.toml`, use `containerize` (backed by [OpenEnv PR #1757](https://github.com/openenv/OpenEnv/pull/1757), `openenv harbor build-images`):
+
+```sh
+# 0. On a fresh machine or Slurm cluster node whose pinned OpenEnv predates PR #1757:
+python3 openenv_pipeline/run.py containerize --bootstrap-openenv-images
+
+# 1. Audit, classify (oci_append vs kaniko/docker build vs shared verify) and deduplicate:
+python3 openenv_pipeline/run.py containerize "$TASKS_DIR" --plan --json
+
+# 2. Build/append in parallel via Kaniko on HF Jobs -> one multi-tag GHCR repo (no Spaces or local Docker):
+#    Note: ensure the target GHCR package is set to Public once on GitHub so HF Sandbox can pull anonymously.
+export GHCR_TOKEN=... GHCR_USERNAME=burtenshaw HF_TOKEN=...
+python3 openenv_pipeline/run.py containerize "$TASKS_DIR" \
+  --source-manifest "$EXPORT/verified.jsonl" \
+  --registry ghcr.io/harness-hub/tasksmith-flashnext \
+  --builder kaniko --namespace harness-hub --flavor cpu-upgrade \
+  --cache-repo ghcr.io/harness-hub/tasksmith-flashnext-cache \
+  --concurrency 16 \
+  --per-task-receipts-dir "$RUN/images" \
+  --output-dir "$RUN/harbor-ready" \
+  --receipts "$RUN/image-receipts.json"
+
+# 3. Preflight-verify every task.toml points to a publicly pullable linux/amd64 digest:
+python3 openenv_pipeline/run.py containerize "$RUN/harbor-ready" \
+  --verify-only --require-digest-pin
+```
+
+Declarative `COPY`/`WORKDIR`/`ENV`-only Dockerfiles (such as Go SWE-smith tasks built on a per-repo base) use pure-Python OCI layer append with zero Docker daemon or HF Jobs overhead; `RUN` Dockerfiles fan out in parallel through Kaniko on HF Jobs (`--builder kaniko`) or local/VM BuildKit (`--builder docker`). Pass `--extra-dockerfile harness.Dockerfile` to layer target agent harnesses (`pi`, `opencode`, `hermes`) without maintaining separate build scripts.

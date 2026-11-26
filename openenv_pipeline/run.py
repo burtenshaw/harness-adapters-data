@@ -246,6 +246,13 @@ def main():
     s.add_argument("args", nargs=argparse.REMAINDER)
     s = sub.add_parser("smoke")
     s.add_argument("--output", required=True, type=Path)
+    s = sub.add_parser(
+        "containerize",
+        help="Build, OCI-append, push, and pin Harbor task containers via OpenEnv (no Spaces)",
+    )
+    from containerize import add_arguments as containerize_arguments
+
+    containerize_arguments(s)
     args = parser.parse_args()
     args.checkout = args.checkout.resolve()
     if args.python:
@@ -253,6 +260,10 @@ def main():
         args.python = args.python.absolute()
     if args.command == "bootstrap":
         return bootstrap(args)
+    if args.command == "containerize":
+        from containerize import execute as run_containerize
+
+        return run_containerize(args)
     verify()
     if args.command == "verify":
         print(

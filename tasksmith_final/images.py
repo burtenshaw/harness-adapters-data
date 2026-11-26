@@ -1,17 +1,158 @@
-"""Historical starter Space build and digest verification."""
+"""OCI container builds (Kaniko on HF Jobs / Docker Buildx / OCI append) for Tasksmith tasks.
 
+Replaces the historical Docker Space build route with direct OCI registry pushes
+(e.g. ``ghcr.io/<org>/<repo>``) pinned by immutable ``linux/amd64`` ``@sha256:`` digests,
+delegating to OpenEnv's ``openenv.harbor.images`` module with true parallel fan-out
+and incremental per-task receipt writes.
+"""
+
+from collections import defaultdict
 import hashlib
 import importlib.util
 import json
+import sys
 import time
-
-import httpx
-from huggingface_hub import CommitOperationAdd
+from pathlib import Path
 
 from audit import audit, context
 from common import scan_credentials
 
+ROOT = Path(__file__).resolve().parents[1]
 
+
+def _load_openenv_images(openenv_src=None):
+    pipeline_dir = str(ROOT / "openenv_pipeline")
+    if pipeline_dir not in sys.path:
+        sys.path.insert(0, pipeline_dir)
+    from containerize import load_openenv_images
+
+    return load_openenv_images(openenv_src)
+
+
+def sha(data):
+    return hashlib.sha256(data).hexdigest()
+
+
+def env_context_hashes(task_dir):
+    """SHA-256 hashes of the audited ``environment/`` files (no Space README.md)."""
+    return {
+        k: sha(v)
+        for k, v in context(task_dir).items()
+        if k != "README.md"
+    }
+
+
+def build_oci(
+    task_dirs,
+    receipts,
+    *,
+    registry,
+    builder="kaniko",
+    namespace=None,
+    flavor="cpu-basic",
+    timeout="30m",
+    cache_repo=None,
+    concurrency=4,
+    no_push=False,
+    verify_public=True,
+    tag_prefix="",
+    extra_dockerfile=None,
+    openenv_src=None,
+):
+    """Audit and build/push Tasksmith starter images in parallel to an OCI registry (no Spaces)."""
+    images = _load_openenv_images(openenv_src)
+    receipts = Path(receipts)
+    receipts.mkdir(parents=True, exist_ok=True)
+    extra_text = (
+        Path(extra_dockerfile).read_text(encoding="utf-8")
+        if isinstance(extra_dockerfile, (str, Path)) and Path(extra_dockerfile).is_file()
+        else extra_dockerfile
+    )
+    extra_sha = sha(extra_text.encode("utf-8")) if extra_text else None
+
+    expected_by_id = {}
+    groups = defaultdict(list)
+    results = {}
+    for task_dir in sorted((Path(p).resolve() for p in task_dirs), key=lambda p: p.name):
+        task_id = task_dir.name
+        audit(task_dir)
+        files = {k: v for k, v in context(task_dir).items() if k != "README.md"}
+        for data in files.values():
+            scan_credentials(data)
+        expected_hashes = {k: sha(v) for k, v in sorted(files.items())}
+        expected_by_id[task_id] = expected_hashes
+        receipt_path = receipts / f"{task_id}.json"
+        if receipt_path.is_file() and not no_push:
+            existing = json.loads(receipt_path.read_text(encoding="utf-8"))
+            if (
+                existing.get("status") == "resolved"
+                and existing.get("task_id") == task_id
+                and existing.get("context_files") == expected_hashes
+                and existing.get("extra_dockerfile_sha256") == extra_sha
+            ):
+                results[task_id] = existing
+                continue
+        groups[task_dir.parent].append(task_id)
+
+    for parent_dir, batch_ids in sorted(groups.items()):
+        summary = images.build_harbor_images(
+            parent_dir,
+            registry=registry,
+            builder=builder,
+            per_task_receipts_dir=receipts,
+            task_ids=batch_ids,
+            tag_prefix=tag_prefix,
+            extra_dockerfile=extra_text,
+            skip_pinned=False,
+            verify_public=verify_public,
+            no_push=no_push,
+            concurrency=concurrency,
+            namespace=namespace,
+            flavor=flavor,
+            timeout=timeout,
+            cache_repo=cache_repo,
+            progress=lambda msg: print(msg, file=sys.stderr, flush=True),
+        )
+        failures = [
+            f"{tid}: {summary['tasks'][tid].get('error')}"
+            for tid in batch_ids
+            if summary["tasks"][tid]["status"] == "failed"
+        ]
+        if failures:
+            raise RuntimeError("OCI image build failed:\n  " + "\n  ".join(failures))
+        now = time.time()
+        for tid in batch_ids:
+            rec = summary["tasks"][tid]
+            receipt = {
+                "task_id": tid,
+                "status": rec["status"],
+                "builder": rec["builder"],
+                "image": rec["image"],
+                "registry_digest": rec["registry_digest"],
+                "tag": rec["tag"],
+                "config": rec["config"],
+                "public_pull_verified": rec["public_pull_verified"],
+                "env_hash": rec["env_hash"],
+                "job_id": rec["job_id"],
+                "context_files": expected_by_id[tid],
+                "contents": "environment/Dockerfile and environment/source only; no tests, solution or instruction",
+                "resolved_at": now,
+                **(
+                    {"extra_dockerfile_sha256": extra_sha}
+                    if extra_sha is not None
+                    else {}
+                ),
+            }
+            dest = receipts / f"{tid}.json"
+            tmp = dest.with_suffix(".json.tmp")
+            tmp.write_text(json.dumps(receipt, indent=1, sort_keys=True) + "\n", encoding="utf-8")
+            tmp.replace(dest)
+            results[tid] = receipt
+
+    return results
+
+
+# Legacy Space helper retained strictly for inspecting historical receipts.
 def load_registry(path):
     if (
         hashlib.sha256(path.read_bytes()).hexdigest()
@@ -22,93 +163,3 @@ def load_registry(path):
     starter = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(starter)
     return starter.Registry
-
-
-def sha(data):
-    return hashlib.sha256(data).hexdigest()
-
-
-def publish(api, task_dir, receipts, namespace):
-    task_id = task_dir.name
-    receipt_path = receipts / f"{task_id}.json"
-    if receipt_path.exists():
-        return json.loads(receipt_path.read_text())
-    files = context(task_dir)
-    audit(task_dir)
-    for data in files.values():
-        scan_credentials(data)
-    repo = f"{namespace}/{task_id}-env"
-    api.create_repo(
-        repo, repo_type="space", space_sdk="docker", private=True, exist_ok=False
-    )
-    commit = api.create_commit(
-        repo,
-        repo_type="space",
-        operations=[
-            CommitOperationAdd(path_in_repo=n, path_or_fileobj=d)
-            for n, d in sorted(files.items())
-        ],
-        commit_message="Starter image context (environment/ only)",
-    )
-    tree = {
-        f.path: f
-        for f in api.list_repo_tree(
-            repo, repo_type="space", revision=commit.oid, recursive=True
-        )
-        if hasattr(f, "blob_id") and f.path != ".gitattributes"
-    }
-    if set(tree) != set(files):
-        raise ValueError(f"{task_id}: uploaded inventory differs")
-    for name, data in files.items():
-        entry = tree[name]
-        if entry.lfs is not None:
-            ok = entry.lfs.sha256 == sha(data)
-        else:
-            ok = (
-                entry.blob_id
-                == hashlib.sha1(b"blob %d\0" % len(data) + data).hexdigest()
-            )
-        if not ok:
-            raise ValueError(f"{task_id}: uploaded bytes differ")
-    api.update_repo_settings(repo, repo_type="space", private=False)
-    receipt = {
-        "task_id": task_id,
-        "space_id": repo,
-        "space_commit": commit.oid,
-        "context_files": {n: sha(d) for n, d in sorted(files.items())},
-        "contents": "environment/Dockerfile and environment/source only; no tests, solution or instruction",
-        "status": "building",
-    }
-    receipt_path.write_text(json.dumps(receipt, indent=1))
-    return receipt
-
-
-def resolve(api, receipts, task_id, username, token, registry_class):
-    receipt_path = receipts / f"{task_id}.json"
-    receipt = json.loads(receipt_path.read_text())
-    if receipt.get("status") == "resolved":
-        return receipt
-    runtime = api.get_space_runtime(receipt["space_id"])
-    if (
-        runtime.stage in ("BUILDING", "NO_APP_FILE", "CONFIG_ERROR")
-        or runtime.stage == "BUILD_ERROR"
-    ):
-        receipt["stage"] = runtime.stage
-        receipt_path.write_text(json.dumps(receipt, indent=1))
-        return receipt
-    info = api.space_info(receipt["space_id"])
-    if info.sha != receipt["space_commit"] or info.private:
-        raise ValueError(f"{task_id}: Space commit or visibility drift")
-    with httpx.Client() as http:
-        registry = registry_class(http, info.subdomain, username, token)
-        pinned = registry.resolve()
-        if api.pause_space(receipt["space_id"]).stage != "PAUSED":
-            raise ValueError(f"{task_id}: pause not confirmed")
-        again = registry.resolve(pinned["registry_digest"])
-    if again["image"] != pinned["image"]:
-        raise ValueError(f"{task_id}: digest drift after pause")
-    receipt.update(
-        pinned, stage=runtime.stage, status="resolved", resolved_at=time.time()
-    )
-    receipt_path.write_text(json.dumps(receipt, indent=1))
-    return receipt
